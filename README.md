@@ -41,3 +41,5 @@ Module can be added to your foundry using this manifest link :
 - Find a way to automate Extend Order
 - Find a way to automate Extend Aura
 - Adjust balance of the Class and Feats
+- Replace default icons with free game-icons.net Icons
+- Replace Game-icons.net icons with custom icons

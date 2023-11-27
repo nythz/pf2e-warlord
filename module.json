@@ -21,22 +21,6 @@
       "flags": {}
     }
   ],
-  "flags": {
-        "Nythz-homebrew": {
-            "pf2e-homebrew": {
-                "featTraits": {
-					"warlord": {
-						"label": "Warlord",
-						"description": "Actions or Spells with this trait relate to the Warlord Class",
-					},
-					"command": {
-						"label": "Command",
-						"description": "A command ability can only affect allies that can either hear and understand the command or see the person giving the command. You or an ally can only follow one command at a time. If you give a command to a creature already targeted by one of your commands this turn, then any ongoing effects from your previous command end immediately unless specified otherwise.",
-					}
-				}
-            }
-        }
-    },
   "url": "https://github.com/nythz/pf2e-warlord",
   "readme": "https://github.com/nythz/pf2e-warlord/blob/main/README.md",
   "manifest": "https://raw.githubusercontent.com/nythz/pf2e-warlord/main/module.json",

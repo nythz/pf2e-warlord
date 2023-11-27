@@ -6,6 +6,22 @@
 		"minimum": "11",
 		"verified": "11"
 	},
+	"relationships": {
+   		 "systems": [
+      				{
+        				"id": "pf2e",
+        				"type": "system",
+        				"compatibility": {}
+      				}
+    		],
+    		"recommends": [
+      				{
+        				"id": "game-icons-net",
+        				"type": "module",
+        				"compatibility": {}
+      				}
+    		]
+  	}
 	"description": "An Homebrewed Warlord for Pathfinder 2e \nBased on u/fanatic66's design on Reddit\nUpdated and Implemented in Foundry by Nythz",
 	"packs": [
     			{

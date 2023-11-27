@@ -19,5 +19,6 @@ Massive thanks to the Pathfinder on Foundry VTT Community and Volunteer Developm
 
 Massive thanks as well to the Rule Lawyer's Discord
   - For rules and balancing questions
+    
 Thanks to u/fanatic66
   - For the great warlord pf2e homebrew concept

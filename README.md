@@ -11,3 +11,12 @@ Changelog can be found : https://github.com/nythz/pf2e-warlord/blob/main/CHANGEL
 
 Module can be added to your foundry using this manifest link :
 `https://raw.githubusercontent.com/nythz/pf2e-warlord/main/module.json`
+
+# Thank you
+Massive thanks to the Pathfinder on Foundry VTT Community and Volunteer Development Server Discord
+  - For answering my questions on automating things in foundry
+  - Special thanks to esheyw
+Massive thanks as well to the Rule Lawyer's Discord
+  - For rules and balancing questions
+Thanks to u/fanatic66
+  - For the great warlord pf2e homebrew concept

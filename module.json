@@ -25,7 +25,7 @@
         "Nythz-homebrew": {
             "pf2e-homebrew": {
                 "featTraits": {
-			"warlord":{
+			"warlord": {
 				"label": "Warlord",
 				"description": "Actions or Spells with this trait relate to the Warlord Class",
 			},

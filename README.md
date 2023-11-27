@@ -7,4 +7,4 @@ The original PDF can be found in this drive : https://drive.google.com/file/d/1Q
 
 Changes from the PDF can be found : https://github.com/nythz/pf2e-warlord/blob/main/ChangesFromPDF.md
 
-Changelog can be found : 
+Changelog can be found : https://github.com/nythz/pf2e-warlord/blob/main/CHANGELOG.md

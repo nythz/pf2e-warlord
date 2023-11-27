@@ -1,4 +1,4 @@
-#1.0.2
+# 1.0.2
 - added Paragon of Leadership (level 13) to the class automatic progression
   - need the warlord to be aware of these feature, no prompt implemented yet
   - Unsure how to do the Rule Elements for Imposing Leadership

@@ -1,5 +1,5 @@
 # PF2e Warlord Homebrew for Foundry VTT
-### Based on the work of u/fanatic66, implemented and updated by Nythz
+### Based on the work of [u/fanatic66](https://reddit.com/user/fanatic66/submitted/), implemented and updated by Nythz
 
 This is a module for FoundryVTT pf2e game system that adds the Warlord class as homebrewed by u/fanatic66 on reddit and adjusted for the remaster, foundry integration and balance by Nythz.
 

@@ -1,4 +1,5 @@
 # 1.0.2
+---
 - added Paragon of Leadership (level 13) to the class automatic progression
   - need the warlord to be aware of these feature, no prompt implemented yet
   - Unsure how to do the Rule Elements for Imposing Leadership
@@ -7,7 +8,7 @@
 - Added Folders in "All Styles Features" for ease of browsing
 - Used a few Pf2e Class Features Icon for All Style Features that didn't have a custom icon yet
 
-#1.0.1
+# 1.0.1
 ---
 This patch indicates changes from u/Fanatic66 Warlord 4.5.1 homebrew pdf.
 

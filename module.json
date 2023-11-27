@@ -40,7 +40,7 @@
   "url": "https://github.com/nythz/pf2e-warlord",
   "readme": "https://github.com/nythz/pf2e-warlord/blob/main/README.md",
   "manifest": "https://raw.githubusercontent.com/nythz/pf2e-warlord/main/module.json",
-  "download": "https://github.com/nythz/pf2e-warlord/archive/refs/heads/main.zip",
+  "download": "https://github.com/nythz/pf2e-warlord/releases/download/1.0.0/module.zip",
   "changelog": "https://github.com/nythz/pf2e-warlord/blob/main/CHANGELOG.md",
   "bugs": "https://github.com/nythz/pf2e-warlord/issues",
   "authors": [

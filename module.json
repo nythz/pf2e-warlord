@@ -1,0 +1,36 @@
+{
+  "id": "pf2e-warlord",
+  "title": "Pf2e Warlord",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "description": "An Homebrewed Warlord for Pathfinder 2e \nBased on u/fanatic66's design on Reddit\nUpdated and Implemented in Foundry by Nythz",
+  "authors": [
+    {
+      "name": "Nythz",
+      "discord": "nythz",
+      "flags": {}
+    },
+    {
+      "name": "Fanatic66",
+      "url": "reddit.com/user/fanatic66/",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "warlord",
+      "label": "Warlord",
+      "path": "packs/warlord",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ]
+}

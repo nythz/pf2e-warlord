@@ -1,10 +1,10 @@
 # 1.0.3
 ---
-- added action icons to feats without custom icons
+- Added action icons(reaction, free action, etc) to feats without custom icons
 - Modified Nimble Teamwork (level 8) to be a replacement of Shifting Assault (level 1) rather than a passive on the lower level action
 - corrected multiple feats not having the correct action type set
-- added 1 per turn to actions with the Flourish Trait
-- changed Punishing Blow (level 14) from passive to free action
+- Added 1 per turn frequency to actions with the Flourish Trait
+- Changed Punishing Blow (level 14) from passive to free action
 - Modified Debilitating Strike (level 16) to be a replacement of Dazing Strike (level 4) rather than a passive on the lower level action
 
 # 1.0.2

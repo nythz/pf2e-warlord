@@ -23,7 +23,7 @@ Module can be added to your foundry using this manifest link :
 ### Thanks to u/fanatic66
   - For the great warlord pf2e homebrew concept
 
-## Current Features :
+# Current Features :
 - Entry of the original PDF text
 - Partial adjustments to remaster ruling
 - Automation of Class Feature acquisitions
@@ -33,7 +33,7 @@ Module can be added to your foundry using this manifest link :
 - Automation of Temporary Hit point giving actions using Effects
 - Indicator of Quickened using Effects
 
-## To Do :
+# To Do :
 - Verify Remaster changes
 - find a way to automate and track leadership dices and related effect (precision damage, persistent damage)
 - Find a way to implement Paragon of Leadership

@@ -31,9 +31,9 @@
       "name": "Fanatic66",
       "url": "reddit.com/user/fanatic66/",
       "flags": {}
-  }
+    }
+  ],
   "url": "https://github.com/nythz/pf2e-warlord",
   "readme": "https://github.com/nythz/pf2e-warlord/blob/main/README.md",
-  "manifest": "https://raw.githubusercontent.com/nythz/pf2e-warlord/main/module.json",
-  ],
+  "manifest": "https://raw.githubusercontent.com/nythz/pf2e-warlord/main/module.json"
 }

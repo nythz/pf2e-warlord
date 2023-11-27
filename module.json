@@ -7,6 +7,10 @@
     "verified": "11"
   },
   "description": "An Homebrewed Warlord for Pathfinder 2e \nBased on u/fanatic66's design on Reddit\nUpdated and Implemented in Foundry by Nythz",
+  "url": "https://github.com/nythz/pf2e-warlord",
+    "manifest": "https://raw.githubusercontent.com/nythz/pf2e-warlord/main/module.json",
+    "download": "https://github.com/nythz/pf2e-warlord/archive/refs/heads/main.zip",
+    "id": "pf2e-warlord",
   "authors": [
     {
       "name": "Nythz",

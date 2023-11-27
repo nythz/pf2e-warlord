@@ -38,10 +38,16 @@ Please report any bugs or changes I should make in the Issue Section: https://gi
 # To Do :
 - Verify Remaster changes
 - find a way to automate and track leadership dices and related effect (precision damage, persistent damage)
-- Find a way to implement Paragon of Leadership
+  - Need some sort of variable to retrieve from the item.origin on the damage dice RE
+- find a way to have the class feats available in the compendium browser
+- find a way to set key ability depending on Leadership Style
+  - Esoteric needs a prompt of which one / access to all three valid options
+  - Other Styles have set key abilities
+- Find a way to implement Paragon of Leadership on successful attack with Lead by Example bonus damage
 - Find a way to implement level 8 Aura feats
+  - Separate aura might work but wouldn't follow Greater Aura (level 11) or Supreme Aura (level 12)
 - Find a way to automate Extend Order
 - Find a way to automate Extend Aura
 - Adjust balance of the Class and Feats
-- Replace default icons with free game-icons.net Icons
+- Replace default icons with free game-icons.net icons
 - Replace Game-icons.net icons with custom icons

@@ -1,3 +1,12 @@
+# 1.0.4
+---
+- Adjustements to implementation of Bleeding Follow Through(level 8) and Magical Follow through(level 4)
+  - Led by example now indicates for casters in the prompt that the damage is only for single target damage spells
+    - Magical follow through and Bleeding Follow through now list all possible spell damage types in their description using inline damage prompts that will check with the warlord's stats when posted to chat
+      - Temporary Solution until less cluttered implementation (possibly with macros)
+    - Untyped and Untyped + Bleed also available for spells that do Slashing/Piercing/Bludgeoning or Bleed Damage
+
+
 # 1.0.3
 ---
 - Implemented auto-Scaling of Lead By Example Bonus Precision Damage

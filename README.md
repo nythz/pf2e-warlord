@@ -34,11 +34,10 @@ Please report any bugs or changes I should make in the Issue Section: https://gi
 - Partial Automation of Base Class Features ( Lead by example, Helpful Word )
 - Automation of Temporary Hit point giving actions using Effects
 - Indicator of Quickened using Effects
+- Automation of Leadership dice increases from leveling and their uses
 
 # To Do :
-- Verify Remaster changes
-- find a way to automate and track leadership dices and related effect (precision damage, persistent damage)
-  - Need some sort of variable to retrieve from the item.origin on the damage dice RE
+- Verify all Remaster changes
 - find a way to have the class feats available in the compendium browser
 - find a way to set key ability depending on Leadership Style
   - Esoteric needs a prompt of which one / access to all three valid options

@@ -4,7 +4,7 @@
   - Led by example now indicates for casters in the prompt that the damage is only for single target damage spells
     - Magical follow through and Bleeding Follow through now list all possible spell damage types in their description using inline damage prompts that will check with the warlord's stats when posted to chat
       - Temporary Solution until less cluttered implementation (possibly with macros)
-    - Untyped and Untyped + Bleed also available for spells that do Slashing/Piercing/Bludgeoning or Bleed Damage
+    - Untyped and Untyped + Bleed also available for spells that do Slashing/Piercing/Bludgeoning or Only Bleed Damage
 - Nested Warlord Items Folder inside of a Warlord Compendium Folder to allow other types of Compendium to be added to the module cleanly
 
 

@@ -1,5 +1,11 @@
 # 1.0.3
 ---
+- Implemented auto-Scaling of Lead By Example Bonus Precision Damage
+- Partial implementation of Bleeding follow Through
+  - Two methods of adding it to the damage roll, both with downsides
+    - Add the Bleeding follow through feat to allies of the Warlord as a bonus feat    
+    - Two new effects added to bleeding follow through, need to remember to add those when adding led by example ( could have bleeding follow through as an upgraded replacement to LbE )
+
 - Added action icons(reaction, free action, etc) to feats without custom icons
 - Modified Nimble Teamwork (level 8) to be a replacement of Shifting Assault (level 1) rather than a passive on the lower level action
 - corrected multiple feats not having the correct action type set

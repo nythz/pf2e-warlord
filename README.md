@@ -27,26 +27,25 @@ Please report any bugs or changes I should make in the Issue Section: https://gi
 
 # Current Features :
 - Entry of the original PDF text
-- Partial adjustments to remaster ruling
+- Updated to the Remastered Rules
 - Automation of Class Feature acquisitions
-- Automation of Leadership Style Selection
+- Automation of Leadership Style Selection and access to their key attribute
 - Automation of Leadership Aura Improvements per style
-- Partial Automation of Base Class Features ( Lead by example, Helpful Word )
-- Automation of Temporary Hit point giving actions using Effects
+- Automation of Base Class Features ( Lead by example, Helpful Word )
+- Automation of Temporary Hitpoint scaling actions using effects
 - Indicator of Quickened using Effects
 - Automation of Leadership dice increases from leveling and their uses
 
 # To Do :
 - Verify all Remaster changes
-- find a way to have the class feats available in the compendium browser
-- find a way to set key ability depending on Leadership Style
-  - Esoteric needs a prompt of which one / access to all three valid options
-  - Other Styles have set key abilities
-- Find a way to implement Paragon of Leadership on successful attack with Lead by Example bonus damage
 - Find a way to implement level 8 Aura feats
-  - Separate aura might work but wouldn't follow Greater Aura (level 11) or Supreme Aura (level 12)
+  - Separate aura might work but wouldn't follow Greater Aura (level 11) or Supreme Aura (level 17)
 - Find a way to automate Extend Order
+  - GM needs to manually update the affected effet's duration
 - Find a way to automate Extend Aura
+  - GM needs to manually increase the aura for the round
 - Adjust balance of the Class and Feats
-- Replace default icons with free game-icons.net icons
-- Replace Game-icons.net icons with custom icons
+  - Test Bleeding follow through changes
+  - Test level 20 feats
+- Replace default icons with free game-icons.net or pf2e system icons
+- Replace game-icons.net and pf2e system icons with custom icons

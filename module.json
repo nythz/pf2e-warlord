@@ -2,7 +2,7 @@
   "id": "pf2e-warlord",
   "title": "Pf2e Warlord",
   "description": "An Homebrewed Warlord for Pathfinder 2e \nBased on u/fanatic66's design on Reddit\nUpdated and Implemented in Foundry by Nythz",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -36,6 +36,15 @@
       "system": "pf2e",
       "flags": {}
     }
+  ],
+  "packfolders":[
+    {
+      "name": "Pregenerated PCs",
+      "sorting": "m",
+      "packs": [
+        "warlord"
+      ]
+    },
   ],
   "flags": {
     "Nythz-homebrew": {

@@ -29,7 +29,7 @@ Please report any bugs or changes I should make in the Issue Section: https://gi
 - Entry of the original PDF text
 - Partial adjustments to remaster ruling
 - Automation of Class Feature acquisitions
-- Automation of Leadership Style Selection
+- Automation of Leadership Style Selection and access to their key attribute
 - Automation of Leadership Aura Improvements per style
 - Partial Automation of Base Class Features ( Lead by example, Helpful Word )
 - Automation of Temporary Hit point giving actions using Effects
@@ -39,9 +39,6 @@ Please report any bugs or changes I should make in the Issue Section: https://gi
 # To Do :
 - Verify all Remaster changes
 - find a way to have the class feats available in the compendium browser
-- find a way to set key ability depending on Leadership Style
-  - Esoteric needs a prompt of which one / access to all three valid options
-  - Other Styles have set key abilities
 - Find a way to implement Paragon of Leadership on successful attack with Lead by Example bonus damage
 - Find a way to implement level 8 Aura feats
   - Separate aura might work but wouldn't follow Greater Aura (level 11) or Supreme Aura (level 12)

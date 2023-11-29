@@ -7,6 +7,9 @@
     - Untyped and Untyped + Bleed also available for spells that do Slashing/Piercing/Bludgeoning or Only Bleed Damage
 - Nested Warlord Items Folder inside of a Warlord Compendium Folder to allow other types of Compendium to be added to the module cleanly
 - Added Key Attribute options availability for Leadership Styles
+- Re-added frequency text to the top of feats to follow regular formating
+- Added publication text and authors to details of all warlord items
+- Changed Medical Assitance (level 6) from passive to free action
 
 
 # 1.0.3

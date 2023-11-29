@@ -1,3 +1,7 @@
+# 1.0.5
+---
+- removed extra , in module.json breaking it
+
 # 1.0.4
 ---
 - Adjustments to implementation of Bleeding Follow Through(level 8) and Magical Follow through(level 4)

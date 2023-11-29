@@ -8,8 +8,9 @@
 - Nested Warlord Items Folder inside of a Warlord Compendium Folder to allow other types of Compendium to be added to the module cleanly
 - Added Key Attribute options availability for Leadership Styles
 - Re-added frequency text to the top of feats to follow regular formating
-- Added publication text and authors to details of all warlord items
+- Added publication text and authors to details of all warlord compendium items
 - Changed Medical Assitance (level 6) from passive to free action
+  - Same Effect, reduces the frequency of Warlord's respite to 1 round rather than 10 minutes
 
 
 # 1.0.3

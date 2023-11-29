@@ -6,6 +6,7 @@
       - Temporary Solution until less cluttered implementation (possibly with macros)
     - Untyped and Untyped + Bleed also available for spells that do Slashing/Piercing/Bludgeoning or Only Bleed Damage
 - Nested Warlord Items Folder inside of a Warlord Compendium Folder to allow other types of Compendium to be added to the module cleanly
+- Added Key Attribute options availability for Leadership Styles
 
 
 # 1.0.3

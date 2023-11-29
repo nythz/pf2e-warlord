@@ -39,7 +39,6 @@ Please report any bugs or changes I should make in the Issue Section: https://gi
 # To Do :
 - Verify all Remaster changes
 - find a way to have the class feats available in the compendium browser
-- Find a way to implement Paragon of Leadership on successful attack with Lead by Example bonus damage
 - Find a way to implement level 8 Aura feats
   - Separate aura might work but wouldn't follow Greater Aura (level 11) or Supreme Aura (level 12)
 - Find a way to automate Extend Order

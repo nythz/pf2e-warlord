@@ -38,11 +38,12 @@ Please report any bugs or changes I should make in the Issue Section: https://gi
 
 # To Do :
 - Verify all Remaster changes
-- find a way to have the class feats available in the compendium browser
 - Find a way to implement level 8 Aura feats
-  - Separate aura might work but wouldn't follow Greater Aura (level 11) or Supreme Aura (level 12)
+  - Separate aura might work but wouldn't follow Greater Aura (level 11) or Supreme Aura (level 17)
 - Find a way to automate Extend Order
+  - GM needs to manually update the affected effet's duration
 - Find a way to automate Extend Aura
+  - GM needs to manually increase the aura for the round
 - Adjust balance of the Class and Feats
 - Replace default icons with free game-icons.net icons
 - Replace Game-icons.net icons with custom icons

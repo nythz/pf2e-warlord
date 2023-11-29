@@ -27,12 +27,12 @@ Please report any bugs or changes I should make in the Issue Section: https://gi
 
 # Current Features :
 - Entry of the original PDF text
-- Partial adjustments to remaster ruling
+- Updated to the Remastered Rules
 - Automation of Class Feature acquisitions
 - Automation of Leadership Style Selection and access to their key attribute
 - Automation of Leadership Aura Improvements per style
-- Partial Automation of Base Class Features ( Lead by example, Helpful Word )
-- Automation of Temporary Hit point giving actions using Effects
+- Automation of Base Class Features ( Lead by example, Helpful Word )
+- Automation of Temporary Hitpoint scaling actions using effects
 - Indicator of Quickened using Effects
 - Automation of Leadership dice increases from leveling and their uses
 
@@ -45,5 +45,7 @@ Please report any bugs or changes I should make in the Issue Section: https://gi
 - Find a way to automate Extend Aura
   - GM needs to manually increase the aura for the round
 - Adjust balance of the Class and Feats
-- Replace default icons with free game-icons.net icons
-- Replace Game-icons.net icons with custom icons
+  - Test Bleeding follow through changes
+  - Test level 20 feats
+- Replace default icons with free game-icons.net or pf2e system icons
+- Replace game-icons.net and pf2e system icons with custom icons

@@ -1,6 +1,6 @@
 # 1.0.5
 ---
-- removed extra , in module.json breaking it
+- removed extra , in module.json that was breaking it
 
 # 1.0.4
 ---

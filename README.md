@@ -14,7 +14,7 @@ Lead your allies towards victory by buffing them to perform even better, either 
 - Become a front-line buffer by using athletics to help your ally land and increase their damage.
 - Become a back-line support, giving your allies buffs or even quickened actions through orders.
 
-### This is a module for FoundryVTT PF2e game system that adds the Warlord class as homebrewed by u/fanatic66 on reddit and adjusted for the remaster, foundry integration and balance by Nythz.
+### This is a module for FoundryVTT PF2e game system that adds the Warlord class as homebrewed by [u/fanatic66](https://reddit.com/user/fanatic66/submitted/) and adjusted for the remaster, foundry integration and balance by Nythz.
 The original PDF can be found in this drive : https://drive.google.com/file/d/1QvXA8eBMBjZsk0SX9zwSO3XS536EQ0Q6/view1
 
 ---
@@ -22,21 +22,9 @@ The original PDF can be found in this drive : https://drive.google.com/file/d/1Q
 ---
 Changes from the PDF can be found in the wiki : https://github.com/nythz/pf2e-warlord/wiki
 
-Changelog can be found : https://github.com/nythz/pf2e-warlord/blob/main/CHANGELOG.md
+Changelog can be found here : https://github.com/nythz/pf2e-warlord/blob/main/CHANGELOG.md
 
-Please report any bugs or changes I should make in the Issue Section: https://github.com/nythz/pf2e-warlord/issues
-
----
-# Thank you's
-### Massive thanks to the Pathfinder on Foundry VTT Community and Volunteer Development Server Discord
-  - For answering my questions on automating things in foundry
-  - Special thanks to esheyw
-
-### Massive thanks as well to the Rule Lawyer's Discord
-  - For rules and balancing questions
-    
-### Thanks to u/fanatic66
-  - For the great warlord pf2e homebrew concept
+Please report any bugs or changes I should make in the Issue Section : https://github.com/nythz/pf2e-warlord/issues
 
 ---
 # Current Features :
@@ -64,5 +52,20 @@ Please report any bugs or changes I should make in the Issue Section: https://gi
   - Test level 20 feats
 - Replace default icons with free game-icons.net or pf2e system icons
 - Replace game-icons.net and pf2e system icons with custom icons
+
+---
+# Thank you's
+### Massive thanks to the [Pathfinder on Foundry VTT Community and Volunteer Development Server Discord](https://discord.gg/pf2e)
+  - For answering my questions on automating things in foundry
+  - Special thanks to esheyw, websterguy and Tikael for being the recurrent answerers of questions
+
+### Massive thanks as well to the [Rule Lawyer's Discord](https://discord.com/invite/ruleslawyer)
+  - For rules and balancing questions
+    
+### Thanks to [u/fanatic66](https://reddit.com/user/fanatic66/submitted/)
+  - For the great warlord pf2e homebrew concept
+
+### Thank you
+  - For checking this module
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H3RNO4N)

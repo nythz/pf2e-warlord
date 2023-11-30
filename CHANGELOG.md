@@ -1,6 +1,7 @@
 # 1.0.7
 ---
 - Automated Warlord's Doom one-degree-worse effect
+- Corrected Warlord's Comfort to be a class feature rather than a class feat
 
 # 1.0.6
 ---

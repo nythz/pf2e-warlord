@@ -1,3 +1,22 @@
+# 1.0.6
+---
+- Implemented uses of the Note Rule Element to display effects on success
+  - Lead by Example now shows effects to apply on (drag from chat to) ally according to the warlord's feats
+- Reworked implementation of Magical Follow Through and Bleeding Follow through
+  - Now back to the same effect on all types of allies and works with placing effects on ally that are shown on success/crit success
+    - Led by example now prints the bonus damage roll if the spell-damage roll has the roll option area-damage
+    - Posts the bonus damage with persistent damage when bleeding follow through effect is on ally
+  - Led by example bonus damage is also disabled by default if the spell-damage roll has the roll option area-damage
+    - To prevent the dice being rolled if it's an aoe and user skips the damage prompt (with shift or settings)
+- Implemented level 8 Leadership Style Aura Feats
+  - Merged into 1 new feat "Skillful Aura"
+  - Works by giving additional effects through the style's aura when the feat is taken
+- Separated Fearless Presence additional effect into a free action
+  - Warlord's comfort (free action)
+  - Trigger : You or an ally within your aura gains the frightened condition
+  - Effect : Reduces the condition’s value by 1.
+  - Will allow rebalancing of the effect by either adding a frequency or changing it into a reaction
+
 # 1.0.5
 ---
 - removed extra "," in module.json that was breaking it

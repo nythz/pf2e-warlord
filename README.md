@@ -41,14 +41,13 @@ Please report any bugs or changes I should make in the Issue Section : https://g
 ---
 # To Do :
 - Verify all Remaster changes
-- Find a way to implement level 8 Aura feats
-  - Separate aura might work but wouldn't follow Greater Aura (level 11) or Supreme Aura (level 17)
 - Find a way to automate Extend Order
   - GM needs to manually update the affected effet's duration
 - Find a way to automate Extend Aura
   - GM needs to manually increase the aura for the round
 - Adjust balance of the Class and Feats
   - Test Bleeding follow through changes
+  - Test Fearless Presence + Warlord's Comfort
   - Test level 20 feats
 - Replace default icons with free game-icons.net or pf2e system icons
 - Replace game-icons.net and pf2e system icons with custom icons

@@ -48,3 +48,5 @@ Please report any bugs or changes I should make in the Issue Section: https://gi
   - Test level 20 feats
 - Replace default icons with free game-icons.net or pf2e system icons
 - Replace game-icons.net and pf2e system icons with custom icons
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H3RNO4N)

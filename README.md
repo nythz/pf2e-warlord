@@ -13,6 +13,7 @@ Changelog can be found : https://github.com/nythz/pf2e-warlord/blob/main/CHANGEL
 
 Please report any bugs or changes I should make in the Issue Section: https://github.com/nythz/pf2e-warlord/issues
 
+---
 # Thank you's
 ### Massive thanks to the Pathfinder on Foundry VTT Community and Volunteer Development Server Discord
   - For answering my questions on automating things in foundry
@@ -24,6 +25,7 @@ Please report any bugs or changes I should make in the Issue Section: https://gi
 ### Thanks to u/fanatic66
   - For the great warlord pf2e homebrew concept
 
+---
 # Current Features :
 - Entry of the original PDF text
 - Updated to the Remastered Rules
@@ -35,6 +37,7 @@ Please report any bugs or changes I should make in the Issue Section: https://gi
 - Indicator of Quickened using Effects
 - Automation of Leadership dice increases from leveling and their uses
 
+---
 # To Do :
 - Verify all Remaster changes
 - Find a way to implement level 8 Aura feats

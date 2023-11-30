@@ -3,8 +3,7 @@
 
 Lead your allies towards victory by buffing them to perform even better, either with commands to prepare, defensive abilities to keep them alive or even by leading them by example to deal extra damage.
 
-### Main abilities of the class : 
-**Lead by example :** Use your key ability to make a strike and on success, give a bonus to damage to your allies that scales with your level and feats.
+**Lead by example :** Use your key ability to make a strike and on success, give a bonus to damage to your ally that scales with your level and feats.
 
 **Helpful word :** Easily Aid your Allies in their actions by using your Class DC rather than Skills.
 

@@ -9,10 +9,11 @@ Changes from the PDF can be found in the wiki : https://github.com/nythz/pf2e-wa
 
 Changelog can be found : https://github.com/nythz/pf2e-warlord/blob/main/CHANGELOG.md
 
-Module can be added to your foundry using this manifest link :
+### Module can be added to your foundry using this manifest link :
 `https://raw.githubusercontent.com/nythz/pf2e-warlord/main/module.json`
 
-Please report any bugs or changes I should make in the Issue Section: https://github.com/nythz/pf2e-warlord/issues
+### Please report any bugs or changes I should make in the Issue Section: 
+https://github.com/nythz/pf2e-warlord/issues
 
 # Thank you's
 ### Massive thanks to the Pathfinder on Foundry VTT Community and Volunteer Development Server Discord

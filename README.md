@@ -45,6 +45,10 @@ Please report any bugs or changes I should make in the Issue Section : https://g
   - GM needs to manually update the affected effet's duration
 - Find a way to automate Extend Aura
   - GM needs to manually increase the aura for the round
+- Find a way to automate Tactical Supervision
+  - GM needs to manually the Follow the Expert circumstance bonus
+- Find a way to automate Commander's Guidance
+  - GM needs to manually add +1 to the circumstance bonus from aid
 - Adjust balance of the Class and Feats
   - Test Bleeding follow through changes
   - Test Fearless Presence + Warlord's Comfort

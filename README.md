@@ -32,7 +32,7 @@ Please report any bugs or changes I should make in the Issue Section : https://g
 - Updated to the Remastered Rules
 - Automation of Class Feature acquisitions
 - Automation of Leadership Style Selection and access to their key attribute
-- Automation of Leadership Aura Improvements per style
+- Automation of Leadership Aura Improvements per style via levels or feats
 - Automation of Base Class Features ( Lead by example, Helpful Word )
 - Automation of Temporary Hitpoint scaling actions using effects
 - Indicator of Quickened using Effects

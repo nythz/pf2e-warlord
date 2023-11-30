@@ -1,7 +1,21 @@
 # PF2e Warlord Homebrew for Foundry VTT
 ### Based on the work of [u/fanatic66](https://reddit.com/user/fanatic66/submitted/), implemented and updated by Nythz
 
-This is a module for FoundryVTT pf2e game system that adds the Warlord class as homebrewed by u/fanatic66 on reddit and adjusted for the remaster, foundry integration and balance by Nythz.
+Lead your allies towards victory by buffing them to perform even better, either with commands to prepare, defensive abilities to keep them alive or even by leading them by example to deal extra damage.
+
+### Main abilities of the class : 
+**Lead by example :** Use your key ability to make a strike and on success, give a bonus to damage to your allies that scales with your level and feats.
+
+**Helpful word :** Easily Aid your Allies in their actions by using your Class DC rather than Skills.
+
+**Leadership Styles Auras :** Give your allies buffs to various skills depending on your choice of Leadership Style via auras.
+
+### You could :
+- Become a shield-bearer, protecting your allies with your shield as they stay close to you.
+- Become a front-line buffer by using athletics to help your ally land and increase their damage.
+- Become a back-line support, giving your allies buffs or even quickened actions through orders.
+
+### This is a module for FoundryVTT PF2e game system that adds the Warlord class as homebrewed by u/fanatic66 on reddit and adjusted for the remaster, foundry integration and balance by Nythz.
 The original PDF can be found in this drive : https://drive.google.com/file/d/1QvXA8eBMBjZsk0SX9zwSO3XS536EQ0Q6/view1
 
 ---

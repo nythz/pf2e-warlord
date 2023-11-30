@@ -1,3 +1,7 @@
+# 1.0.7
+---
+- Automated Warlord's Doom one-degree-worse effect
+
 # 1.0.6
 ---
 - Implemented uses of the Note Rule Element to display effects on success

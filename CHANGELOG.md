@@ -2,6 +2,8 @@
 ---
 - Automated Warlord's Doom one-degree-worse effect
 - Corrected Warlord's Comfort to be a class feature rather than a class feat
+- Added Continuing the Example and Marked to continue the Example Effects
+  - One is for the ally to apply the second effect after damage rolls
 
 # 1.0.6
 ---

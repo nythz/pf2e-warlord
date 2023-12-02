@@ -1,3 +1,12 @@
+# 1.0.7
+---
+- Automated Warlord's Doom one-degree-worse effect
+- Corrected Warlord's Comfort to be a class feature rather than a class feat
+- Added Continuing the Example and Marked to continue the Example Effects
+  - One is for the ally to apply the second effect after damage rolls
+- Added colored game-icons.net icons to differenciate each style
+- Fixed Errors on leadership style Auras related to level scaling
+
 # 1.0.6
 ---
 - Implemented uses of the Note Rule Element to display effects on success

@@ -2,7 +2,7 @@
 ---
 - Renamed Alertness to Perception Expertise as according to the Remaster Changes
 - Updated Metamagic to Spellshape as according to Remaster Changes
--
+- Adjusted the Helpful Word feature's GM note to include the option action:aid into the roll so bonus to checks to aid can be applied while using Class DC - 10 as modifier
 
 # 1.0.8
 ---

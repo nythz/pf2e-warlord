@@ -1,7 +1,7 @@
 # 1.0.8
 ---
-- Fixed Friendly shield not pointing at item.origin
-- Changed helpful word check reminder to be only shown to gm rather than a gm note on the item window
+- Fixed Friendly shield not pointing at item.origin to find the shield
+- Changed helpful word check reminder to be only shown to gm rather than a gm note on the item edit window
 
 # 1.0.7
 ---

@@ -1,3 +1,9 @@
+# 1.0.9
+---
+- Renamed Alertness to Perception Expertise as according to the Remaster Changes
+- Updated Metamagic to Spellshape as according to Remaster Changes
+-
+
 # 1.0.8
 ---
 - Fixed Friendly shield not pointing at item.origin to find the shield

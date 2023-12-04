@@ -1,3 +1,9 @@
+# 1.0.8
+---
+- Fixed Friendly shield not pointing at item.origin to find the shield
+- Changed helpful word check reminder to be only shown to gm rather than a gm note on the item edit window
+- removed doubled assets folder inside of /packs/ (unused)
+
 # 1.0.7
 ---
 - Automated Warlord's Doom one-degree-worse effect

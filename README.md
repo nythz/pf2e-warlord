@@ -26,6 +26,8 @@ Changelog can be found here : https://github.com/nythz/pf2e-warlord/blob/main/CH
 
 Please report any bugs or changes I should make in the Issue Section : https://github.com/nythz/pf2e-warlord/issues
 
+You can also find issues I lack knowledge on how to fix them in the issue section, please help if you do know how to solve those.
+
 ---
 # Current Features :
 - Entry of the original PDF text

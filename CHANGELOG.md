@@ -1,3 +1,7 @@
+# 1.0.10
+---
+- Added Visual and Auditory Traits to Commander's Strike
+
 # 1.0.9
 ---
 - Renamed Alertness to Perception Expertise as according to the Remaster Changes

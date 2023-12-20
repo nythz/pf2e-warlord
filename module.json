@@ -25,10 +25,22 @@
   },
   "packs": [
     {
-      "name": "warlord",
-      "label": "Warlord",
+      "name": "Warlord class, feat and features",
+      "label": "Warlord class, feat and features",
       "path": "packs/warlord",
       "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "warlord journals",
+      "label": "Warlord journals",
+      "path": "packs/warlordjournal",
+      "type": "Journal",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -39,7 +51,7 @@
   ],
   "packfolders": [
     {
-      "name": "Pregenerated PCs",
+      "name": "PF2e Warlord",
       "sorting": "m",
       "packs": [
         "warlord"

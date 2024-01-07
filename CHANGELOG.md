@@ -1,3 +1,7 @@
+# 1.0.11
+---
+- Removed invalid journal compendium code
+
 # 1.0.10
 ---
 - Added Visual and Auditory Traits to Commander's Strike

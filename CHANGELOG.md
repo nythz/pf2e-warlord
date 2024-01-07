@@ -1,3 +1,8 @@
+# 1.0.10
+---
+- Added Visual and Auditory Traits to Commander's Strike
+- Fixed Lead By example not applying to Athletic actions while having the athletic leadership feat
+
 # 1.0.9
 ---
 - Renamed Alertness to Perception Expertise as according to the Remaster Changes

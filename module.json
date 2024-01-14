@@ -2,7 +2,7 @@
   "id": "pf2e-warlord",
   "title": "Pf2e Warlord",
   "description": "An Homebrewed Warlord for Pathfinder 2e \nBased on u/fanatic66's design on Reddit\nUpdated and Implemented in Foundry by Nythz",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -25,8 +25,8 @@
   },
   "packs": [
     {
-      "name": "Warlord class, feat and features",
-      "label": "Warlord class, feat and features",
+      "name": "warlord",
+      "label": "Warlord",
       "path": "packs/warlord",
       "type": "Item",
       "ownership": {

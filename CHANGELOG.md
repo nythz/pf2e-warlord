@@ -1,3 +1,13 @@
+# 1.0.13
+---
+- Sorted Warlord Content into compendium Folder
+- Created Warlord Macros Compendium pack
+- Created Warlord Helpful Word Check Generator macro
+
+# 1.0.12
+---
+- fixed pack name causing link issues
+
 # 1.0.11
 ---
 - Removed invalid journal compendium code

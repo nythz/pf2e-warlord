@@ -2,6 +2,7 @@
 ---
 - Fixed Helpful Word Check Generator macro to be a script macro rather than Chat
 - Changed patch numbering system to be more accurate in preparation for official foundry module release
+- Cleaned up packs folder of old files
 
 # 1.0.14
 ---

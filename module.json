@@ -30,7 +30,8 @@
             },
             "packs": [
                 "warlord",
-                "warlord-macros"
+                "warlord-macros",
+                "warlord-journals"
             ]
         }
     ],
@@ -50,6 +51,17 @@
             "label": "Warlord Macros",
             "path": "packs/warlordmacros",
             "type": "Macro",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "pf2e",
+            "flags": {}
+        }, {
+            "name": "warlord-journals",
+            "label": "Warlord Journals",
+            "path": "packs/warlordjournals",
+            "type": "Journal",
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"

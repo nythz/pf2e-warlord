@@ -22,20 +22,20 @@
         ]
     },
     "packFolders": [{
-            "name": "PF2e-Warlord",
+            "name": "PF2e Warlord",
             "sorting": "m",
             "ownership": {
                 "PLAYER": "OBSERVER",
                 "ASSISTANT": "OWNER"
             },
             "packs": [
-                "warlord-class",
+                "warlord",
                 "warlord-macros"
             ]
         }
     ],
     "packs": [{
-            "name": "warlord-class",
+            "name": "warlord",
             "label": "Warlord Class",
             "path": "packs/warlord",
             "type": "Item",

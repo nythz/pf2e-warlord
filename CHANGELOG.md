@@ -1,3 +1,9 @@
+# 1.0.14
+---
+- Renamed the warlord item compendium back to "warlord" to fix every link being broken
+  - To be renamed correctly at a later date to have proper clean names for things
+- Removed the "-" for the folder name to fit in with other compendium folders made for PF2e
+
 # 1.0.13
 ---
 - Sorted Warlord Content into compendium Folder

@@ -1,5 +1,10 @@
 # 1.1.1
 ---
+- Added Warlord Journals compendium for notes about the class or Automation homebrew options through other optional modules
+- Added the Active Effect of Effect:Raise a Shield to Friendly Shield and Shielding Bastion as self effects
+
+# 1.1.1
+---
 - Restored missing warlord item DB
 
 # 1.1.0

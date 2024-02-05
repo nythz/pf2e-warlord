@@ -1,3 +1,7 @@
+# 1.1.1
+---
+- Restored missing warlord item DB
+
 # 1.1.0
 ---
 - Fixed Helpful Word Check Generator macro to be a script macro rather than Chat

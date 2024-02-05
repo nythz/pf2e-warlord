@@ -1,3 +1,8 @@
+# 1.1.0
+---
+- Fixed Helpful Word Check Generator macro to be a script macro rather than Chat
+- Changed patch numbering system to be more accurate in preparation for official foundry module release
+
 # 1.0.14
 ---
 - Renamed the warlord item compendium back to "warlord" to fix every link being broken

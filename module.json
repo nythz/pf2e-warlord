@@ -22,7 +22,7 @@
         ]
     },
     "packFolders": [{
-            "name": "PF2e-Warlord",
+            "name": "PF2e Warlord",
             "sorting": "m",
             "ownership": {
                 "PLAYER": "OBSERVER",

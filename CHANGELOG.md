@@ -2,7 +2,7 @@
 ---
 - Sorted Warlord Content into compendium Folder
 - Created Warlord Macros Compendium pack
-- Created Warlord Helpful Word Check Generator macro
+- Created Warlord Helpful Word Check Generator macro for GMs to more easily create the check in chat
 
 # 1.0.12
 ---

@@ -1,0 +1,64 @@
+{
+  "folder": "xEVCR1yyZwntlMF6",
+  "name": "Tactical Paragon",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When an ally of Lead By Example deals precision damage from your Lead By Example action, the hit enemy is off guard to you and your allies for 1 round.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.txmteDQ3zERE1GL4]</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "hPsXpQCrFPot4KMt",
+  "img": "modules/pf2e-warlord/assets/tac-laurel-crown.svg",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.10.2",
+    "coreVersion": "11.315",
+    "createdTime": 1701106406831,
+    "modifiedTime": 1701538316477,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!hPsXpQCrFPot4KMt"
+}

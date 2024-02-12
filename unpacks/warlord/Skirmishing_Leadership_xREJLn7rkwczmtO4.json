@@ -1,0 +1,98 @@
+{
+  "name": "Skirmishing Leadership",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your nimble tactics and use of terrain keeps your enemies on your toes.</p>\n<p>Wisdom is your key ability.</p>\n<p>You are trained in your choice of Survival or Stealth.</p>\n<p>You are also surrounded by a warlord's aura in a 10-foot emanation. Your aura has the visual trait and grants you and any ally that starts their turn within the aura a +5-foot status bonus to speed.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.3cjvGdWq9Y5TqDNA"
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.SkillStealth",
+            "value": "system.skills.ste.rank"
+          },
+          {
+            "label": "PF2E.SkillSurvival",
+            "value": "system.skills.sur.rank"
+          }
+        ],
+        "flag": "SkirmishingLeadership",
+        "key": "ChoiceSet",
+        "prompt": "Choose your Trained Esoteric Skill :"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "{item|flags.pf2e.rulesSelections.SkirmishingLeadership}",
+        "value": 1
+      }
+    ],
+    "slug": "skirmishing-leadership",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "leadership-style"
+      ],
+      "value": [
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "keyOptions": [
+        "wis"
+      ]
+    }
+  },
+  "_id": "xREJLn7rkwczmtO4",
+  "img": "modules/pf2e-warlord/assets/ski-flying-flag.svg",
+  "folder": "XKbs3IlbqBHYRN3C",
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.10.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700942714343,
+    "modifiedTime": 1701537737112,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!xREJLn7rkwczmtO4"
+}

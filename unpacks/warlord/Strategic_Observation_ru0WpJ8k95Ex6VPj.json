@@ -1,0 +1,65 @@
+{
+  "folder": "xEVCR1yyZwntlMF6",
+  "name": "Strategic Observation",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You observe a creature for any weaknesses. You can attempt a Recall Knowledge about an enemy within 30 feet of you. For the Recall Knowledge check, you can use Warfare Lore in place of the appropriate skill without affecting the Recall Knowledge DC. On a success or critical success, you gain an additional benefit.</p>\n<p><strong>Critical Success:</strong> You and your allies gain a +1 circumstance bonus to attack rolls against the target for 1 minute.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.SiSVQLpYiGG1FvNQ]</p>\n<p><strong>Success:</strong> The circumstance bonus lasts for 1 round.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.W1WPNkgCr4BlLDmZ]</p>"
+    },
+    "rules": [],
+    "slug": "strategic-observation",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "visual",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "ru0WpJ8k95Ex6VPj",
+  "img": "modules/game-icons-net/whitetransparent/magnifying-glass.svg",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1700943718777,
+    "modifiedTime": 1701379833018,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!ru0WpJ8k95Ex6VPj"
+}

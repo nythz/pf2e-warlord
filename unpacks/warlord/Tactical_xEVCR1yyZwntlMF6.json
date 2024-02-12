@@ -1,0 +1,19 @@
+{
+  "name": "Tactical",
+  "sorting": "a",
+  "folder": "H3Pb9BhWacI9q9SQ",
+  "type": "Item",
+  "_id": "xEVCR1yyZwntlMF6",
+  "sort": 500000,
+  "color": "#006ce0",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": null,
+    "modifiedTime": 1701014942131,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!folders!xEVCR1yyZwntlMF6"
+}

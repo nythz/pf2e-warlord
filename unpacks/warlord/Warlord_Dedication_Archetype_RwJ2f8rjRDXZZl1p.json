@@ -1,0 +1,19 @@
+{
+  "name": "Warlord Dedication Archetype",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "RwJ2f8rjRDXZZl1p",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1700962993562,
+    "modifiedTime": 1700962993562,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!folders!RwJ2f8rjRDXZZl1p"
+}

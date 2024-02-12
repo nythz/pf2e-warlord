@@ -1,0 +1,71 @@
+{
+  "folder": "kqdJ1r4VVsFCzLwL",
+  "name": "Warlord's Respite",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency: </strong>Once per 10 minutes.<br /><strong>Trigger: </strong>You or an ally within 30 feet successfully uses Treat<br />Wounds or Battle Medicine.</p>\n<hr />\n<p>Your guiding words ensure a smoother recovery.</p>\n<p>Depending to the DC, the target of Treat Wounds regains an additional:</p>\n<ul>\n<li>5 HP at DC 15</li>\n<li>10 HP at DC 20</li>\n<li>15 HP at DC 30</li>\n<li>20 HP at DC 40</li>\n</ul>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "auditory",
+        "healing",
+        "visual",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "_id": "GdHxTZxz7wuaMSWB",
+  "img": "systems/pf2e/icons/actions/Reaction.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1701008077271,
+    "modifiedTime": 1701376823400,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!GdHxTZxz7wuaMSWB"
+}

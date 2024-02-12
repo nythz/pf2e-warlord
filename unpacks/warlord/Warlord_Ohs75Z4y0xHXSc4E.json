@@ -1,0 +1,303 @@
+{
+  "img": "modules/game-icons-net/whitetransparent/warlord-helmet.svg",
+  "name": "Warlord",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A warlord is a fierce leader that inspires your allies and terrifies your foes. Although trained in fighting, a warlord's true strength lies with their ability to lead their allies to victory. Perhaps you are a trained noble born, a military officer, or even a minor war chief seeking glory. Regardless of your origins, you strengthen your allies with your cunning, tactical strategies, or inspiring presence.</p>\n<p><strong>Key Ability: <br /></strong></p>\n<p>At 1st level, your class gives you an ability boost to your choice of Charisma, Intelligence, or Wisdom depending on your Leadership Style.</p>\n<p><strong>Hit Points: 10 plus your Constitution modifier</strong></p>\n<p>You increase your maximum number of HP by this number at 1st level and every level thereafter.</p>\n<h1>Roleplaying the Warlord</h1>\n<h2>During Combat Encounters...</h2>\n<p>You either confront your enemies head on alongside your allies or stand back to guide your companions with inspiring words and insightful words.</p>\n<h2>During Social Encounters...</h2>\n<p>Relying on your leadership, you are a voice of reason to help your allies negotiate with others.</p>\n<h2>While Exploring...</h2>\n<p>You help push your allies to overcome any obstacle in their path, and your coordination helps ensure your group's survival in dangerous lands.</p>\n<h2>In Downtime...</h2>\n<p>You can use your talents as a leader to make friends with important individuals and gather useful allies. You might also excel at crafting tools to help your companions in further adventures.</p>\n<h2>You Might...</h2>\n<ul>\n<li>Help guide your companions to reach their potential.</li>\n<li>Recognize the responsibility of leadership means your number one priority is your allies.</li>\n<li>Be disinterested in problems that are out of your military expertise.</li>\n</ul>\n<h2>Others Probably...</h2>\n<ul>\n<li>Expect you have a large ego.</li>\n<li>Respect your leadership and knowledge of warfare and tactics.</li>\n<li>Find themselves drawn to your charismatic presence or impressed by your clever thinking.</li>\n</ul>\n<h1>Initial Proficiencies</h1>\n<p>At 1st level, you gain the listed proficiency ranks in the following statistics. You are untrained in anything not listed unless you gain a better proficiency rank in some other way.</p>\n<h2>Perception</h2>\n<p>Trained in Perception</p>\n<h2>Saving Throws</h2>\n<p>Expert in Fortitude</p>\n<p>Trained in Reflex</p>\n<p>Expert in Will</p>\n<h2>Skills</h2>\n<p>Trained in one skill determined by your choice of Leadership Style<br />Trained in a number of additional skills equal to 3 plus your Intelligence modifier</p>\n<h2>Attacks</h2>\n<p>Trained in simple weapons</p>\n<p>Trained in martial weapons</p>\n<p>Trained in unarmed attacks</p>\n<h2>Defenses</h2>\n<p>Trained in light armor</p>\n<p>Trained in medium armor</p>\n<p>Trained in heavy armor</p>\n<p>Trained in unarmored defense</p>\n<h2>Class DC</h2>\n<p>Trained in Warlord class DC</p>\n<h1>Class Features</h1>\n<p>You gain these features as a warlord. Abilities gained at higher levels list the levels at which you gain them next to the features' names.</p>\n<table class=\"pf2-table\" style=\"width:100%;height:357px\">\n<thead>\n<tr style=\"height:17px\">\n<th style=\"width:7.36973%;height:17px\">Your Level</th>\n<th style=\"width:92.6303%;height:17px\">Class Features</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height:17px\">\n<td style=\"width:7.36973%;height:17px\">1</td>\n<td style=\"width:92.6303%;height:17px\">Ancestry and background, initial proficiencies, helpful word, leadership dice +1d6, leadership style, lead by example, warlord feat</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:7.36973%;height:17px\">2</td>\n<td style=\"width:92.6303%;height:17px\">Skill feat, warlord feat</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:7.36973%;height:17px\">3</td>\n<td style=\"width:92.6303%;height:17px\">General feat, skill increase</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:7.36973%;height:17px\">4</td>\n<td style=\"width:92.6303%;height:17px\">Skill feat, warlord feat</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:7.36973%;height:17px\">5</td>\n<td style=\"width:92.6303%;height:17px\">Ability Boost, ancestry feat, skill increase, leadership dice +2d6, leadership command</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:7.36973%;height:17px\">6</td>\n<td style=\"width:92.6303%;height:17px\">Skill feat, warlord feat</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:7.36973%;height:17px\">7</td>\n<td style=\"width:92.6303%;height:17px\">General feat, skill increase, battle reflexes, weapon talent, leadership reaction</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:7.36973%;height:17px\">8</td>\n<td style=\"width:92.6303%;height:17px\">Skill feat, warlord feat</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:7.36973%;height:17px\">9</td>\n<td style=\"width:92.6303%;height:17px\">Ancestry feat, skill increase, alertness, leadership dice +3d6, reactive commander, warlord expertise</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:7.36973%;height:17px\">10</td>\n<td style=\"width:92.6303%;height:17px\">Ability boosts, skill feat, warlord feat</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:7.36973%;height:17px\">11</td>\n<td style=\"width:92.6303%;height:17px\">General feat, skill increase, greater aura, leadership will</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:7.36973%;height:17px\">12</td>\n<td style=\"width:92.6303%;height:17px\">Skill feat, warlord feat</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:7.36973%;height:17px\">13</td>\n<td style=\"width:92.6303%;height:17px\">Ancestry feat, skill increase, armor expertise, leadership dice +4d6, hardy warlord, greater command</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:7.36973%;height:17px\">14</td>\n<td style=\"width:92.6303%;height:17px\">Skill feat, warlord feat</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:7.36973%;height:17px\">15</td>\n<td style=\"width:92.6303%;height:17px\">Ability Boost, general feat, skill increase, Warlord Weapon Mastery</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:7.36973%;height:17px\">16</td>\n<td style=\"width:92.6303%;height:17px\">Skill feat, warlord feat</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:7.36973%;height:17px\">17</td>\n<td style=\"width:92.6303%;height:17px\">Ancestry feat, skill increase, exemplary aura, leadership dice +5d6, masterful warlord, undaunted leader</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:7.36973%;height:17px\">18</td>\n<td style=\"width:92.6303%;height:17px\">Skill feat, warlord feat</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:7.36973%;height:17px\">19</td>\n<td style=\"width:92.6303%;height:17px\">General feat, skill increase, armor master</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:7.36973%;height:17px\">20</td>\n<td style=\"width:92.6303%;height:17px\">Ability boosts, skill feat, warlord feat</td>\n</tr>\n</tbody>\n</table>\n<h2>Ancestry and Background</h2>\n<p>In addition to the abilities provided by your class at 1st level, you have the benefits of your selected ancestry and background.</p>\n<h2>Initial Proficiencies</h2>\n<p>At 1st level, you gain a number of proficiencies that represent your basic training. These proficiencies are noted at the start of this class.</p>\n<h2>Command Trait</h2>\n<p>A command ability can only affect allies that can either hear and understand the command or see the person giving the command. You or an ally can only follow one command at a time. If you give a command to a creature already targeted by one of your commands this turn, then any ongoing effects from your previous command end immediately.</p>\n<h2>Helpful Word</h2>\n<p>At 1st level, you are skilled at assisting your companions. You gain the Helpful Word action.</p>\n<h2>Leadership Dice</h2>\n<p>Certain features and feats for this class use your leadership dice, a d6, to power them. As your warlord level increases, so does the number of dice for your leadership dice. Increase the number of dice by one at 5th level, 9th level, 13th level, and 17th level.</p>\n<h2>Leadership Style</h2>\n<p>Each warlord has a distinct style of leadership. Choose a Leadership Style from the below. This will affect features and feats later gained by this class.</p>\n<h3>Esoteric Leadership</h3>\n<p>You are as comfortable leading magic users as you are leading warriors. Choose Charisma, Intelligence, or Wisdom as your key ability. You are trained in your choice of Arcana, Occultism, Nature, or Religion. You are also surrounded by a<br />warlord's aura in a 10-foot emanation. Your aura has the visual trait and grants you and allies within the aura a +1 status bonus to spell attack rolls.</p>\n<h3>Imposing Leadership</h3>\n<p>Your intimidating presence makes allies quickly follow your orders but also terrify your foes. Charisma is your key ability. You are trained in Intimidation. You are also surrounded by a warlord's aura in a 10-foot emanation. Your aura has the visual trait and grants you and allies within the aura a +1 status bonus to Intimidation checks.</p>\n<h3>Inspiring Leadership</h3>\n<p>Your charismatic presence uplifts your allies to stand against all odds. Charisma is your key ability. You are trained in Diplomacy. You are also surrounded by a warlord's aura in a 10-foot emanation. You and allies within the aura gain a +1 status bonus to Recovery checks and saves against fear effects.</p>\n<h3>Skirmishing Leadership</h3>\n<p>Your nimble tactics and use of terrain keeps your enemies on your toes. Wisdom is your key ability. You are trained in your choice of Survival or Stealth. You are also surrounded by a warlord's aura in a 10-foot emanation. Your aura has the visual trait and grants you and any ally that starts their turn within the aura a +5-foot status bonus to speed.</p>\n<h3>Tactical Leadership</h3>\n<p>Your clever strategies ensure victory for you and your allies. Intelligence is your key ability. You are trained in Warfare Lore. You are also surrounded by a warlord's aura in a 10-foot emanation. Your aura has the visual trait and grants you <br />and allies within the aura a +1 status bonus to initiative rolls.</p>\n<h2>Lead By Example</h2>\n<p>At 1st level, your brave attack emboldens your ally to follow with an even more powerful blow. You gain the Lead By Example action</p>\n<h2 data-anchor=\"shield-block\">Shield Block</h2>\n<p>You gain the @UUID[Compendium.pf2e.classfeatures.Item.eZNCckLzbH3GyncH] general feat, a reaction that lets you reduce damage with your shield.</p>\n<h2>Warlord Feats</h2>\n<p>At 1st level and every even-numbered level thereafter, you gain a warlord class feat</p>\n<h2>Skill Feats<span style=\"float:right\">Level 2</span></h2>\n<p>At 2nd level and every 2 levels thereafter, you gain a skill feat. You must be trained or better in the corresponding skill to select a skill feat.</p>\n<h2>General Feats<span style=\"float:right\">Level 3</span></h2>\n<p>At 3rd level and every 4 levels thereafter, you gain a general feat.</p>\n<h2>Lightning Reflexes<span style=\"float:right\">Level 3</span></h2>\n<p>Your reflexes are lightning fast. Your proficiency rank for Reflex saves increases to expert.</p>\n<h2>Skill Increases<span style=\"float:right\">Level 3</span></h2>\n<p>At 3rd level and every 2 levels thereafter, you gain a skill increase. You can use this increase either to increase your proficiency rank to trained in one skill you're untrained in, or to increase your proficiency rank in one skill in which you're already trained to expert.</p>\n<p>At 7th level, you can use skill increases to increase your proficiency rank to master in a skill in which you're already an expert, and at 15th level, you can use them to increase your proficiency rank to legendary in a skill in which you're already a master.</p>\n<h2>Ability Boosts<span style=\"float:right\">Level 5</span></h2>\n<p>At 5th level and every 5 levels thereafter, you boost four different ability scores. You can use these ability boosts to increase your ability scores above 18. Boosting an ability score increases it by 1 if it's already 18 or above, or by 2 if it starts out below 18.</p>\n<h2>Ancestry Feats<span style=\"float:right\">Level 5</span></h2>\n<p>In addition to the ancestry feat you started with, you gain an ancestry feat at 5th level and every 4 levels thereafter.</p>\n<h2>Leadership Command<br /><span style=\"float:right\">Level 5</span></h2>\n<p>At 5th level, you learn how to better advise your allies in combat. You gain a new action based on your Leadership Style.</p>\n<ul>\n<li>Esoteric Leadership : You gain the Enhance Magic action.</li>\n<li>Imposing Leadership : You gain the Dreadful Threat action</li>\n<li>Inspiring Leadership : You gain the Bulwarking Command action.</li>\n<li>Skirmishing Leadership : You gain the Move Command action.</li>\n<li>Tactical Leadership : You gain the Strategic Observation action.</li>\n</ul>\n<h2>Battle Reflexes<span style=\"float:right\">Level 7</span></h2>\n<p>At 7th level, your proficiency in Reflex saves increases to expert.</p>\n<h2>Weapon Talent<span style=\"float:right\">Level 7</span></h2>\n<p>At 7th level, your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert.</p>\n<h2>Leadership Reaction<span style=\"float:right\">Level 7</span></h2>\n<p>At 7th level, you can quickly assist an ally in the chaos of battle. You gain a new reaction based on your Leadership Style.</p>\n<ul>\n<li>Esoteric Leadership : You gain the Magical Defense reaction.</li>\n<li>Imposing Leadership : You gain the Harrowing Interruption reaction</li>\n<li>Inspiring Leadership : You gain the Courageous Defiance reaction.</li>\n<li>Skirmishing Leadership : You gain the Guerilla Tactics reaction.</li>\n<li>Tactical Leadership : You gain the Adjusted Striked reaction</li>\n</ul>\n<h2>Alertness<span style=\"float:right\">Level 9</span></h2>\n<p>At 9th level, you remain alert to threats around you. Your proficiency rank for Perception increases to expert.</p>\n<h2>Reactive Commander<span style=\"float:right\">Level 9</span></h2>\n<p>At 9th level, you can quickly shout out orders. At the start of each of your turns when you regain your actions, you gain an additional reaction that can be used only for Aid or a reaction with the Warlord trait</p>\n<h2>Warlord Expertise<span style=\"float:right\">Level 9</span></h2>\n<p>At 9th level, your proficiency in warlord class DC increases to expert.</p>\n<h2>Greater Aura<span style=\"float:right\">Level 11</span></h2>\n<p>At 11th level, the power of your presence expands. Your Leadership Style aura increases to a 20-foot emanation, and the status bonus granted by your aura increases to +2 or +10-foot for Skirmishing Leadership.</p>\n<h2>Leadership Will<span style=\"float:right\">Level 11</span></h2>\n<p>At 11th level, your proficiency rank for Will saves increases to master. When you roll a success on a Will save, you get a critical success instead.</p>\n<h2>Armor Expertise<span style=\"float:right\">Level 13</span></h2>\n<p>At 13th level, your proficiency rank in light and medium armor increases to expert.</p>\n<h2>Paragon of Leadership<span style=\"float:right\">Level 13</span></h2>\n<p>At 13th level, you are a master of helping your allies, able to influence your allies in more meaningful ways. You gain one of the following benefits depending on your Leadership Style.</p>\n<ul>\n<li>Esoteric Leadership : When an ally deals precision damage from your Lead By Example action, a magical ward surrounds them, and the ally gains a +1 status bonus to AC and saving throws for 1 round.</li>\n<li>Imposing Leadership : When an ally deals precision damage from your Lead By Example action, the ally's damage ignores an amount of resistance to the damage type equal to half your level. The damaged creature's resistance is then reduced by the same amount for 1 round.</li>\n<li>Inspiring Leadership :  When an ally deals precision damage from your Lead By Example action, the ally gains temporary hit points equal to half your level that last for 1 round.</li>\n<li>Skirmishing Leadership : When an ally deals precision damage from your Lead By Example action, the hit enemy can't take reactions for 1 round.</li>\n<li>Tactical Leadership : When an ally of Lead By Example deals precision damage from your Lead By Example action, the hit enemy is off-guard to you and your allies for 1 round.</li>\n</ul>\n<h2>Weapon Specialization<span style=\"float:right\">Level 13</span></h2>\n<p>At 13th level, you’ve learned how to inflict greater injuries with the weapons you know best. You deal 2 additional damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you’re a master, and to 4 if you’re legendary.</p>\n<h2>Hardy Warlord<span style=\"float:right\">Level 15</span></h2>\n<p>At 15th level, your proficiency rank for Fortitude saves increases to master. When you roll a success on a Fortitude  save, you get a critical success instead.</p>\n<h2>Supreme Aura<span style=\"float:right\">Level 17</span></h2>\n<p>At 17th level, you emanate an unwavering influence on your allies. Your Leadership Style's aura extends to 30 feet.</p>\n<h2>Masterful Warlord<span style=\"float:right\">Level 17</span></h2>\n<p>At 17th level, your proficiency in warlord class DC increases to master.</p>\n<h2>Undaunted Leader<span style=\"float:right\">Level 17</span></h2>\n<p>At 17th level, your proficiency rank for Will saves increases to legendary. When you roll a success on a Will save, you get a critical success. When you roll a critical failure on a Will save, you get a failure instead. When you fail a Will save against a damaging effect, you take half damage.</p>\n<h2>Armor Master<span style=\"float:right\">Level 19</span></h2>\n<p>At 19th level, your proficiency rank in light and medium armor increases to master.</p>"
+    },
+    "rules": [],
+    "slug": "warlord",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.869,
+        "foundry": "11.315",
+        "system": "5.9.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "keyAbility": {
+      "value": []
+    },
+    "items": {
+      "9e2Hb": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.eZNCckLzbH3GyncH",
+        "img": "systems/pf2e/icons/features/classes/shield-block.webp",
+        "name": "Shield Block",
+        "level": 1
+      },
+      "9iVzR": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.TUOeATt52P43r5W0",
+        "img": "systems/pf2e/icons/features/classes/lightning-reflexes.webp",
+        "name": "Reflex Expertise",
+        "level": 7
+      },
+      "66j4w": {
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.XlOl60BZ7wJPIli5",
+        "img": "icons/skills/melee/hand-grip-sword-red.webp",
+        "name": "Warlord Weapon Expertise",
+        "level": 7
+      },
+      "6viWY": {
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.IQcFpl2GjsqsUb7A",
+        "img": "icons/skills/social/intimidation-impressing.webp",
+        "name": "Warlord Expertise",
+        "level": 9
+      },
+      "bruhi": {
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.7icOZBD1LuGzYBtq",
+        "img": "systems/pf2e/icons/features/classes/juggerenaut.webp",
+        "name": "Hardy Warlord",
+        "level": 13
+      },
+      "pgMbP": {
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.zzD0Sn6wZAyqJN2l",
+        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+        "name": "Warlord Weapon Mastery",
+        "level": 15
+      },
+      "GGmxM": {
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.NHEnolzFLEFMn8Ez",
+        "img": "systems/pf2e/icons/features/classes/master-strikes.webp",
+        "name": "Warlord Mastery",
+        "level": 17
+      },
+      "HCFGx": {
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.JdjJO0DDUdjL4GGy",
+        "img": "systems/pf2e/icons/features/classes/fortress-of-will.webp",
+        "name": "Undaunted Leader",
+        "level": 17
+      },
+      "iHAed": {
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.W2YEJ32wUWIWf0qS",
+        "img": "systems/pf2e/icons/features/classes/walls-of-will.webp",
+        "name": "Leadership Will",
+        "level": 11
+      },
+      "NJRRs": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.x5jaCJxsmD5sx3KB",
+        "img": "systems/pf2e/icons/features/classes/armor-expertise.webp",
+        "name": "Armor Expertise",
+        "level": 13
+      },
+      "gcMQu": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.CGB1TczFhQhdQxml",
+        "img": "icons/equipment/chest/breastplate-sculpted-grey.webp",
+        "name": "Armor Mastery",
+        "level": 19
+      },
+      "7wXRr": {
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.5UqFvLHK8Cp6Gfm9",
+        "img": "modules/game-icons-net/whitetransparent/talk.svg",
+        "name": "Helpful Word",
+        "level": 1
+      },
+      "XUx0d": {
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.9clqogzPOaILZLHX",
+        "img": "modules/game-icons-net/whitetransparent/swordman.svg",
+        "name": "Lead by Example",
+        "level": 1
+      },
+      "gmcWO": {
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.xHtrmqg2DcAaRoyu",
+        "img": "modules/game-icons-net/whitetransparent/perspective-dice-six-faces-one.svg",
+        "name": "Leadership Dice",
+        "level": 1
+      },
+      "YJI4z": {
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.Wfw7DkkPZDozBMQA",
+        "img": "modules/game-icons-net/whitetransparent/perspective-dice-six-faces-two.svg",
+        "name": "Second Leadership Dice",
+        "level": 5
+      },
+      "rQupx": {
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.pSIUhmlDqYz57j2E",
+        "img": "modules/game-icons-net/whitetransparent/perspective-dice-six-faces-three.svg",
+        "name": "Third Leadership Dice",
+        "level": 9
+      },
+      "TxOmp": {
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.D8zSIQvuVW6WTurG",
+        "img": "modules/game-icons-net/whitetransparent/perspective-dice-six-faces-four.svg",
+        "name": "Fourth Leadership Dice",
+        "level": 13
+      },
+      "RyuHF": {
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.Ffs8nw16FMgvKEaX",
+        "img": "modules/game-icons-net/whitetransparent/perspective-dice-six-faces-five.svg",
+        "name": "Fifth Leadership Dice",
+        "level": 17
+      },
+      "7dCBv": {
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.vcSxYwE7STuXIKs9",
+        "img": "systems/pf2e/icons/features/classes/spirit-instinct.webp",
+        "name": "Supreme Aura",
+        "level": 17
+      },
+      "Xdlly": {
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.F1aPT1G60JbtSrYQ",
+        "img": "systems/pf2e/icons/features/classes/expert-strikes.webp",
+        "name": "Reactive Commander",
+        "level": 9
+      },
+      "z1zu1": {
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.qqT1ZLKEFZzyI45w",
+        "img": "systems/pf2e/icons/features/classes/heros-defiance.webp",
+        "name": "Leadership Reaction",
+        "level": 7
+      },
+      "KbAZB": {
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.HUbAsJ4OrAIYdJ3C",
+        "img": "systems/pf2e/icons/features/classes/braggart-style.webp",
+        "name": "Leadership Command",
+        "level": 5
+      },
+      "JU4Vm": {
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.Ojb2WIndp08KNMBa",
+        "img": "icons/magic/symbols/question-stone-yellow.webp",
+        "name": "Leadership Style",
+        "level": 1
+      },
+      "sN1z9": {
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.lI8MqhDWNESd58JT",
+        "img": "systems/pf2e/icons/features/classes/graceful-legend.webp",
+        "name": "Paragon of Leadership",
+        "level": 13
+      },
+      "Qqr9X": {
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.YLy5WqWeg7nkwMuU",
+        "img": "systems/pf2e/icons/features/classes/eidolon-symbiosis.webp",
+        "name": "Greater Aura",
+        "level": 11
+      },
+      "Q3q9e": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.JCqACxgrm5ixX0Jy",
+        "img": "icons/creatures/eyes/human-single-blue.webp",
+        "name": "Perception Expertise",
+        "level": 9
+      }
+    },
+    "hp": 10,
+    "trainedSkills": {
+      "value": [],
+      "additional": 5,
+      "custom": ""
+    },
+    "perception": 1,
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 1,
+      "will": 2
+    },
+    "attacks": {
+      "simple": 1,
+      "martial": 1,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "name": "",
+        "rank": 0
+      }
+    },
+    "defenses": {
+      "unarmored": 1,
+      "light": 1,
+      "medium": 1,
+      "heavy": 1
+    },
+    "spellcasting": 0,
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "classFeatLevels": {
+      "value": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "skillFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    }
+  },
+  "type": "class",
+  "flags": {
+    "core": {}
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.10.3",
+    "coreVersion": "11.315",
+    "createdTime": 1683244123300,
+    "modifiedTime": 1701712874702,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "folder": null,
+  "_id": "Ohs75Z4y0xHXSc4E",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "_key": "!items!Ohs75Z4y0xHXSc4E"
+}

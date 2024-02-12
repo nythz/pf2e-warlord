@@ -1,0 +1,19 @@
+{
+  "name": "Warlord Feats",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "color": "#303030",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1693431980743,
+    "modifiedTime": 1701352800274,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_id": "iepIOn3T0Di4zs53",
+  "sort": 0,
+  "_key": "!folders!iepIOn3T0Di4zs53"
+}

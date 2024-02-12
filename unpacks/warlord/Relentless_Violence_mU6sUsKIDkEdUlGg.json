@@ -1,0 +1,64 @@
+{
+  "folder": "BPc50pcw1vZqyif5",
+  "name": "Relentless Violence",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger:  </strong>You or an ally within your Leadership Style's aura critically succeeds on a strike or reduce a creature to 0 Hit points.</p>\n<hr />\n<p>Your aggressive leadership pushes your companions towards greater violence. <br />The attacker can make another Strike as a reaction.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "mU6sUsKIDkEdUlGg",
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.4",
+    "coreVersion": "11.315",
+    "createdTime": 1701042128045,
+    "modifiedTime": 1707408289487,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!mU6sUsKIDkEdUlGg"
+}

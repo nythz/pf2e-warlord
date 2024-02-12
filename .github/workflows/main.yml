@@ -1,8 +1,9 @@
 name: Release Creation
 
 on:
-  release:
-    types: [published]
+  #release:
+    #types: [published]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -12,8 +13,6 @@ jobs:
       - uses: actions/checkout@v2
       # install deps
       - run: npm ci
-      # build sass
-      - run: npm run sass
       # pack packs
       - run: npm run pack
 
@@ -41,7 +40,6 @@ jobs:
           name: ${{ github.event.release.name }}
           draft: false
           prerelease: false
-          token: ${{ secrets.GITHUB_TOKEN }}
           artifacts: "./module.json, ./module.zip"
           tag: ${{ github.event.release.tag_name }}
           body: ${{ github.event.release.body }}

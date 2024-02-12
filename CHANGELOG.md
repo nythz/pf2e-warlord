@@ -1,3 +1,7 @@
+# 1.2.1
+---
+- Corrected Pack type for journal compendiums to "JournalEntry"
+
 # 1.2.0
 ---
 - Added Warlord Journals compendium for notes about the class or Automation homebrew options through other optional modules

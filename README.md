@@ -15,7 +15,7 @@ Lead your allies towards victory by buffing them to perform even better, either 
 - Become a back-line support, giving your allies buffs or even quickened actions through orders.
 
 ### This is a module for FoundryVTT PF2e game system that adds the Warlord class as homebrewed by [u/fanatic66](https://reddit.com/user/fanatic66/submitted/) and adjusted for the remaster, foundry integration and balance by Nythz.
-The original PDF can be found in this drive : https://drive.google.com/file/d/1QvXA8eBMBjZsk0SX9zwSO3XS536EQ0Q6/view1
+The original PDF can be found in this drive : https://drive.google.com/file/d/1QvXA8eBMBjZsk0SX9zwSO3XS536EQ0Q6/view
 
 ---
 ### Module can be added to your foundry using this manifest link : `https://raw.githubusercontent.com/nythz/pf2e-warlord/main/module.json`

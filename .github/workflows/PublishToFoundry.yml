@@ -1,0 +1,16 @@
+  - name: Publish FoundryVTT Package
+  # You may pin to the exact commit or the version.
+  # uses: cs96and/FoundryVTT-release-package@b5e56aca6e27d28f83bf4b32bceff1b0e141ece1
+  uses: cs96and/FoundryVTT-release-package@v1.0.2
+  with:
+    # The secret token of your package for the FoundryVTT Package Release API.
+    package-token: fvttp_WHKPWJ0TKd%MC0zs6(3zgRtB
+    # The URL of the JSON manifest of your package.
+    manifest-url: https://raw.githubusercontent.com/nythz/pf2e-warlord/main/module.json
+    # The version of the release.  Leave undefined to use the `version` entry from your manifest file.
+    version: # optional
+    # The URL of the release notes for this release of your package.  Leave undefined to use the `changelog` entry from your manifest file.
+    notes-url: # optional
+    # Set to any value apart from `false` or `0` to do a dry-run.  Leave undefined or set to `false` or `0` for a proper release.
+    dry-run: # optional
+          

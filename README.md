@@ -18,7 +18,7 @@ Lead your allies towards victory by buffing them to perform even better, either 
 The original PDF can be found in this drive : https://drive.google.com/file/d/1QvXA8eBMBjZsk0SX9zwSO3XS536EQ0Q6/view
 
 ---
-### Module can be added to your foundry using this manifest link : `https://raw.githubusercontent.com/nythz/pf2e-warlord/main/module.json`
+### Module can be added to your foundry using the manifest link found on the foundry package page : https://foundryvtt.com/packages/pf2e-warlord
 ---
 Changes from the PDF can be found in the wiki : https://github.com/nythz/pf2e-warlord/wiki
 

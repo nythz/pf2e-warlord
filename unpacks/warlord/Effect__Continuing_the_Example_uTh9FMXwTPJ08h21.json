@@ -1,0 +1,64 @@
+{
+  "folder": "zj5aihlvtV9609wM",
+  "name": "Effect: Continuing the Example",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your warlord has led you to deal bonus damage and is ready to watch over your target.</p>"
+    },
+    "rules": [],
+    "slug": "effect-continuing-the-example",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "uTh9FMXwTPJ08h21",
+  "img": "modules/game-icons-net/whitetransparent/multiple-targets.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.10.3",
+    "coreVersion": "11.315",
+    "createdTime": 1701437969141,
+    "modifiedTime": 1701716947095,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!uTh9FMXwTPJ08h21"
+}

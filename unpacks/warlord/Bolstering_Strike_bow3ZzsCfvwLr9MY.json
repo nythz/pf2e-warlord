@@ -1,0 +1,69 @@
+{
+  "folder": "ZHXK9hoUe2EO26za",
+  "name": "Bolstering Strike",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency: </strong>Once per hour</p>\n<hr />\n<p>You land a mighty blow that reminds your companion that the fight isn't over yet. Make a Strike. You can attempt a counteract check to remove one condition on an ally within 30 feet, using the source of that condition to determine the counteract level and DC. For your counteract check, you use half your level rounded up as the counteract level and your attack roll as the counteract roll. If the condition was caused by an ongoing effect and you don't remove that effect, the condition returns at the end of your next turn.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "visual",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    }
+  },
+  "_id": "bow3ZzsCfvwLr9MY",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1701042720212,
+    "modifiedTime": 1701297089484,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!bow3ZzsCfvwLr9MY"
+}

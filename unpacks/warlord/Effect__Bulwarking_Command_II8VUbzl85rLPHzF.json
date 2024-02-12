@@ -1,0 +1,88 @@
+{
+  "folder": "GUv2Lp6jD7BhUrBG",
+  "name": "Effect: Bulwarking Command",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "TempHP",
+        "value": "@item.origin.abilities.{item|origin.class.system.keyAbility.selected}.mod + floor(@item.origin.level / 2)"
+      },
+      {
+        "key": "FlatModifier",
+        "label": "BulwarkingBonusAC",
+        "value": 1,
+        "selector": "ac"
+      },
+      {
+        "key": "FlatModifier",
+        "label": "BulwarkingBonusST",
+        "value": 1,
+        "selector": "saving-throw"
+      }
+    ],
+    "slug": "effect-bulwarking-command",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.869,
+        "foundry": "11.315",
+        "system": "5.9.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "modules/game-icons-net/whitetransparent/bell-shield.svg",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1691889138253,
+    "modifiedTime": 1701295545753,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_id": "II8VUbzl85rLPHzF",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "_key": "!items!II8VUbzl85rLPHzF"
+}

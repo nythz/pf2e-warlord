@@ -1,0 +1,74 @@
+{
+  "folder": "d19Wb7y6GY5Yfq2g",
+  "name": "Effect: Aura of Knowledge",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your warlord's studious mind rubs off on others. You and alliies within their Leadership Style's aura gain a +1 status bonus to Recall Knowledge.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "skill-check",
+        "value": 1,
+        "predicate": [
+          "action:recall-knowledge"
+        ],
+        "type": "status"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "U8WZBnvJznRskX6s",
+  "img": "modules/game-icons-net/whitetransparent/book-aura.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1701362425883,
+    "modifiedTime": 1701379957742,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!U8WZBnvJznRskX6s"
+}

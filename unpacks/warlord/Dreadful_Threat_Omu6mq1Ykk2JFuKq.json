@@ -1,0 +1,71 @@
+{
+  "folder": "MDvR8jSuekZxsuDE",
+  "name": "Dreadful Threat",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You threaten a foe to lower its resolve. As part of this action, you can attempt a check to Demoralize the target. The target is off guard to attacks from you and your allies while it has the frightened condition from your Demoralize. If you have legendary proficiency in Intimidation, then targets can no longer be temporarily immune to your Demoralize.</p>"
+    },
+    "rules": [],
+    "slug": "dreadful-threat",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "emotion",
+        "fear",
+        "mental",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Imposing Leadership"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "Omu6mq1Ykk2JFuKq",
+  "img": "modules/game-icons-net/whitetransparent/confrontation.svg",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1700943672542,
+    "modifiedTime": 1701295591990,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!Omu6mq1Ykk2JFuKq"
+}

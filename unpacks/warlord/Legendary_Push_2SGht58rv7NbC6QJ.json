@@ -1,0 +1,70 @@
+{
+  "folder": "PPpKJmcWSFHYXc4s",
+  "name": "Legendary Push",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency: </strong>Once per day</p>\n<hr />\n<p>Through your presence and commands, your companions exceed mortal limitations. For 1 minute, you and allies are quickened, but get two extra actions instead of one. You can use the additional actions for any action. After the minute, you and your allies are slowed 1 for 1 minute.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.K8SiuHkbp1pa5mpg]</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.tJJS3d1KGdPyJuvf]</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "flourish",
+        "visual",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 20
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "_id": "2SGht58rv7NbC6QJ",
+  "img": "systems/pf2e/icons/actions/ThreeActions.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.10.3",
+    "coreVersion": "11.315",
+    "createdTime": 1701046255101,
+    "modifiedTime": 1701727196310,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!2SGht58rv7NbC6QJ"
+}

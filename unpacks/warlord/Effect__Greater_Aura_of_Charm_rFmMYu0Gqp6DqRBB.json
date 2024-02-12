@@ -1,0 +1,79 @@
+{
+  "folder": "d19Wb7y6GY5Yfq2g",
+  "name": "Effect: Greater Aura of Charm",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your warlord's charismatic presence makes you easily liked. You and alliies within their Leadership Style's aura gain a +2 status bonus to Make an Impression and Request.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "diplomacy-check",
+        "value": 2,
+        "predicate": [
+          {
+            "or": [
+              "action:make-an-impression",
+              "action:request"
+            ]
+          }
+        ],
+        "type": "status"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 11
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "rFmMYu0Gqp6DqRBB",
+  "img": "modules/game-icons-net/whitetransparent/book-aura.svg",
+  "sort": 104688,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1701361361713,
+    "modifiedTime": 1701368179188,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!rFmMYu0Gqp6DqRBB"
+}

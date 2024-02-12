@@ -1,0 +1,82 @@
+{
+  "folder": "kqdJ1r4VVsFCzLwL",
+  "name": "Effect: Friendly Shield (Ally)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A friendly Warlord is bracing their shield to guard you. <br />You gain a circumstance bonus to your AC (+2) as long as they stay adjacent to the warlord.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "value": "@item.origin.system.attributes.shield.ac",
+        "predicate": [
+          "self:effect:in-reach-of-friendly-shield"
+        ],
+        "type": "circumstance"
+      }
+    ],
+    "slug": "effect-friendly-shield-ally",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.869,
+        "foundry": "11.315",
+        "system": "5.9.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "target": null,
+    "unidentified": false
+  },
+  "img": "modules/game-icons-net/whitetransparent/attached-shield.svg",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1691795352197,
+    "modifiedTime": 1707753024681,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_id": "JxVVvPSFu8vTInnh",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "_key": "!items!JxVVvPSFu8vTInnh"
+}

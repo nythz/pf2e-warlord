@@ -1,0 +1,79 @@
+{
+  "folder": "d19Wb7y6GY5Yfq2g",
+  "name": "Effect: Aura of Charm",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your warlord's charismatic presence makes you easily liked. You and alliies within their Leadership Style's aura gain a +1 status bonus to Make an Impression and Request.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "diplomacy-check",
+        "value": 1,
+        "predicate": [
+          {
+            "or": [
+              "action:make-an-impression",
+              "action:request"
+            ]
+          }
+        ],
+        "type": "status"
+      }
+    ],
+    "slug": "effect-aura-of-charm",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "duration": {
+      "value": -1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "iTbY51wymw5QVqHh",
+  "img": "modules/game-icons-net/whitetransparent/book-aura.svg",
+  "sort": 103125,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1701360700439,
+    "modifiedTime": 1701368060979,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!iTbY51wymw5QVqHh"
+}

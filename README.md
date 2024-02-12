@@ -80,7 +80,7 @@ You can also find issues I lack knowledge on how to fix them in the issue sectio
 
 # Licensing
 - Homebrew class shared and modified with permission of original Author u/fanatic66
-- Icons from game-icons.net module provided under the [Creative Commons 3.0 BY](http://creativecommons.org/licenses/by/3.0/) from Authors : 
+- Icons from https://game-icons.net module provided under the [Creative Commons 3.0 BY](http://creativecommons.org/licenses/by/3.0/) from Authors : 
   - Lorc, http://lorcblog.blogspot.com
   - Delapouite, http://delapouite.com
   - Caro Asercion

@@ -13,8 +13,6 @@ jobs:
       - uses: actions/checkout@v2
       # install deps
       - run: npm ci
-      # build sass
-      - run: npm run sass
       # pack packs
       - run: npm run pack
 

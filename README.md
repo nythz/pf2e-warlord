@@ -20,6 +20,7 @@ The original PDF can be found in this drive : https://drive.google.com/file/d/1Q
 ---
 ### Module can be added to your foundry using the manifest link found on the foundry package page : 
 https://foundryvtt.com/packages/pf2e-warlord
+
 ---
 Changes from the PDF can be found in the wiki : https://github.com/nythz/pf2e-warlord/wiki
 

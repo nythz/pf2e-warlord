@@ -1,6 +1,0 @@
-  - name: Publish Module to FoundryVTT Website
-    id: publish-to-foundry-website
-    uses: cs96and/FoundryVTT-release-package@v1
-    with:
-      package-token: fvttp_WHKPWJ0TKd%MC0zs6(3zgRtB
-      manifest-url: https://raw.githubusercontent.com/nythz/pf2e-warlord/main/module.json

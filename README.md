@@ -37,6 +37,7 @@ You can also find issues I lack knowledge on how to fix them in the issue sectio
 - Automation of Leadership Aura Improvements per style via levels or feats
 - Automation of Base Class Features ( Lead by example, Helpful Word )
 - Automation of Temporary Hitpoint scaling actions using effects
+- Automation of Feats that shields Allies according to the warlord's shield
 - Indicator of Quickened using Effects
 - Automation of Leadership dice increases from leveling and their uses
 
@@ -48,13 +49,14 @@ You can also find issues I lack knowledge on how to fix them in the issue sectio
 - Find a way to automate Extend Aura
   - GM needs to manually increase the aura for the round
 - Find a way to automate Tactical Supervision
-  - GM needs to manually the Follow the Expert circumstance bonus
+  - GM needs to manually adjust the Follow the Expert circumstance bonus
 - Find a way to automate Commander's Guidance
   - GM needs to manually add +1 to the circumstance bonus from aid
 - Adjust balance of the Class and Feats
   - Test Bleeding follow through changes
   - Test Fearless Presence + Warlord's Comfort
   - Test level 20 feats
+  - Test the balance of each feat in different Warlord builds and roles in a party
 - Replace default icons with free game-icons.net or pf2e system icons
 - Replace game-icons.net and pf2e system icons with custom icons
 

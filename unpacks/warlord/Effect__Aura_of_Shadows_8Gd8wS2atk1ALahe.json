@@ -1,0 +1,79 @@
+{
+  "folder": "d19Wb7y6GY5Yfq2g",
+  "name": "Effect: Aura of Shadows",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your warlord guide you to stick to the shadows, waiting for the perfect moment to strike. You and allies within their Leadership Style's aura gain a +1 status bonus to Hide and Sneak. </p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "stealth-check",
+        "value": 1,
+        "predicate": [
+          {
+            "or": [
+              "action:sneak",
+              "action:hide"
+            ]
+          }
+        ],
+        "type": "status"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "8Gd8wS2atk1ALahe",
+  "img": "modules/game-icons-net/whitetransparent/book-aura.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1701362573270,
+    "modifiedTime": 1701368179539,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!8Gd8wS2atk1ALahe"
+}

@@ -1,0 +1,68 @@
+{
+  "folder": "BPc50pcw1vZqyif5",
+  "name": "Commanding Cohesion",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You prevent your allies from falling to the wayside in challenging endeavours. When you or an ally uses Follow the Expert, you treat a critical failure or failure as one degree of success higher.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Tactical Supervision"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "PqK3gerB1rFWXJcX",
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.4",
+    "coreVersion": "11.315",
+    "createdTime": 1701041764656,
+    "modifiedTime": 1707408289487,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!PqK3gerB1rFWXJcX"
+}

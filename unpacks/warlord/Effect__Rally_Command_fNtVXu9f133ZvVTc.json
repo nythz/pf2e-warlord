@@ -1,0 +1,69 @@
+{
+  "folder": "a28PSTdIT0rBZikt",
+  "name": "Effect: Rally Command",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain temporary Hit Points equal to the warlord's Leadership Style's ability modifier plus half their level. The temporary Hit Points last for 1 round.</p>"
+    },
+    "rules": [
+      {
+        "key": "TempHP",
+        "value": "@item.origin.abilities.{item|origin.class.system.keyAbility.selected}.mod + floor(@item.origin.level / 2)"
+      }
+    ],
+    "slug": "effect-rally-command",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "fNtVXu9f133ZvVTc",
+  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1701009505004,
+    "modifiedTime": 1701296016387,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!fNtVXu9f133ZvVTc"
+}

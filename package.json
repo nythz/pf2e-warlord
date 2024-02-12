@@ -1,0 +1,20 @@
+{
+  "name": "pd2e-warlord",
+  "version": "1.3.2",
+  "description": "Pf2e Warlord Homebrew",
+  "scripts": {
+    "unpack": "node build/unpack.mjs",
+    "pack": "node build/pack.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github:nythz/pf2e-warlord"
+  },
+  "bugs": {
+    "url": "https://github.com/nythz/pf2e-warlord/issues"
+  },
+  "homepage": "https://github.com/nythz/pf2e-warlord#readme",
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.2"
+  }
+}

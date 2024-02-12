@@ -1,0 +1,80 @@
+{
+  "folder": "BPc50pcw1vZqyif5",
+  "name": "Effect : Shielding Order (Self)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.attributes.shield.raised",
+        "predicate": [
+          "self:shield:equipped",
+          {
+            "nor": [
+              "self:shield:broken",
+              "self:shield:destroyed"
+            ]
+          }
+        ],
+        "value": true
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 10
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "i06VHmRxpmrYiwlp",
+  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.4",
+    "coreVersion": "11.315",
+    "createdTime": 1707408209227,
+    "modifiedTime": 1707408478753,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!i06VHmRxpmrYiwlp"
+}

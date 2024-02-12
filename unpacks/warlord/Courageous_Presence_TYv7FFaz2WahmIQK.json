@@ -1,0 +1,64 @@
+{
+  "folder": "bvrdc7rWcnh72egP",
+  "name": "Courageous Presence",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Prerequisite:</strong> Fearless Presence</p>\n<hr />\n<p>Your bravery better bolsters the resolve of your allies. You and all allies within your Leadership Style's aura treat the result of a save against a fear effect as one degree higher.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "TYv7FFaz2WahmIQK",
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1701044608240,
+    "modifiedTime": 1707756565087,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!TYv7FFaz2WahmIQK"
+}

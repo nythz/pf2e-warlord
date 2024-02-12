@@ -1,0 +1,19 @@
+{
+  "name": "Leadership Dices",
+  "sorting": "m",
+  "folder": "nPrgmGxSNX5zgSUk",
+  "type": "Item",
+  "_id": "Y6n6IrKXcvcJrDgo",
+  "sort": 0,
+  "color": "#6b6b6b",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": null,
+    "modifiedTime": 1701104787853,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!folders!Y6n6IrKXcvcJrDgo"
+}

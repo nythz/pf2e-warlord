@@ -1,0 +1,114 @@
+{
+  "folder": "X38oWLMcscghoffw",
+  "name": "Esoteric Warlord's Aura",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You are surrounded by a warlord's aura in a 10-foot emanation.</p>\n<p>Your aura grants you and allies within the aura a +1 status bonus to spell attack rolls.</p>"
+    },
+    "rules": [
+      {
+        "key": "Aura",
+        "radius": 10,
+        "traits": [
+          "visual"
+        ],
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.WKnhbGuzqLQsO1LQ",
+            "affects": "allies"
+          },
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.l1y3wMqp8pkAmK17",
+            "predicate": [
+              "feat:skillful-aura"
+            ]
+          },
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.2jTCu7MruyqI2QiV",
+            "predicate": [
+              "feat:fearless-presence",
+              {
+                "not": "feat:courageous-presence"
+              }
+            ]
+          },
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.G6xjdQvrDmCX0tsq",
+            "predicate": [
+              "feat:courageous-presence"
+            ]
+          }
+        ],
+        "predicate": [
+          {
+            "nor": [
+              "feature:greater-esoteric-warlords-aura",
+              "feature:supreme-esoteric-warlords-aura"
+            ]
+          }
+        ],
+        "level": "[{\"not\":\"feature:supreme-inspiring-warlords-aura\"}]",
+        "appearance": {
+          "border": {
+            "color": "user-color"
+          }
+        }
+      }
+    ],
+    "slug": "esoteric-warlords-aura",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "visual",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "NZEP8vqmFxBedEDl",
+  "img": "modules/pf2e-warlord/assets/eso-beams-aura.svg",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.10.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700943563627,
+    "modifiedTime": 1701537926956,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!NZEP8vqmFxBedEDl"
+}

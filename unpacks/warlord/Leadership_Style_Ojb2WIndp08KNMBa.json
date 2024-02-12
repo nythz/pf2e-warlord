@@ -1,0 +1,80 @@
+{
+  "folder": "nPrgmGxSNX5zgSUk",
+  "name": "Leadership Style",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Each warlord has a distinct style of leadership. Choose a Leadership Style from the below. This will affect features and feats later gained by this class.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.AeyjJ9oJbSU8q2rp]{Esoteric Leadership}</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.L4lE9PmNeDVytpku]{Imposing Leadership}</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.8TcjyoJjOSTwvlRl]{Inspiring Leadership}</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.xREJLn7rkwczmtO4]{Skirmishing Leadership}</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.5nbAA9skvQhz53Yt]{Tactical Leadership}</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:tag:leadership-style"
+          ]
+        },
+        "flag": "leadershipStyle",
+        "key": "ChoiceSet",
+        "prompt": "Choose your Warlord Leadership Style :"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.leadershipStyle}"
+      }
+    ],
+    "slug": "leadership-style",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "Ojb2WIndp08KNMBa",
+  "img": "icons/magic/symbols/question-stone-yellow.webp",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1700942591372,
+    "modifiedTime": 1701295657693,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!Ojb2WIndp08KNMBa"
+}

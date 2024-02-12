@@ -1,0 +1,73 @@
+{
+  "folder": "XKbs3IlbqBHYRN3C",
+  "name": "Effect: Greater Skirmishing Warlord's Aura",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by being inside an Inspiring Warlord's Aura.</p>\n<hr />\n<p>This aura has the visual trait and grants you and any ally that starts their turn within the aura a +10-foot status bonus to speed.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "land-speed",
+        "value": 10,
+        "type": "status"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 11
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "modules/pf2e-warlord/assets/ski-icicles-aura.svg",
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.10.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700948721876,
+    "modifiedTime": 1701537734623,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_id": "8SEomC4GTYxABtkV",
+  "sort": 0,
+  "_key": "!items!8SEomC4GTYxABtkV"
+}

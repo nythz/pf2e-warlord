@@ -1,0 +1,78 @@
+{
+  "folder": "bvrdc7rWcnh72egP",
+  "name": "Effect: Courageous Presence",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your warlord's bravery better bolsters your resolve. You and all allies within their Leadership Style's aura treat the result of a save against a fear effect as one degree higher.</p>"
+    },
+    "rules": [
+      {
+        "key": "AdjustDegreeOfSuccess",
+        "type": "save",
+        "selector": "will",
+        "predicate": [
+          "fear"
+        ],
+        "adjustment": {
+          "success": "one-degree-better",
+          "failure": "one-degree-better",
+          "criticalFailure": "one-degree-better"
+        }
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 16
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "G6xjdQvrDmCX0tsq",
+  "img": "modules/game-icons-net/whitetransparent/rear-aura.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1701365796587,
+    "modifiedTime": 1701386805807,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!G6xjdQvrDmCX0tsq"
+}

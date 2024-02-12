@@ -1,0 +1,79 @@
+{
+  "folder": "d19Wb7y6GY5Yfq2g",
+  "name": "Effect: Greater Aura of Magic",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your warlord help guides you in their pursuit of the mysterious. You and allies within their Leadership Style's aura gain a +2 status bonus to Decipher Writing and Identify Magic. </p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "skill-check",
+        "value": 2,
+        "predicate": [
+          {
+            "or": [
+              "action:decipher-writing",
+              "action:identify-magic"
+            ]
+          }
+        ],
+        "type": "status"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 11
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "fI8Pj2Bk6N0Fm13N",
+  "img": "modules/game-icons-net/whitetransparent/book-aura.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1701362374891,
+    "modifiedTime": 1701368178542,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!fI8Pj2Bk6N0Fm13N"
+}

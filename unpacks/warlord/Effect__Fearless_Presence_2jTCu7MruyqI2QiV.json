@@ -1,0 +1,75 @@
+{
+  "folder": "1Ae7k0RvujYZl4cv",
+  "name": "Effect: Fearless Presence",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your warlord's presence keeps you from succumbing to fear. When you and allies within their Leadership Style's aura roll a success on a save against a fear effect, you get a critical success instead. <br />In addition, any time you or an ally within their aura gains the frightened condition, reduce the condition’s value by 1.</p>"
+    },
+    "rules": [
+      {
+        "key": "AdjustDegreeOfSuccess",
+        "selector": "will",
+        "predicate": [
+          "fear"
+        ],
+        "adjustment": {
+          "success": "one-degree-better"
+        }
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "2jTCu7MruyqI2QiV",
+  "img": "modules/game-icons-net/whitetransparent/rear-aura.svg",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1701364777345,
+    "modifiedTime": 1707759982993,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!2jTCu7MruyqI2QiV"
+}

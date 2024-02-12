@@ -1,0 +1,19 @@
+{
+  "name": "Skirmishing",
+  "sorting": "a",
+  "folder": "H3Pb9BhWacI9q9SQ",
+  "type": "Item",
+  "_id": "XKbs3IlbqBHYRN3C",
+  "sort": 400000,
+  "color": "#129e00",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": null,
+    "modifiedTime": 1701014938440,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!folders!XKbs3IlbqBHYRN3C"
+}

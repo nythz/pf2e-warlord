@@ -1,0 +1,71 @@
+{
+  "folder": "Y6n6IrKXcvcJrDgo",
+  "name": "Fifth Leadership Dice",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Certain features and feats for this class use your leadership dice, a d6, to power them. <br /><br />As your warlord level increases, so does the number of dice for your leadership dice.<br /><br />This feature raises the amount of Leadership Dice to 5d6.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e-warlord.dicecount",
+        "value": 1
+      }
+    ],
+    "slug": "fifth-leadership-dice",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "Ffs8nw16FMgvKEaX",
+  "img": "modules/game-icons-net/whitetransparent/perspective-dice-six-faces-five.svg",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1701104461277,
+    "modifiedTime": 1701120757451,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!Ffs8nw16FMgvKEaX"
+}

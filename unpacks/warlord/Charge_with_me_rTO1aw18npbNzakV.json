@@ -1,0 +1,66 @@
+{
+  "folder": "ZfrZP6mC8np1MxKl",
+  "name": "Charge with me",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You rush into the fray and inspire your allies to follow suit. Stride twice. All allies within 30 feet of your starting position gain a +10-foot status bonus to their speed for 1 round. If you end your movement within melee reach of at least one enemy, you can make a melee Strike against that enemy.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.ieHe25Jvc1HnZoE3]</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "flourish",
+        "visual",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "rTO1aw18npbNzakV",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1701009735945,
+    "modifiedTime": 1701296003153,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!rTO1aw18npbNzakV"
+}

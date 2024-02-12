@@ -1,0 +1,71 @@
+{
+  "folder": "GUv2Lp6jD7BhUrBG",
+  "name": "Bulwarking Command",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You inspire your ally to stand strong against coming danger. An ally within 30 feet of you gains a +1 status bonus to AC and saving throws, as well as temporary Hit Points equal to your Leadership Style's ability modifier plus half your level. <br />All effects last for 1 round.<br />@UUID[Compendium.pf2e-warlord.warlord.Item.II8VUbzl85rLPHzF]</p>"
+    },
+    "rules": [],
+    "slug": "bulwarking-command",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.869,
+        "foundry": "11.315",
+        "system": "5.9.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "modules/game-icons-net/whitetransparent/bell-shield.svg",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1691889030147,
+    "modifiedTime": 1701295555733,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_id": "Guj32UjoTST0nX7S",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "_key": "!items!Guj32UjoTST0nX7S"
+}

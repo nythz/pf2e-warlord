@@ -1,0 +1,100 @@
+{
+  "folder": "nPrgmGxSNX5zgSUk",
+  "name": "Paragon of Leadership",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>At 13th level, you are a master of helping your allies, able to influence your allies in more meaningful ways. You gain one of the following benefits depending on your Leadership Style: </p>\n<h3>Esoteric Leadership</h3>\n<p>You gain the @UUID[Compendium.pf2e-warlord.warlord.Item.osuhnIUiQbJ6zxaZ] feature.</p>\n<h3>Imposing Leadership</h3>\n<p>You gain the @UUID[Compendium.pf2e-warlord.warlord.Item.JJsf9MBcRBYxQkEX] feature.</p>\n<h3>Inspiring Leadership</h3>\n<p>You gain the @UUID[Compendium.pf2e-warlord.warlord.Item.thyKTSXDCX2Ql87B] feature.</p>\n<h3>Skirmishing Leadership</h3>\n<p>You gain the @UUID[Compendium.pf2e-warlord.warlord.Item.nwHFpgyS2eg0pHz6] feature.</p>\n<h3>Tactical Leadership</h3>\n<p>You gain the @UUID[Compendium.pf2e-warlord.warlord.Item.hPsXpQCrFPot4KMt] feature.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:esoteric-leadership"
+        ],
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.osuhnIUiQbJ6zxaZ"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:imposing-leadership"
+        ],
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.JJsf9MBcRBYxQkEX"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:inspiring-leadership"
+        ],
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.thyKTSXDCX2Ql87B"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:skirmishing-leadership"
+        ],
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.nwHFpgyS2eg0pHz6"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:tactical-leadership"
+        ],
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.hPsXpQCrFPot4KMt"
+      }
+    ],
+    "slug": "paragon-of-leadership",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "lI8MqhDWNESd58JT",
+  "img": "systems/pf2e/icons/features/classes/graceful-legend.webp",
+  "sort": 104688,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1700956659236,
+    "modifiedTime": 1701364160408,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!lI8MqhDWNESd58JT"
+}

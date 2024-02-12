@@ -1,0 +1,74 @@
+{
+  "folder": "PPpKJmcWSFHYXc4s",
+  "name": "Focus Fire",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency: </strong>Once per day</p>\n<hr />\n<p>You signal one enemy to be swiftly eliminated. Target an enemy within 60 feet of you. You and your allies deal additional precision damage against the target equal to your leadership dice. If the target of Focus Fire dies, you can switch targets to another enemy as a free action. Focus Fire ends after 1 minute.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "auditory",
+        "visual",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 20
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-warlord.warlord.Item.iuuCr8DvZnavV8lT",
+      "name": "Effect: Focus Fire Active"
+    }
+  },
+  "_id": "W056gyEuOoEPPWro",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.10.3",
+    "coreVersion": "11.315",
+    "createdTime": 1701046106685,
+    "modifiedTime": 1701727196935,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!W056gyEuOoEPPWro"
+}

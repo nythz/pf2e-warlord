@@ -1,0 +1,68 @@
+{
+  "folder": "zj5aihlvtV9609wM",
+  "name": "Continue the Example",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger:</strong> A creature within your reach uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it’s using.</p>\n<hr />\n<p><strong>Requirement:</strong> The triggering creature was damaged by your @UUID[Compendium.pf2e-warlord.warlord.Item.9clqogzPOaILZLHX] this round, either from your attack or from your chosen ally's attack.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.OvAcaAkgSe394MDC]{Effect: Marked to Continue the Example}</p>\n<p>You follow up on a wounded foe with another encouraging attack. Make a melee Strike against the triggering creature, and you can add your Leadership Style's ability modifier to the attack roll instead of your Strength or Dexterity modifier. If your attack is a critical hit, you disrupt the triggering action.</p>\n<p> </p>"
+    },
+    "rules": [],
+    "slug": "continue-the-example",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-warlord.warlord.Item.oLnwJbjf10LhvAcu",
+      "name": "Effect: Ready to Lead by Example"
+    }
+  },
+  "_id": "T4mZb5TSzWOCIF9G",
+  "img": "systems/pf2e/icons/actions/Reaction.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.11.0",
+    "coreVersion": "11.315",
+    "createdTime": 1701012051085,
+    "modifiedTime": 1702604959436,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!T4mZb5TSzWOCIF9G"
+}

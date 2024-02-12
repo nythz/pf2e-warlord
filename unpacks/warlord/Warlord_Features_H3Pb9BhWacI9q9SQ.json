@@ -1,0 +1,19 @@
+{
+  "name": "Warlord Features",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "color": "#303030",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1693431989736,
+    "modifiedTime": 1701352805759,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_id": "H3Pb9BhWacI9q9SQ",
+  "sort": 0,
+  "_key": "!folders!H3Pb9BhWacI9q9SQ"
+}

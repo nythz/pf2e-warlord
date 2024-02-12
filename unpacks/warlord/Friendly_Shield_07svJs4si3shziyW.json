@@ -1,0 +1,79 @@
+{
+  "img": "modules/game-icons-net/whitetransparent/attached-shield.svg",
+  "name": "Friendly Shield",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You brace your shield to guard your allies. You @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm] and an ally within 5 feet of you also gains the circumstance bonus to their AC as long as they stay adjacent to you.<br />@UUID[Compendium.pf2e-warlord.warlord.Item.JxVVvPSFu8vTInnh]</p>"
+    },
+    "rules": [],
+    "slug": "friendly-shield",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.869,
+        "foundry": "11.315",
+        "system": "5.9.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Wielding a Shield"
+        }
+      ]
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-warlord.warlord.Item.u8zJ8B34HWfdFQPk",
+      "name": "Effect: Friendly Shield (Self)"
+    }
+  },
+  "type": "feat",
+  "flags": {
+    "core": {}
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.2",
+    "coreVersion": "11.315",
+    "createdTime": 1691795192975,
+    "modifiedTime": 1707160654067,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "folder": "kqdJ1r4VVsFCzLwL",
+  "_id": "07svJs4si3shziyW",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "_key": "!items!07svJs4si3shziyW"
+}

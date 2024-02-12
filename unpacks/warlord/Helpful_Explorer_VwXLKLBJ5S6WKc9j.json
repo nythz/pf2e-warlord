@@ -1,0 +1,65 @@
+{
+  "folder": "kqdJ1r4VVsFCzLwL",
+  "name": "Helpful Explorer",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You help an ally do better in dangerous situations. As an exploration activity, you can Aid an ally's exploration activity. In place of Aid, you can use @UUID[Compendium.pf2e-warlord.warlord.Item.5UqFvLHK8Cp6Gfm9]{Helpful Word}.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "exploration",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "VwXLKLBJ5S6WKc9j",
+  "img": "modules/game-icons-net/whitetransparent/shaking-hands.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1701008691794,
+    "modifiedTime": 1701296044375,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!VwXLKLBJ5S6WKc9j"
+}

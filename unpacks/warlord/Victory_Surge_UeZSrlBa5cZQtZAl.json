@@ -1,0 +1,69 @@
+{
+  "folder": "tfLGNdzxBR5RhZLk",
+  "name": "Victory Surge",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency: </strong>Once per hour</p>\n<hr />\n<p>You let out a victorious battle cry to push your allies forward. You and all allies are quickened for 1 round and can use the extra action to Step, Stride, or Strike.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.5qA9lFJf8IE2qMpD]</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "command",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    }
+  },
+  "_id": "UeZSrlBa5cZQtZAl",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.10.3",
+    "coreVersion": "11.315",
+    "createdTime": 1701044483559,
+    "modifiedTime": 1701725622431,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!UeZSrlBa5cZQtZAl"
+}

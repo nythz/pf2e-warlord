@@ -1,0 +1,73 @@
+{
+  "folder": "MDvR8jSuekZxsuDE",
+  "name": "Harrowing Interruption",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger: </strong>An enemy within 30 feet of you critically succeeds<br />on a Strike against an ally</p>\n<hr />\n<p>You let out an intimidating cry that shakes the attacker's<br />steady hand. The enemy must reroll the attack roll and use<br />the second result.</p>"
+    },
+    "rules": [],
+    "slug": "harrowing-interruption",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "leadership-reaction"
+      ],
+      "value": [
+        "auditory",
+        "fortune",
+        "visual",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Imposing Leadership"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "bZXRiXvkZugWQlap",
+  "img": "systems/pf2e/icons/actions/Reaction.webp",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1700943778717,
+    "modifiedTime": 1701295571295,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!bZXRiXvkZugWQlap"
+}

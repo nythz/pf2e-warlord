@@ -1,0 +1,77 @@
+{
+  "folder": "X38oWLMcscghoffw",
+  "name": "Effect: Esoteric Paragon",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have dealt additional damage due to a Paragon of Esoteric Leadership.<br />You gain a +1 status bonus to AC and saving throws for 1 round.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "value": 1,
+        "type": "status"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throws",
+        "value": 1,
+        "type": "status"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 13
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "A6Ev3nEpshoMLwPI",
+  "img": "modules/pf2e-warlord/assets/eso-laurel-crown.svg",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.10.2",
+    "coreVersion": "11.315",
+    "createdTime": 1701105677987,
+    "modifiedTime": 1701538283764,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!A6Ev3nEpshoMLwPI"
+}

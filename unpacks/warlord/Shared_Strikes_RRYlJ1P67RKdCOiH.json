@@ -1,0 +1,68 @@
+{
+  "folder": "BPc50pcw1vZqyif5",
+  "name": "Shared Strikes",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger : </strong>The Chosen Ally for Commander's Strike Critically succeed their strike granted by it.</p>\n<hr />\n<p>Another ally builds off the momentum of your ordered assault.</p>\n<p>When the ally you chose for Commander's Strike critically succeeds at the Strike granted by that action, another ally can immediately use a reaction to Strike.</p>\n<p>Since the second ally wasn't the ally you chose for Commander's Strike, this efect doesn't continue to a third ally, even if the second ally also critically succeeds at their Strike.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Commander's Strike"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "RRYlJ1P67RKdCOiH",
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.4",
+    "coreVersion": "11.315",
+    "createdTime": 1701042239197,
+    "modifiedTime": 1707408289487,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!RRYlJ1P67RKdCOiH"
+}

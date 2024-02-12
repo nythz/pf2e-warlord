@@ -1,0 +1,81 @@
+{
+  "folder": "tfLGNdzxBR5RhZLk",
+  "name": "Effect: Avenge the Fallen",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>As a companion falls to their ground, the warlord call for retribution. You gain temporary Hit Points equal to the warlord's level and gains a +2 status bonus to attack rolls and skill checks. All effects last until the start of the triggering target's next turn.</p>"
+    },
+    "rules": [
+      {
+        "key": "TempHP",
+        "value": "@item.origin.level"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "attack-roll",
+        "value": 2,
+        "type": "status"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "skill-check",
+        "value": 2,
+        "type": "status"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "PlV3oRAnhYJBCsxO",
+  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1701043726234,
+    "modifiedTime": 1701295820725,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!PlV3oRAnhYJBCsxO"
+}

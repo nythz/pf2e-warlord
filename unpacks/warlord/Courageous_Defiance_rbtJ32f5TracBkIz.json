@@ -1,0 +1,70 @@
+{
+  "folder": "GUv2Lp6jD7BhUrBG",
+  "name": "Courageous Defiance",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger: </strong>An ally within 30 feet of you takes damage from a<br />melee Strike</p>\n<hr />\n<p>You encourage your ally to defiantly strike back. Your ally can<br />make a melee Strike against their attacker as a free action.</p>"
+    },
+    "rules": [],
+    "slug": "courageous-defiance",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "leadership-reaction"
+      ],
+      "value": [
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Inspiring Leadership"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "rbtJ32f5TracBkIz",
+  "img": "systems/pf2e/icons/actions/Reaction.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1700943803603,
+    "modifiedTime": 1701295554084,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!rbtJ32f5TracBkIz"
+}

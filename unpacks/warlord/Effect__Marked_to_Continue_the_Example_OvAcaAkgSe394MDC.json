@@ -1,0 +1,64 @@
+{
+  "folder": "zj5aihlvtV9609wM",
+  "name": "Effect: Marked to Continue the Example",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have taken damage from a Warlord's Lead by Example or their ally bonus damage given by Lead By Example.<br />The Warlord can react to your manipulate action or a move action, ranged attack, or leaves a square during a move action it’s using.</p>"
+    },
+    "rules": [],
+    "slug": "effect-marked-to-continue-the-example",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "OvAcaAkgSe394MDC",
+  "img": "modules/game-icons-net/whitetransparent/target-poster.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1701048847207,
+    "modifiedTime": 1701468534941,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!OvAcaAkgSe394MDC"
+}

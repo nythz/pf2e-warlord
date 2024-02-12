@@ -1,0 +1,213 @@
+{
+  "folder": "hsuJUFjg6IlUfY4a",
+  "name": "Effect: Ready to Lead by Example",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You are ready to encourage an ally with a bold attack.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "attack-roll",
+        "value": "@actor.abilities.{item|origin.class.system.keyAbility.selected}.mod"
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "override",
+        "selector": "attack-roll",
+        "value": 0,
+        "predicate": [
+          "modifier:type:ability"
+        ]
+      },
+      {
+        "key": "Note",
+        "title": "Success :",
+        "selector": "attack-roll",
+        "text": "@UUID[Compendium.pf2e-warlord.warlord.Item.57Cig48mDwF815P2]",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ]
+      },
+      {
+        "key": "Note",
+        "title": "Success :",
+        "selector": "attack-roll",
+        "text": "@UUID[Compendium.pf2e-warlord.warlord.Item.A6Ev3nEpshoMLwPI]",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "feature:esoteric-paragon"
+        ]
+      },
+      {
+        "key": "Note",
+        "title": "Success :",
+        "selector": "attack-roll",
+        "text": "@UUID[Compendium.pf2e-warlord.warlord.Item.iLIuXFTkBHDH7uDu]\n@UUID[Compendium.pf2e-warlord.warlord.Item.L8v8wmk8HGc1jcHR]",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "feature:imposing-paragon"
+        ]
+      },
+      {
+        "key": "Note",
+        "title": "Success :",
+        "selector": "attack-roll",
+        "text": "@UUID[Compendium.pf2e-warlord.warlord.Item.NXqJnUA1OUH2uy0L]",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "feature:inspiring-paragon"
+        ]
+      },
+      {
+        "key": "Note",
+        "title": "Success :",
+        "selector": "attack-roll",
+        "text": "@UUID[Compendium.pf2e-warlord.warlord.Item.f7LvMCHAqIHs7IAQ]",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "feature:skirmishing-paragon"
+        ]
+      },
+      {
+        "key": "Note",
+        "title": "Success :",
+        "selector": "attack-roll",
+        "text": "@UUID[Compendium.pf2e-warlord.warlord.Item.txmteDQ3zERE1GL4]",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "feature:tactical-paragon"
+        ]
+      },
+      {
+        "key": "Note",
+        "title": "Success :",
+        "selector": "attack-roll",
+        "text": "@UUID[Compendium.pf2e-warlord.warlord.Item.d6r9vg4dUdRDfphz]",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "feat:bleeding-follow-through"
+        ]
+      },
+      {
+        "key": "Note",
+        "selector": "damage",
+        "text": "@UUID[Compendium.pf2e-warlord.warlord.Item.OvAcaAkgSe394MDC]",
+        "outcome": [],
+        "predicate": [
+          "feat:continue-the-example"
+        ]
+      },
+      {
+        "key": "Note",
+        "selector": "attack-roll",
+        "text": "@UUID[Compendium.pf2e-warlord.warlord.Item.uTh9FMXwTPJ08h21]",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "feat:continue-the-example"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "athletics",
+        "value": "@actor.abilities.{item|origin.class.system.keyAbility.selected}.mod",
+        "predicate": [
+          "feat:athletic-leadership"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "override",
+        "selector": "athletics",
+        "value": 0,
+        "predicate": [
+          "modifier:type:ability",
+          "feat:athletic-leadership"
+        ]
+      }
+    ],
+    "slug": "effect-ready-to-lead-by-example",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.869,
+        "foundry": "11.315",
+        "system": "5.9.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "duration": {
+      "value": 0,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "level": {
+      "value": 1
+    },
+    "unidentified": false
+  },
+  "img": "modules/game-icons-net/whitetransparent/hammer-drop.svg",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.12.1",
+    "coreVersion": "11.315",
+    "createdTime": 1692547656197,
+    "modifiedTime": 1704657997760,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_id": "oLnwJbjf10LhvAcu",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "_key": "!items!oLnwJbjf10LhvAcu"
+}

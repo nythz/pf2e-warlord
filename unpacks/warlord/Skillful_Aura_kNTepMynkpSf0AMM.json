@@ -1,0 +1,105 @@
+{
+  "folder": "d19Wb7y6GY5Yfq2g",
+  "name": "Skillful Aura",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Grants bonus to you and your allies within your leadership style aura: </p>\n<h3>Esoteric Leadership</h3>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.D1nZpwMhHlJuPxDg]</p>\n<h3>Imposing Leadership</h3>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.EvXS2VVNgTIU0lBj]</p>\n<h3>Inspiring Leadership</h3>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.dRHFBe0Cq7luNqTW]</p>\n<h3>Skirmishing Leadership</h3>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.K01azHwOzlBj2VGV]</p>\n<h3>Tactical Leadership</h3>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.nSXzyTe8e35c2YQm]</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:esoteric-leadership"
+        ],
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.D1nZpwMhHlJuPxDg",
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:imposing-leadership"
+        ],
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.EvXS2VVNgTIU0lBj",
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:inspiring-leadership"
+        ],
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.dRHFBe0Cq7luNqTW",
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:skirmishing-leadership"
+        ],
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.K01azHwOzlBj2VGV",
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:tactical-leadership"
+        ],
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.nSXzyTe8e35c2YQm",
+        "reevaluateOnUpdate": true
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 5,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "kNTepMynkpSf0AMM",
+  "img": "modules/game-icons-net/whitetransparent/book-aura.svg",
+  "sort": 106250,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1701361663731,
+    "modifiedTime": 1707756496772,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!kNTepMynkpSf0AMM"
+}

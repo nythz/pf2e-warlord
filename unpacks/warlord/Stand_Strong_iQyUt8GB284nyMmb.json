@@ -1,0 +1,67 @@
+{
+  "folder": "BPc50pcw1vZqyif5",
+  "name": "Stand Strong",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger:</strong> An ally within 30 feet of you critically fails or fails a saving throw</p>\n<hr />\n<p>Your words help your ally refocus themselves. Your ally can reroll the saving throw and uses the second result. Your ally is then temporarily immune to your Stand Strong for 1 hour.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.l1A5Slf9TrrtAHIo]</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "auditory",
+        "fortune",
+        "visual",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "iQyUt8GB284nyMmb",
+  "img": "systems/pf2e/icons/actions/Reaction.webp",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1701042572093,
+    "modifiedTime": 1707756456961,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!iQyUt8GB284nyMmb"
+}

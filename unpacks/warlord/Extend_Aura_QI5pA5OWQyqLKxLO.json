@@ -1,0 +1,65 @@
+{
+  "folder": "tfLGNdzxBR5RhZLk",
+  "name": "Extend Aura",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "<p>Unsure how to implement<br />GM needs to adjust aura size manually up and then back to regular</p>",
+      "value": "<p>You push yourself to expand your influence. Select one aura you have from a warlord feat or feature, such as Fearless Presence or your Leadership Style aura. The radius of the aura increases by 10-feet until the start of your next turn.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.S65uhGtHDy2BBb8d]</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "QI5pA5OWQyqLKxLO",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1701043897247,
+    "modifiedTime": 1701298494883,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!QI5pA5OWQyqLKxLO"
+}

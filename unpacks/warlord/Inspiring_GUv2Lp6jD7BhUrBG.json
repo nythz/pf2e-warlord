@@ -1,0 +1,19 @@
+{
+  "name": "Inspiring",
+  "sorting": "a",
+  "folder": "H3Pb9BhWacI9q9SQ",
+  "type": "Item",
+  "_id": "GUv2Lp6jD7BhUrBG",
+  "sort": 300000,
+  "color": "#c5ab02",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": null,
+    "modifiedTime": 1701014937186,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!folders!GUv2Lp6jD7BhUrBG"
+}

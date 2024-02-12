@@ -1,0 +1,75 @@
+{
+  "folder": "64Nj1MjQQNS8Uase",
+  "name": "Effect: Warlord's Doom",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your next saving throw is treated as one degree of success lower.</p>"
+    },
+    "rules": [
+      {
+        "key": "AdjustDegreeOfSuccess",
+        "type": "save",
+        "selector": "saving-throw",
+        "adjustment": {
+          "criticalSuccess": "one-degree-worse",
+          "success": "one-degree-worse",
+          "failure": "one-degree-worse"
+        }
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 18
+    },
+    "duration": {
+      "value": -1,
+      "unit": "encounter",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "doeLlGjJsjRPiKDJ",
+  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1701045800337,
+    "modifiedTime": 1701375712223,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!doeLlGjJsjRPiKDJ"
+}

@@ -1,0 +1,71 @@
+{
+  "folder": "xEVCR1yyZwntlMF6",
+  "name": "Effect: Strategic Observation Critical",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Critical Success:</strong> You gain a +1 circumstance bonus to attack rolls against the target for 1 minute.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "attack",
+        "value": 1,
+        "type": "circumstance"
+      }
+    ],
+    "slug": "strategic-observation-effect-crit",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "SiSVQLpYiGG1FvNQ",
+  "img": "modules/game-icons-net/whitetransparent/magnifying-glass.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1700959792289,
+    "modifiedTime": 1701296166084,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!SiSVQLpYiGG1FvNQ"
+}

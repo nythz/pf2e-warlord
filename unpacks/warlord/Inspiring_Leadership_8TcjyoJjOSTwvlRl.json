@@ -1,0 +1,82 @@
+{
+  "name": "Inspiring Leadership",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your charismatic presence uplifts your allies to stand against all odds.</p>\n<p>Charisma is your key ability.</p>\n<p>You are trained in Diplomacy.</p>\n<p>You are also surrounded by a warlord's aura in a 10-foot emanation. You and allies within the aura gain a +1 status bonus to Recovery checks and saves against fear effects.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.cZl5lcgrsLvBchpZ]{Inspiring Warlord's Aura}</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.dip.rank",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.cZl5lcgrsLvBchpZ"
+      }
+    ],
+    "slug": "inspiring-leadership",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "leadership-style"
+      ],
+      "value": [
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "keyOptions": [
+        "cha"
+      ]
+    }
+  },
+  "_id": "8TcjyoJjOSTwvlRl",
+  "img": "modules/pf2e-warlord/assets/ins-flying-flag.svg",
+  "folder": "GUv2Lp6jD7BhUrBG",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.10.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700942706380,
+    "modifiedTime": 1701537825188,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!8TcjyoJjOSTwvlRl"
+}

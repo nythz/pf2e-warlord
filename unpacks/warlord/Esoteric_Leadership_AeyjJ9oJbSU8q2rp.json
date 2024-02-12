@@ -1,0 +1,108 @@
+{
+  "folder": "X38oWLMcscghoffw",
+  "name": "Esoteric Leadership",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You are as comfortable leading magic users as you are leading warriors.</p>\n<p>Choose Charisma, Intelligence, or Wisdom as your key ability.</p>\n<p>You are trained in your choice of Arcana, Occultism, Nature, or Religion.</p>\n<p>You are also surrounded by a warlord's aura in a 10-foot emanation. Your aura has the visual trait and grants you and allies within the aura a +1 status bonus to spell attack rolls.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.NZEP8vqmFxBedEDl"
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.SkillArcana",
+            "value": "system.skills.arc.rank"
+          },
+          {
+            "label": "PF2E.SkillNature",
+            "value": "system.skills.nat.rank"
+          },
+          {
+            "label": "PF2E.SkillOccultism",
+            "value": "system.skills.occ.rank"
+          },
+          {
+            "label": "PF2E.SkillReligion",
+            "value": "system.skills.rel.rank"
+          }
+        ],
+        "flag": "EsotericLeadership",
+        "key": "ChoiceSet",
+        "prompt": "Choose your Trained Esoteric Skill :"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "{item|flags.pf2e.rulesSelections.EsotericLeadership}",
+        "value": 1
+      }
+    ],
+    "slug": "esoteric-leadership",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "leadership-style"
+      ],
+      "value": [
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "keyOptions": [
+        "int",
+        "cha",
+        "wis"
+      ]
+    }
+  },
+  "_id": "AeyjJ9oJbSU8q2rp",
+  "img": "modules/pf2e-warlord/assets/eso-flying-flag.svg",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.10.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700942681050,
+    "modifiedTime": 1701537927366,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!AeyjJ9oJbSU8q2rp"
+}

@@ -1,0 +1,83 @@
+{
+  "img": "modules/pf2e-warlord/assets/ins-beams-aura.svg",
+  "name": "Effect: Inspiring Warlord's Aura",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by being inside an Inspiring Warlord's Aura.</p>\n<hr />\n<p>This aura has the emotion, mental, and visual traits and grants you and allies within the aura a +1 status bonus to saving throws against fear.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "fear"
+        ],
+        "selector": "saving-throw",
+        "type": "status",
+        "value": 1
+      }
+    ],
+    "slug": "inspiring-warlords-aura-effect",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.869,
+        "foundry": "11.315",
+        "system": "5.9.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "target": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "flags": {
+    "core": {}
+  },
+  "effects": [],
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.10.2",
+    "coreVersion": "11.315",
+    "createdTime": 1691794777376,
+    "modifiedTime": 1701537805200,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "folder": "GUv2Lp6jD7BhUrBG",
+  "_id": "5jObRHquSf4eZWDw",
+  "sort": 250000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "_key": "!items!5jObRHquSf4eZWDw"
+}

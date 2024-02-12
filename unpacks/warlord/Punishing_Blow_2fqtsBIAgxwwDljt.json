@@ -1,0 +1,68 @@
+{
+  "folder": "tfLGNdzxBR5RhZLk",
+  "name": "Punishing Blow",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger: </strong>Your Ally strike caused by @UUID[Compendium.pf2e-warlord.warlord.Item.0dREc0ZJS8P9Uuky] hits.</p>\n<hr />\n<p>Your ally's strike against the shoved target deals additional precision damage equal to your leadership dice.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Create a Target"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "2fqtsBIAgxwwDljt",
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.5",
+    "coreVersion": "11.315",
+    "createdTime": 1701043961657,
+    "modifiedTime": 1707605130356,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!2fqtsBIAgxwwDljt"
+}

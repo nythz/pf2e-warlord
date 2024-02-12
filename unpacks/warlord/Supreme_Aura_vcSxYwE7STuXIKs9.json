@@ -1,0 +1,100 @@
+{
+  "folder": "nPrgmGxSNX5zgSUk",
+  "name": "Supreme Aura",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>At 17th level, you emanate an unwavering influence on your allies. Your Leadership Style's aura extends to 30 feet.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:esoteric-leadership"
+        ],
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.iWTCrPE7AU0CEZV1"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:imposing-leadership"
+        ],
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.9tycamuGFEEXcFtP"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:inspiring-leadership"
+        ],
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.sf7iQQm3RgvnwRmJ"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:skirmishing-leadership"
+        ],
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.QQf6IlIxjUnKg0ui"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "feature:tactical-leadership"
+        ],
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.BkNzI6hSqiOou8PK"
+      }
+    ],
+    "slug": "supreme-aura",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "vcSxYwE7STuXIKs9",
+  "img": "systems/pf2e/icons/features/classes/spirit-instinct.webp",
+  "sort": 109375,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1700956360222,
+    "modifiedTime": 1701361004850,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!vcSxYwE7STuXIKs9"
+}

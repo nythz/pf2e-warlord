@@ -1,3 +1,8 @@
+# 1.3.0
+---
+- Initial Foundry package release
+- Removed testing opacity on Friendly Shield's reach aura
+
 # 1.2.2
 ---
 - Removed aura on Shielding Bastion (feat) as it only needs to be on the active self effect

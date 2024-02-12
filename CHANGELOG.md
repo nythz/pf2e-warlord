@@ -1,3 +1,7 @@
+# 1.2.2
+---
+- Removed aura on Shielding Bastion (feat) as it only needs to be on the active self effect
+
 # 1.2.1
 ---
 - Corrected Pack type for journal compendiums to "JournalEntry"

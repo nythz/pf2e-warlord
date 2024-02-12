@@ -1,3 +1,10 @@
+# 1.2.0
+---
+- Added Warlord Journals compendium for notes about the class or Automation homebrew options through other optional modules
+- Added the Active Effect of Effect:Raise a Shield to Friendly Shield, Shielding Order and Shielding Bastion as self effects
+- Added a 5ft Aura to Friendly Shield so the bonus is only active if the chosen ally is next to the Warlord
+- Added missing Aura to Shielding Bastion as it affects all adjacent allies
+
 # 1.1.1
 ---
 - Restored missing warlord item DB

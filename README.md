@@ -76,3 +76,44 @@ You can also find issues I lack knowledge on how to fix them in the issue sectio
   - For checking this module
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H3RNO4N)
+
+
+# Licensing
+- Homebrew class shared and modified with permission of original Author u/fanatic66
+- Icons from game-icons.net module provided under the [Creative Commons 3.0 BY](http://creativecommons.org/licenses/by/3.0/) from Authors : 
+  - Lorc, http://lorcblog.blogspot.com
+  - Delapouite, http://delapouite.com
+  - Caro Asercion
+  - Skoll
+
+<!--other game-icons.net authors that I haven't used icons from:
+- John Colburn, http://ninmunanmu.com
+- Felbrigg, http://blackdogofdoom.blogspot.co.uk
+- John Redman, http://www.uniquedicetowers.com
+- Carl Olsen, https://twitter.com/unstoppableCarl
+- Sbed, http://opengameart.org/content/95-game-icons
+- PriorBlue
+- Willdabeast, http://wjbstories.blogspot.com
+- Viscious Speed, http://viscious-speed.deviantart.com - CC0
+- Lord Berandas, http://berandas.deviantart.com
+- Irongamer, http://ecesisllc.wix.com/home
+- HeavenlyDog, http://www.gnomosygoblins.blogspot.com
+- Lucas
+- Faithtoken, http://fungustoken.deviantart.com
+- Andy Meneely, http://www.se.rit.edu/~andy/
+- Cathelineau
+- Kier Heyl
+- Aussiesim
+- Sparker, http://citizenparker.com
+- Zeromancer - CC0
+- Rihlsul
+- Quoting
+- Guard13007, https://guard13007.com
+- DarkZaitzev, http://darkzaitzev.deviantart.com
+- SpencerDub
+- GeneralAce135
+- Zajkonur
+- Catsu
+- Starseeker
+- Pepijn Poolman
+- Pierre Leducq -->

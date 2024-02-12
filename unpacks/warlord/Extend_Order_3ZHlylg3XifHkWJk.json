@@ -1,0 +1,65 @@
+{
+  "folder": "zj5aihlvtV9609wM",
+  "name": "Extend Order",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "<p>GM needs to manually extend the effect's duration</p>",
+      "value": "<p>You elaborate on your command to ensure your companions prioritize your advice. If your next action is to use an action with the Command trait with a duration of 1 round, you can attempt a check using your Warlord Class proficiency. The DC is usually a standard-difficulty DC of a level equal to the highest-level target of your command, but the GM can assign a different DC based on the circumstances. The effect<br />depends on the result of your check. </p>\n<p><strong>Critical Success:</strong> The command lasts 4 rounds.<br /><strong>Success: </strong>The command lasts 3 rounds.<br /><strong>Failure: </strong>The command lasts 2 rounds.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "3ZHlylg3XifHkWJk",
+  "img": "modules/game-icons-net/whitetransparent/pointing.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1701012220993,
+    "modifiedTime": 1701378241413,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!3ZHlylg3XifHkWJk"
+}

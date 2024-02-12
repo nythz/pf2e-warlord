@@ -1,0 +1,19 @@
+{
+  "name": "Esoteric",
+  "sorting": "a",
+  "folder": "H3Pb9BhWacI9q9SQ",
+  "type": "Item",
+  "_id": "X38oWLMcscghoffw",
+  "sort": 100000,
+  "color": "#a21597",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": null,
+    "modifiedTime": 1701014934230,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!folders!X38oWLMcscghoffw"
+}

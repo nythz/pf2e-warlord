@@ -1,0 +1,65 @@
+{
+  "folder": "XKbs3IlbqBHYRN3C",
+  "name": "Move Command",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You urge your ally to shift their positions to a more favorable one. An ally within 30 feet is quickened for 1 round and can use the additional action to Step or Stride.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.KAMlzQjblop33mWO]</p>"
+    },
+    "rules": [],
+    "slug": "move-command",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "command",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "vdzA3klWSRITL3Xq",
+  "img": "modules/game-icons-net/whitetransparent/tread.svg",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1700943701250,
+    "modifiedTime": 1701296276386,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!vdzA3klWSRITL3Xq"
+}

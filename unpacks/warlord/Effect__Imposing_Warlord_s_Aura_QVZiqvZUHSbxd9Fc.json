@@ -1,0 +1,71 @@
+{
+  "folder": "MDvR8jSuekZxsuDE",
+  "name": "Effect: Imposing Warlord's Aura",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by being inside an Imposing Warlord's Aura.</p>\n<hr />\n<p>This aura has the visual traits and grants you and allies within the aura a +1 status bonus to Intimidation checks.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "intimidation",
+        "value": 1,
+        "type": "status"
+      }
+    ],
+    "slug": "imposing-warlords-aura-effect",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "QVZiqvZUHSbxd9Fc",
+  "img": "modules/pf2e-warlord/assets/imp-beams-aura.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.10.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700948686816,
+    "modifiedTime": 1701537867034,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!QVZiqvZUHSbxd9Fc"
+}

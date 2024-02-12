@@ -1,0 +1,122 @@
+{
+  "folder": "GUv2Lp6jD7BhUrBG",
+  "name": "Greater Inspiring Warlord's Aura",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You are surrounded by a warlord's aura in a 20-foot emanation. You and allies within the aura gain a +2 status bonus to Recovery checks and saves against fear effects.<br />@UUID[Compendium.pf2e-warlord.warlord.Item.fg7AGFCGppSMtGq2]{Greater Inspiring Warlord's Aura (Effect)}</p>"
+    },
+    "rules": [
+      {
+        "key": "Aura",
+        "radius": 20,
+        "slug": "warlords-aura",
+        "traits": [
+          "emotion",
+          "mental",
+          "visual"
+        ],
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.fg7AGFCGppSMtGq2",
+            "affects": "allies"
+          },
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.rFmMYu0Gqp6DqRBB",
+            "predicate": [
+              "feat:skillful-aura"
+            ]
+          },
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.2jTCu7MruyqI2QiV",
+            "predicate": [
+              "feat:fearless-presence",
+              {
+                "not": "feat:courageous-presence"
+              }
+            ]
+          },
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.G6xjdQvrDmCX0tsq",
+            "predicate": [
+              "feat:courageous-presence"
+            ]
+          }
+        ],
+        "appearance": {
+          "border": {
+            "color": "user-color"
+          }
+        },
+        "predicate": [
+          {
+            "not": "feature:supreme-inspiring-warlords-aura"
+          }
+        ]
+      }
+    ],
+    "slug": "greater-inspiring-warlords-aura",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.869,
+        "foundry": "11.315",
+        "system": "5.9.5"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "emotion",
+        "mental",
+        "visual",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 11
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-warlord/assets/ins-icicles-aura.svg",
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.10.2",
+    "coreVersion": "11.315",
+    "createdTime": 1691794720184,
+    "modifiedTime": 1701537823666,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "_id": "FhUph0uwwahQoc9Q",
+  "sort": 0,
+  "_key": "!items!FhUph0uwwahQoc9Q"
+}

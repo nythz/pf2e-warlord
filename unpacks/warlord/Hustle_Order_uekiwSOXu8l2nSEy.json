@@ -1,0 +1,65 @@
+{
+  "folder": "ZfrZP6mC8np1MxKl",
+  "name": "Hustle Order",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your commands push your allies to move quicker. If your next action is to use an action with the Command trait, then one ally affected by the command gains a +10-foot circumstance bonus to speed for 1 round.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.CbfyUKkdTNt7ioyh]</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "uekiwSOXu8l2nSEy",
+  "img": "modules/game-icons-net/whitetransparent/pointing.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1701011452337,
+    "modifiedTime": 1701297504007,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!uekiwSOXu8l2nSEy"
+}

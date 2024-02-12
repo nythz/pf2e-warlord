@@ -1,0 +1,69 @@
+{
+  "folder": "ZfrZP6mC8np1MxKl",
+  "name": "Hybrid Leadership",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "<p>Aura won't upgrade by itself with Greater Aura(11) / Supreme Aura (17)</p>",
+      "value": "<p>You dabble in other types of command. Choose a type of Leadership Style other than that of your own. You gain the aura associated with the chosen Leadership Style, and you can take feats with the other Leadership Style as a prerequisite, as long as you satisfy all prerequisites. You don’t gain any of the other effects of the chosen Leadership Style. </p>\n<p><strong>Special:</strong> You can take this feat multiple times. Each time you do, you must choose a different type of Leadership Style other than that of your own.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.Ojb2WIndp08KNMBa"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 4,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "32Psw9Ivzv7cv4Uw",
+  "img": "systems/pf2e/icons/default-icons/feat.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1701011587198,
+    "modifiedTime": 1701380099306,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!32Psw9Ivzv7cv4Uw"
+}

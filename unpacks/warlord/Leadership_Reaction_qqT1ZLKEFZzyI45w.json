@@ -1,0 +1,105 @@
+{
+  "folder": "nPrgmGxSNX5zgSUk",
+  "name": "Leadership Reaction",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>At 7th level, you can quickly assist an ally in the chaos of battle. You gain a new reaction based on your Leadership Style:</p>\n<h3><strong>Esoteric Leadership</strong></h3>\n<p>You gain the @UUID[Compendium.pf2e-warlord.warlord.Item.7D41MltcT2l6FOT2]{Magical Defense} reaction.</p>\n<h3>Imposing Leadership</h3>\n<p>You gain the @UUID[Compendium.pf2e-warlord.warlord.Item.bZXRiXvkZugWQlap]{Harrowing Interruption} reaction.</p>\n<h3>Inspiring Leadership</h3>\n<p>You gain the @UUID[Compendium.pf2e-warlord.warlord.Item.rbtJ32f5TracBkIz]{Courageous Defiance} reaction.</p>\n<h3>Skirmishing Leadership</h3>\n<p>You gain the @UUID[Compendium.pf2e-warlord.warlord.Item.IvwlpksVyqXt6GOp]{Guerilla Tactics} reaction.</p>\n<h3>Tactical Leadership</h3>\n<p>You gain the @UUID[Compendium.pf2e-warlord.warlord.Item.6jIyks4I1rUcTMDd]{Adjusted Strike} reaction.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.7D41MltcT2l6FOT2",
+        "predicate": [
+          "feature:esoteric-leadership"
+        ],
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.bZXRiXvkZugWQlap",
+        "predicate": [
+          "feature:imposing-leadership"
+        ],
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.rbtJ32f5TracBkIz",
+        "predicate": [
+          "feature:inspiring-leadership"
+        ],
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.IvwlpksVyqXt6GOp",
+        "predicate": [
+          "feature:skirmishing-leadership"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.6jIyks4I1rUcTMDd",
+        "predicate": [
+          "feature:tactical-leadership"
+        ]
+      }
+    ],
+    "slug": "leadership-reaction",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "qqT1ZLKEFZzyI45w",
+  "img": "systems/pf2e/icons/features/classes/heros-defiance.webp",
+  "sort": 103125,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1700953308742,
+    "modifiedTime": 1701295659731,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!qqT1ZLKEFZzyI45w"
+}

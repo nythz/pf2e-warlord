@@ -1,0 +1,96 @@
+{
+  "folder": "tfLGNdzxBR5RhZLk",
+  "name": "Effect: Shielding Bastion (Self)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You add your shield's circumstance bonus to your Reflex Saves.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "reflex",
+        "value": "@actor.system.attribute.shield.ac",
+        "type": "circumstance"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.attributes.shield.raised",
+        "predicate": [
+          "self:shield:equipped",
+          {
+            "nor": [
+              "self:shield:broken",
+              "self:shield:destroyed"
+            ]
+          }
+        ],
+        "value": true
+      },
+      {
+        "key": "Aura",
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.gii3Ze5bKAQ1XeaO",
+            "affects": "allies",
+            "includesSelf": false
+          }
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "1dO4uNPl0Uw64iZ4",
+  "img": "modules/game-icons-net/whitetransparent/crenulated-shield.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1701044246664,
+    "modifiedTime": 1707756622842,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!1dO4uNPl0Uw64iZ4"
+}

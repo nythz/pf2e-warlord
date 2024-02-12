@@ -1,0 +1,73 @@
+{
+  "folder": "xEVCR1yyZwntlMF6",
+  "name": "Effect: Supreme Tactical Warlord's Aura",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by being inside an Tactical Warlord's Aura.</p>\n<hr />\n<p>This aura has the visual trait and grants you and allies within the aura a +2 status bonus to initiative rolls.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "initiative",
+        "value": 2,
+        "type": "status"
+      }
+    ],
+    "slug": "tactical-warlords-aura-effect",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "modules/pf2e-warlord/assets/tac-aura.svg",
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.10.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700948737202,
+    "modifiedTime": 1701537391575,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_id": "6N0EkxcpjwWfSmM2",
+  "sort": 0,
+  "_key": "!items!6N0EkxcpjwWfSmM2"
+}

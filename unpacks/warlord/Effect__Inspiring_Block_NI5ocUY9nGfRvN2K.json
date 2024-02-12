@@ -1,0 +1,69 @@
+{
+  "folder": "BPc50pcw1vZqyif5",
+  "name": "Effect: Inspiring Block",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Saving you from harm inspires you to stay in the fight longer. You gain temporary Hit Points equal to the warlord's Leadership Style's ability modifier plus their level. The temporary Hit Points last until the start of turn that triggered the Shield Block reaction.</p>"
+    },
+    "rules": [
+      {
+        "key": "TempHP",
+        "value": "@item.origin.abilities.{item|origin.class.system.keyAbility.selected}.mod + @item.origin.level"
+      }
+    ],
+    "slug": "effect-inspiring-block",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "round-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "NI5ocUY9nGfRvN2K",
+  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.4",
+    "coreVersion": "11.315",
+    "createdTime": 1701041942874,
+    "modifiedTime": 1707408289487,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!NI5ocUY9nGfRvN2K"
+}

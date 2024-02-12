@@ -1,0 +1,82 @@
+{
+  "name": "Imposing Leadership",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your intimidating presence makes allies quickly follow your orders but also terrify your foes.</p>\n<p>Charisma is your key ability.</p>\n<p>You are trained in Intimidation.</p>\n<p>You are also surrounded by a warlord's aura in a 10-foot emanation. Your aura has the visual trait and grants you and allies within the aura a +1 status bonus to Intimidation checks.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.RzznwRvMHHejsPPm"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.int.rank",
+        "value": 1
+      }
+    ],
+    "slug": "imposing-leadership",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [
+        "leadership-style"
+      ],
+      "value": [
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "keyOptions": [
+        "cha"
+      ]
+    }
+  },
+  "_id": "L4lE9PmNeDVytpku",
+  "img": "modules/pf2e-warlord/assets/imp-flying-flag.svg",
+  "folder": "MDvR8jSuekZxsuDE",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.10.2",
+    "coreVersion": "11.315",
+    "createdTime": 1700942693444,
+    "modifiedTime": 1701537930995,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!L4lE9PmNeDVytpku"
+}

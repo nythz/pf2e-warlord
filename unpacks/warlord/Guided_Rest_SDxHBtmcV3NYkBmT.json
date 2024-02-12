@@ -1,0 +1,65 @@
+{
+  "folder": "1Ae7k0RvujYZl4cv",
+  "name": "Guided Rest",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "<p>GM needs manually apply the effect</p>",
+      "value": "<p>Under your leadership, your allies rest more easily at night. When resting, you and all allies regain double the number of Hit Points and reduce the severity of the doomed and drained conditions by 2.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "exploration",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "SDxHBtmcV3NYkBmT",
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1701012852224,
+    "modifiedTime": 1701364804201,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!SDxHBtmcV3NYkBmT"
+}

@@ -1,0 +1,64 @@
+{
+  "folder": "MDvR8jSuekZxsuDE",
+  "name": "Imposing Paragon",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "<p>Unsure how to implement</p>",
+      "value": "<p>When an ally deals precision damage from your Lead By Example action, the ally's damage ignores an amount of resistance to the damage type equal to half your level. The damaged creature's resistance is then reduced by the same amount for 1 round.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.iLIuXFTkBHDH7uDu]</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.L8v8wmk8HGc1jcHR]</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "JJsf9MBcRBYxQkEX",
+  "img": "modules/pf2e-warlord/assets/imp-laurel-crown.svg",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.10.2",
+    "coreVersion": "11.315",
+    "createdTime": 1701106377096,
+    "modifiedTime": 1701538282373,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!JJsf9MBcRBYxQkEX"
+}

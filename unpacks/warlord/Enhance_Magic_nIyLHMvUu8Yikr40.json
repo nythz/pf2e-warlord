@@ -1,0 +1,69 @@
+{
+  "folder": "X38oWLMcscghoffw",
+  "name": "Enhance Magic",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You push an ally to empower their magic in a time of need. An ally within 30 feet is quickened for 1 round and can use the additional action to use an action with the spellshape trait.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.mjaNvKUJZAHfPMON]</p>"
+    },
+    "rules": [],
+    "slug": "enhance-magic",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "command",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Esoteric Leadership"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "nIyLHMvUu8Yikr40",
+  "img": "modules/game-icons-net/whitetransparent/wizard-staff.svg",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.10.3",
+    "coreVersion": "11.315",
+    "createdTime": 1700943653050,
+    "modifiedTime": 1701713104121,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!nIyLHMvUu8Yikr40"
+}

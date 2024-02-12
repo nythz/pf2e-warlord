@@ -1,0 +1,64 @@
+{
+  "folder": "GUv2Lp6jD7BhUrBG",
+  "name": "Inspiring Paragon",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When an ally deals precision damage from your Lead By Example action, the ally gains temporary hit points equal to half your level that last for 1 round. </p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.NXqJnUA1OUH2uy0L]</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "thyKTSXDCX2Ql87B",
+  "img": "modules/pf2e-warlord/assets/ins-laurel-crown.svg",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.10.2",
+    "coreVersion": "11.315",
+    "createdTime": 1701106387637,
+    "modifiedTime": 1701538281170,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!thyKTSXDCX2Ql87B"
+}

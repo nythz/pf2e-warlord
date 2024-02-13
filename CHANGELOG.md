@@ -1,6 +1,7 @@
 # 1.4.0
 ---
-- Fixed Shielding bastion not recognizing the actor's shield for the bonus to reflex saves
+- Fixed Shielding bastion not finding the actor's shield for the bonus to reflex saves
+- Removed testing visuals for Friendly Shield and Shielding Bastion's Auras
 - 
 
 # 1.3.0 - 1.3.2b

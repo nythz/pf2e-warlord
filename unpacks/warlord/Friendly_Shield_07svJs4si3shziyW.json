@@ -4,7 +4,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You brace your shield to guard your allies. You @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm] and an ally within 5 feet of you also gains the circumstance bonus to their AC as long as they stay adjacent to you.<br />@UUID[Compendium.pf2e-warlord.warlord.Item.JxVVvPSFu8vTInnh]</p>"
+      "value": "<p>You brace your shield to guard your allies. You @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm] and an ally within 5 feet also gains the circumstance bonus to their AC as long as they stay adjacent.<br />@UUID[Compendium.pf2e-warlord.warlord.Item.JxVVvPSFu8vTInnh]</p>"
     },
     "rules": [],
     "slug": "friendly-shield",

@@ -1,4 +1,9 @@
-# 1.3.0
+# 1.4.0
+---
+- Fixed Shielding bastion not recognizing the actor's shield for the bonus to reflex saves
+- 
+
+# 1.3.0 - 1.3.2b
 ---
 - Initial Foundry package release
 - Removed testing opacity on Friendly Shield's reach aura

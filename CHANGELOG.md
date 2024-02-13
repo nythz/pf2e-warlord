@@ -6,7 +6,7 @@
 
 # 1.3.0 - 1.3.2b
 ---
-- Initial Foundry package release
+- Initial Foundry package release (took a few releases to get the on release action to work)
 - Removed testing opacity on Friendly Shield's reach aura
 
 # 1.2.2

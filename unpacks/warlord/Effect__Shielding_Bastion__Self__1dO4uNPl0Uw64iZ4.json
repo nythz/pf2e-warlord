@@ -12,8 +12,8 @@
       {
         "key": "FlatModifier",
         "selector": "reflex",
-        "value": "@actor.system.attribute.shield.ac",
-        "type": "circumstance"
+        "type": "circumstance",
+        "value": "@actor.system.attributes.shield.ac"
       },
       {
         "key": "ActiveEffectLike",
@@ -38,7 +38,15 @@
             "affects": "allies",
             "includesSelf": false
           }
-        ]
+        ],
+        "appearance": {
+          "border": {
+            "alpha": 0
+          },
+          "highlight": {
+            "alpha": 0
+          }
+        }
       }
     ],
     "slug": null,
@@ -89,7 +97,7 @@
     "systemVersion": "5.13.6",
     "coreVersion": "11.315",
     "createdTime": 1701044246664,
-    "modifiedTime": 1707756622842,
+    "modifiedTime": 1707787811294,
     "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
   },
   "_key": "!items!1dO4uNPl0Uw64iZ4"

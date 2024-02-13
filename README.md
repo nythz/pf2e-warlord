@@ -1,5 +1,5 @@
 # PF2e Warlord Homebrew for Foundry VTT
-### Based on the work of [u/fanatic66](https://reddit.com/user/fanatic66/submitted/), implemented and updated by Nythz
+### Based on the work of [u/fanatic66](https://old.reddit.com/r/Pathfinder2eCreations/comments/p5hht6/warlord_v45_lead_your_allies_to_victory/), implemented and updated by Nythz
 
 Lead your allies towards victory by buffing them to perform even better, either with commands to prepare, defensive abilities to keep them alive or even by leading them by example to deal extra damage.
 
@@ -14,7 +14,7 @@ Lead your allies towards victory by buffing them to perform even better, either 
 - Become a front-line buffer by using athletics to help your ally land and increase their damage.
 - Become a back-line support, giving your allies buffs or even quickened actions through orders.
 
-### This is a module for FoundryVTT PF2e game system that adds the Warlord class as homebrewed by [u/fanatic66](https://reddit.com/user/fanatic66/submitted/) and adjusted for the remaster, foundry integration and balance by Nythz.
+### This is a module for FoundryVTT PF2e game system that adds the Warlord class as homebrewed by [u/fanatic66](https://old.reddit.com/r/Pathfinder2eCreations/comments/p5hht6/warlord_v45_lead_your_allies_to_victory/) and adjusted for the remaster, foundry integration and balance by Nythz.
 The original PDF can be found in this drive : https://drive.google.com/file/d/1QvXA8eBMBjZsk0SX9zwSO3XS536EQ0Q6/view
 
 ---
@@ -71,7 +71,7 @@ You can also find issues I lack knowledge on how to fix them in the issue sectio
 ### Massive thanks as well to the [Rule Lawyer's Discord](https://discord.com/invite/ruleslawyer)
   - For rules and balancing questions
     
-### Thanks to [u/fanatic66](https://reddit.com/user/fanatic66/submitted/)
+### Thanks to [u/fanatic66](https://old.reddit.com/r/Pathfinder2eCreations/comments/p5hht6/warlord_v45_lead_your_allies_to_victory/)
   - For the great warlord pf2e homebrew concept
 
 ### Thank you

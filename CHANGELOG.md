@@ -2,6 +2,7 @@
 ---
 - Fixed Shielding bastion not finding the actor's shield for the bonus to reflex saves
 - Removed testing visuals for Friendly Shield and Shielding Bastion's Auras
+- Added removeAfterUse to Effect:Ready to Lead by Example
 - 
 
 # 1.3.0 - 1.3.2b

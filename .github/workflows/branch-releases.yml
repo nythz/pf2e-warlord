@@ -3,7 +3,8 @@ name: branch-releases
 on:
   release:
     types: [prerelease]
-
+  workflow_dispatch:
+  
 jobs:
   build:
     runs-on: ubuntu-latest

@@ -1,100 +1,157 @@
 {
-  "folder": "kqdJ1r4VVsFCzLwL",
-  "name": "Effect: Friendly Shield (Self)",
-  "type": "effect",
-  "effects": [],
-  "system": {
-    "description": {
-      "gm": "",
-      "value": "<p>You position your shield to protect yourself and a single adjacent ally. When you have Raised a Shield, you gain its listed circumstance bonus to AC. Your shield remains raised until the start of your next turn.</p>"
-    },
-    "rules": [
-      {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "system.attributes.shield.raised",
-        "predicate": [
-          "self:shield:equipped",
-          {
-            "nor": [
-              "self:shield:broken",
-              "self:shield:destroyed"
-            ]
-          }
-        ],
-        "value": true
-      },
-      {
-        "key": "Aura",
-        "mergeExisting": false,
-        "appearance": {
-          "border": {
-            "alpha": 0
-          },
-          "highlight": {
-            "alpha": 0,
-            "color": "#000000"
-          }
+    "folder": "kqdJ1r4VVsFCzLwL",
+    "name": "Effect: Friendly Shield (Self)",
+    "type": "effect",
+    "effects": [],
+    "system": {
+        "description": {
+            "gm": "",
+            "value": "<p>You position your shield to protect yourself and a single adjacent ally. When you have Raised a Shield, you gain its listed circumstance bonus to AC. Your shield remains raised until the start of your next turn.</p>"
         },
-        "effects": [
-          {
-            "uuid": "Compendium.pf2e-warlord.warlord.Item.SfGdGv7JxByhn974",
-            "affects": "allies",
-            "includesSelf": false
-          }
-        ]
-      }
-    ],
-    "slug": null,
-    "_migration": {
-      "version": 0.917,
-      "lastMigration": null
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "override",
+                "path": "system.attributes.shield.raised",
+                "predicate": [
+                    "self:shield:equipped",
+                    {
+                        "nor": [
+                            "self:shield:broken",
+                            "self:shield:destroyed"
+                        ]
+                    }
+                ],
+                "value": true
+            },
+            {
+                "key": "Aura",
+                "mergeExisting": false,
+                "appearance": {
+                    "border": {
+                        "alpha": 0
+                    },
+                    "highlight": {
+                        "alpha": 0,
+                        "color": "#000000"
+                    }
+                },
+                "effects": [
+                    {
+                        "uuid": "Compendium.pf2e-warlord.warlord.Item.SfGdGv7JxByhn974",
+                        "affects": "allies",
+                        "includesSelf": false
+                    }
+                ],
+                "predicate": [
+                    {
+                        "not": "feat:shielding-bastion"
+                    },
+                    "self:shield:equipped",
+                    {
+                        "nor": [
+                            "self:shield:broken",
+                            "self:shield:destroyed"
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "Aura",
+                "effects": [
+                    {
+                        "uuid": "Compendium.pf2e-warlord.warlord.Item.gii3Ze5bKAQ1XeaO",
+                        "affects": "allies",
+                        "includesSelf": false
+                    }
+                ],
+                "predicate": [
+                    "feat:shielding-bastion",
+                    "self:shield:equipped",
+                    {
+                        "nor": [
+                            "self:shield:broken",
+                            "self:shield:destroyed"
+                        ]
+                    }
+                ],
+                "appearance": {
+                    "border": {
+                        "alpha": 0
+                    },
+                    "highlight": {
+                        "alpha": 0
+                    }
+                }
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "reflex",
+                "value": "@actor.system.attribute.shield.ac",
+                "type": "circumstance",
+                "predicate": [
+                    "feat:shielding-bastion",
+                    "self:shield:equipped",
+                    {
+                        "nor": [
+                            "self:shield:broken",
+                            "self:shield:destroyed"
+                        ]
+                    }
+                ],
+                "label": "Shielding Bastion"
+            }
+        ],
+        "slug": null,
+        "_migration": {
+            "version": 0.917,
+            "lastMigration": null
+        },
+        "traits": {
+            "otherTags": [],
+            "value": []
+        },
+        "publication": {
+            "title": "",
+            "authors": "",
+            "license": "OGL",
+            "remaster": false
+        },
+        "level": {
+            "value": 1
+        },
+        "duration": {
+            "value": 1,
+            "unit": "rounds",
+            "expiry": "turn-start",
+            "sustained": false
+        },
+        "start": {
+            "value": 0,
+            "initiative": null
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "badge": null,
+        "context": null,
+        "unidentified": false
     },
-    "traits": {
-      "otherTags": [],
-      "value": []
+    "_id": "u8zJ8B34HWfdFQPk",
+    "img": "modules/game-icons-net/whitetransparent/attached-shield.svg",
+    "sort": 0,
+    "ownership": {
+        "default": 0,
+        "aZ3W8LfCz0rTSXdW": 3
     },
-    "publication": {
-      "title": "",
-      "authors": "",
-      "license": "OGL",
-      "remaster": false
+    "flags": {},
+    "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.13.6",
+        "coreVersion": "11.315",
+        "createdTime": 1707160564622,
+        "modifiedTime": 1707787870849,
+        "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
     },
-    "level": {
-      "value": 1
-    },
-    "duration": {
-      "value": 1,
-      "unit": "rounds",
-      "expiry": "turn-start",
-      "sustained": false
-    },
-    "start": {
-      "value": 0,
-      "initiative": null
-    },
-    "tokenIcon": {
-      "show": true
-    },
-    "badge": null,
-    "context": null,
-    "unidentified": false
-  },
-  "_id": "u8zJ8B34HWfdFQPk",
-  "img": "modules/game-icons-net/whitetransparent/attached-shield.svg",
-  "sort": 0,
-  "ownership": {
-    "default": 0,
-    "aZ3W8LfCz0rTSXdW": 3
-  },
-  "flags": {},
-  "_stats": {
-    "systemId": "pf2e",
-    "systemVersion": "5.13.6",
-    "coreVersion": "11.315",
-    "createdTime": 1707160564622,
-    "modifiedTime": 1707787870849,
-    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
-  },
-  "_key": "!items!u8zJ8B34HWfdFQPk"
+    "_key": "!items!u8zJ8B34HWfdFQPk"
 }

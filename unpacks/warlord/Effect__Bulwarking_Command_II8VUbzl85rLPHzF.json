@@ -15,13 +15,11 @@
       },
       {
         "key": "FlatModifier",
-        "label": "BulwarkingBonusAC",
         "value": 1,
         "selector": "ac"
       },
       {
         "key": "FlatModifier",
-        "label": "BulwarkingBonusST",
         "value": 1,
         "selector": "saving-throw"
       }

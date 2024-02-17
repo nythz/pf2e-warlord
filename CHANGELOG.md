@@ -5,6 +5,8 @@
 - Added removeAfterUse to Effect:Ready to Lead by Example
 - Merged Shielding Bastion back into Friendly Shield as an upgrade to reduce redundant actions
   - Once the Feat is acquired, Friendly Shield Reach aura is deactivated, preventing duplicate effects
+- Removed label from Effect:Bulwarking Command modifiers
+- Corrected modifier type from Untyped to Status
 
 # 1.3.0 - 1.3.2b
 ---

@@ -8,7 +8,24 @@
       "gm": "",
       "value": "<p>You @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm] and all allies within 5 feet of you add your shield's circumstance bonus to your AC and Reflex saves.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "class:warlord",
+          "feat:friendly-shield"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "All allies within 5 feet of you add your shield's circumstance bonus to your AC and Reflex saves.",
+            "title": "Shielding Bastion"
+          }
+        ]
+      }
+    ],
     "slug": null,
     "_migration": {
       "version": 0.898,

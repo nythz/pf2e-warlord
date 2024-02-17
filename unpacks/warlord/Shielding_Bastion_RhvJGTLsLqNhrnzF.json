@@ -20,8 +20,7 @@
         "property": "description",
         "value": [
           {
-            "text": "All allies within 5 feet of you add your shield's circumstance bonus to your AC and Reflex saves.",
-            "title": "Shielding Bastion"
+            "text": "Instead of a chosen single ally, All allies within 5 feet of you add your shield's circumstance bonus to your AC and Reflex saves."
           }
         ]
       }

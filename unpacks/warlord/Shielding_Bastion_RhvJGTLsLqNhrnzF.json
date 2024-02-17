@@ -15,7 +15,7 @@
         "mode": "add",
         "predicate": [
           "class:warlord",
-          "feat:friendly-shield"
+          "item:slug:friendly-shield"
         ],
         "property": "description",
         "value": [

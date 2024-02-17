@@ -16,12 +16,14 @@
       {
         "key": "FlatModifier",
         "value": 1,
-        "selector": "ac"
+        "selector": "ac",
+        "type": "status"
       },
       {
         "key": "FlatModifier",
         "value": 1,
-        "selector": "saving-throw"
+        "selector": "saving-throw",
+        "type": "status"
       }
     ],
     "slug": "effect-bulwarking-command",

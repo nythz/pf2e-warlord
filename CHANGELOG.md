@@ -7,7 +7,7 @@
   - Once the Feat is acquired, Friendly Shield Reach aura is deactivated, preventing duplicate effects
   - Added Item Alteration to insert Shielding Bastion Description inside of Friendly Shield's description
 - Removed label from Effect:Bulwarking Command modifiers
-- Corrected modifier type from Untyped to Status
+- Corrected Effect:Bulwarking Command modifier type from Untyped to Status
 
 # 1.3.0 - 1.3.2b
 ---

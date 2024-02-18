@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency: </strong>Once per 10 minutes</p>\n<hr />\n<p>You push all of your allies to greater heights. If your next action is to use an action with the Command trait that targets only one ally, then you can instead target yourself and all allies within 60 feet.</p>"
+      "value": "<p><strong>Frequency: </strong>Once per 10 minutes</p>\n<hr />\n<p>You push all of your allies to greater heights. If your next action is to use an action with the Command trait that targets only one ally, then you can instead target yourself and all allies within a @Template[type:emanation|distance:60].</p>"
     },
     "rules": [],
     "slug": null,

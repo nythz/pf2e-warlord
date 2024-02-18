@@ -12,7 +12,8 @@
       {
         "key": "FlatModifier",
         "selector": "attack-roll",
-        "value": "@actor.abilities.{item|origin.class.system.keyAbility.selected}.mod"
+        "value": "@actor.abilities.{item|origin.class.system.keyAbility.selected}.mod",
+        "removeAfterUse":"if-enabled"
       },
       {
         "key": "AdjustModifier",

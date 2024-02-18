@@ -21,4 +21,4 @@ jobs:
       - name: Download module.zip
         uses: actions/download-artifact@v4
         with:
-          name: ./module.zip
+          name: module.zip

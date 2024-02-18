@@ -1,6 +1,17 @@
-# 1.3.0
+# 1.4.0
 ---
-- Initial Foundry package release
+- Added removeAfterUse to Effect:Ready to Lead by Example
+- Removed testing visuals for Friendly Shield and Shielding Bastion's Auras
+- Fixed Shielding Bastion not finding the actor's shield for the bonus to reflex saves
+- Merged Shielding Bastion back into Friendly Shield as an upgrade to reduce redundant actions
+  - Once the Feat is acquired, Friendly Shield's Reach aura is deactivated, preventing duplicate effects
+  - Added Item Alteration to insert Shielding Bastion Description inside of Friendly Shield's description once active
+- Removed erronous labels from Effect:Bulwarking Command modifiers
+- Corrected Effect:Bulwarking Command modifier type from Untyped to Status
+
+# 1.3.0 - 1.3.2b
+---
+- Initial Foundry package release (took a few releases to get the on release action to work)
 - Removed testing opacity on Friendly Shield's reach aura
 
 # 1.2.2

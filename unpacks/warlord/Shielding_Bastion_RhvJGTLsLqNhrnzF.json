@@ -8,7 +8,23 @@
       "gm": "",
       "value": "<p>You @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm] and all allies within 5 feet of you add your shield's circumstance bonus to your AC and Reflex saves.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "class:warlord",
+          "item:slug:friendly-shield"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "Instead of a chosen single ally, All allies within 5 feet of you add your shield's circumstance bonus to your AC and Reflex saves."
+          }
+        ]
+      }
+    ],
     "slug": null,
     "_migration": {
       "version": 0.898,
@@ -34,10 +50,10 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "action"
+      "value": "passive"
     },
     "actions": {
-      "value": 1
+      "value": null
     },
     "prerequisites": {
       "value": [
@@ -47,10 +63,6 @@
       ]
     },
     "location": null,
-    "selfEffect": {
-      "uuid": "Compendium.pf2e-warlord.warlord.Item.1dO4uNPl0Uw64iZ4",
-      "name": "Effect: Shielding Bastion (Self)"
-    }
   },
   "_id": "RhvJGTLsLqNhrnzF",
   "img": "modules/game-icons-net/whitetransparent/crenulated-shield.svg",
@@ -65,7 +77,7 @@
     "systemVersion": "5.13.6",
     "coreVersion": "11.315",
     "createdTime": 1701044004388,
-    "modifiedTime": 1707760091381,
+    "modifiedTime": 1707787868892,
     "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
   },
   "_key": "!items!RhvJGTLsLqNhrnzF"

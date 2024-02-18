@@ -53,6 +53,7 @@
       "value": "passive"
     },
     "actions": {
+      "value": null
     },
     "prerequisites": {
       "value": [
@@ -62,8 +63,6 @@
       ]
     },
     "location": null,
-    "selfEffect": {
-    }
   },
   "_id": "RhvJGTLsLqNhrnzF",
   "img": "modules/game-icons-net/whitetransparent/crenulated-shield.svg",

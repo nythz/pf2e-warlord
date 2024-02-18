@@ -50,10 +50,9 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "action"
+      "value": "passive"
     },
     "actions": {
-      "value": 1
     },
     "prerequisites": {
       "value": [
@@ -64,8 +63,6 @@
     },
     "location": null,
     "selfEffect": {
-      "uuid": "Compendium.pf2e-warlord.warlord.Item.1dO4uNPl0Uw64iZ4",
-      "name": "Effect: Shielding Bastion (Self)"
     }
   },
   "_id": "RhvJGTLsLqNhrnzF",

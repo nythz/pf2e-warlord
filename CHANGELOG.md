@@ -1,13 +1,16 @@
-# 1.4.0
+# 1.5.0
 ---
 - Added removeAfterUse to Effect:Ready to Lead by Example
+- Removed erronous labels from Effect:Bulwarking Command modifiers
+- Corrected Effect:Bulwarking Command modifier type from Untyped to Status
+
+# 1.4.0
+---
 - Removed testing visuals for Friendly Shield and Shielding Bastion's Auras
 - Fixed Shielding Bastion not finding the actor's shield for the bonus to reflex saves
 - Merged Shielding Bastion back into Friendly Shield as an upgrade to reduce redundant actions
   - Once the Feat is acquired, Friendly Shield's Reach aura is deactivated, preventing duplicate effects
   - Added Item Alteration to insert Shielding Bastion Description inside of Friendly Shield's description once active
-- Removed erronous labels from Effect:Bulwarking Command modifiers
-- Corrected Effect:Bulwarking Command modifier type from Untyped to Status
 
 # 1.3.0 - 1.3.2b
 ---

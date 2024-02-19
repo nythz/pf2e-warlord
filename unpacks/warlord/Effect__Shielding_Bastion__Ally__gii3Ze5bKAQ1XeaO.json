@@ -12,13 +12,13 @@
       {
         "key": "FlatModifier",
         "selector": "ac",
-        "value": "@item.origin.actor.system.attributes.shield.ac",
+        "value": "@item.origin.system.attributes.shield.ac",
         "type": "circumstance"
       },
       {
         "key": "FlatModifier",
         "selector": "reflex",
-        "value": "@item.origin.actor.system.attributes.shield.ac",
+        "value": "@item.origin.system.attributes.shield.ac",
         "type": "circumstance"
       }
     ],

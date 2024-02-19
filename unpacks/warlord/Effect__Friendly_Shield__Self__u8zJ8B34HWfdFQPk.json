@@ -87,7 +87,7 @@
             {
                 "key": "FlatModifier",
                 "selector": "reflex",
-                "value": "@actor.system.attribute.shield.ac",
+                "value": "@actor.system.attributes.shield.ac",
                 "type": "circumstance",
                 "predicate": [
                     "feat:shielding-bastion",

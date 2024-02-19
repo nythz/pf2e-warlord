@@ -1,3 +1,12 @@
+# 1.5.0
+---
+- Added removeAfterUse to Effect:Ready to Lead by Example
+- Removed erronous labels from Effect:Bulwarking Command modifiers
+- Corrected Effect:Bulwarking Command modifier type from Untyped to Status
+- Added "Multi Target Damage" Checkbox in Action Tab of Character Sheet to mark that your next damage has multiple targets
+- Added Martial notes for Led by example bonus damage for use when RollOption MultiTarget-Damage is active
+- Made the Reminder to remove the Led by Example Effect after use clearer
+
 # 1.4.0
 ---
 - Removed testing visuals for Friendly Shield and Shielding Bastion's Auras

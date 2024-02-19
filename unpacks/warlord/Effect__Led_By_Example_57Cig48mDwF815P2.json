@@ -475,7 +475,7 @@
                 "selector": "damage",
                 "text": "Remove Effect after using bonus damage",
 				"priority": 102,
-				"title": "Led By Example GM Reminder"
+				"title": "Led By Example Reminder"
             }
         ],
         "slug": "effect-led-by-example",

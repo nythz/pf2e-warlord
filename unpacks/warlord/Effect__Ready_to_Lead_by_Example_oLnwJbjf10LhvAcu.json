@@ -13,7 +13,7 @@
         "key": "FlatModifier",
         "selector": "attack-roll",
         "value": "@actor.abilities.{item|origin.class.system.keyAbility.selected}.mod",
-        "removeAfterUse":"if-enabled"
+        "removeAfterRoll":"if-enabled"
       },
       {
         "key": "AdjustModifier",
@@ -149,7 +149,8 @@
         "predicate": [
           "modifier:type:ability",
           "feat:athletic-leadership"
-        ]
+        ],
+        "removeAfterRoll":"if-enabled"
       }
     ],
     "slug": "effect-ready-to-lead-by-example",

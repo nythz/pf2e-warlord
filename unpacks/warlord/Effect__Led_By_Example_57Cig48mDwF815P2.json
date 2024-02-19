@@ -81,7 +81,7 @@
 			{
                 "key": "Note",
                 "selector": "strike-damage",
-                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[precision]",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[precision]]",
                 "outcome": [],
                 "predicate": [{
                         "or": [

@@ -1,8 +1,8 @@
 # 1.5.0
 ---
-- Added removeAfterRoll to Effect:Ready to Lead by Example
-- Removed erronous labels from Effect:Bulwarking Command modifiers
-- Corrected Effect:Bulwarking Command modifier type from Untyped to Status
+- Added removeAfterRoll to Effect:Ready to Lead by Example, including athletics rolls if warlord has the feat Athletic Leadership
+- Removed custom labels from Effect:Bulwarking Command flat modifiers
+- Corrected Effect:Bulwarking Command flat modifier type from Untyped to Status
 - Added "Multi Target Damage" Checkbox in Action Tab of Character Sheet to mark that your next damage has multiple targets
 - Added Martial notes for Led by example bonus damage for use when RollOption MultiTarget-Damage is active
 - Made the Reminder to remove the Led by Example Effect after use clearer

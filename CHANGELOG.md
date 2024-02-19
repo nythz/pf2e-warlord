@@ -1,6 +1,6 @@
 # 1.5.0
 ---
-- Added removeAfterUse to Effect:Ready to Lead by Example
+- Added removeAfterRoll to Effect:Ready to Lead by Example
 - Removed erronous labels from Effect:Bulwarking Command modifiers
 - Corrected Effect:Bulwarking Command modifier type from Untyped to Status
 - Added "Multi Target Damage" Checkbox in Action Tab of Character Sheet to mark that your next damage has multiple targets

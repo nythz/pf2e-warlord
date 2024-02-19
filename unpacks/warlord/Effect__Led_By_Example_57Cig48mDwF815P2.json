@@ -1,484 +1,540 @@
 {
-  "folder": "hsuJUFjg6IlUfY4a",
-  "name": "Effect: Led By Example",
-  "type": "effect",
-  "effects": [],
-  "system": {
-    "description": {
-      "gm": "",
-      "value": "<p>Your first Strike that hits deals additional precision damage equal to the Warlord's leadership dice.</p>"
+    "folder": "hsuJUFjg6IlUfY4a",
+    "name": "Effect: Led By Example",
+    "type": "effect",
+    "effects": [],
+    "system": {
+        "description": {
+            "gm": "",
+            "value": "<p>Your first Strike that hits deals additional precision damage equal to the Warlord's leadership dice.</p>"
+        },
+        "rules": [
+			{
+                "key": "ActiveEffectLike",
+                "mode": "override",
+                "path": "flags.pf2e-warlord.dicecount",
+                "value": "@item.origin.flags.pf2e-warlord.dicecount",
+                "priority": 20
+            }, 
+			{
+                "key": "RollOption",
+                "label": "Multi-Target Damage?",
+                "option": "multitarget-damage",
+                "toggleable": true,
+                "priority": 50
+            },
+			{
+                "key": "DamageDice",
+                "selector": "strike-damage",
+                "diceNumber": "@item.origin.flags.pf2e-warlord.dicecount",
+                "dieSize": "d6",
+                "category": "precision",
+                "label": "Led by Example",
+                "predicate": [{
+                        "not": "multitarget-damage"
+                    }
+                ]
+            },
+			{
+                "key": "DamageDice",
+                "selector": "spell-damage",
+                "diceNumber": "@item.origin.flags.pf2e-warlord.dicecount",
+                "dieSize": "d6",
+                "category": "precision",
+                "label": "Led by Example",
+                "predicate": [{
+                        "nor": ["area-damage", "multitarget-damage"]
+                    }
+                ],
+                "hideIfDisabled": true
+            },
+			{
+                "key": "FlatModifier",
+                "selector": "strike-damage",
+                "value": "@item.origin.flags.pf2e-warlord.dicecount*3",
+                "label": "Bleeding Follow Through (Martial, Single Target Only)",
+                "damageCategory": "persistent",
+                "predicate": [
+                    "self:effect:bleeding-follow-through", {
+                        "not": "multitarget-damage"
+                    }
+                ],
+                "hideIfDisabled": true,
+                "damageType": "bleed"
+            },
+			{
+                "key": "FlatModifier",
+                "selector": [
+                    "spell-damage",
+                    "spell-attack-damage"
+                ],
+                "value": "@actor.flags.pf2e-warlord.dicecount*3",
+                "label": "Bleeding Follow Through (Caster, Single Target only)",
+                "damageCategory": "persistent",
+                "predicate": [
+                    "self:effect:bleeding-follow-through", {
+                        "nor": ["area-damage", "multitarget-damage"]
+                    }
+                ],
+                "hideIfDisabled": true
+            }, 
+			{
+                "key": "Note",
+                "selector": "strike-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[precision]",
+                "outcome": [],
+                "predicate": [{
+                        "or": [
+                            "area-damage",
+                            "multitarget-damage"
+                        ]
+                    }, {
+                        "not": "self:effect:bleeding-follow-through"
+                    }
+                ],
+                "title": "Led by Example (Martial, Multiple Targets)"
+            },
+			{
+                "key": "Note",
+                "selector": "strike-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[precision],(@actor.flags.pf2e-warlord.dicecount*3)[bleed]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": [
+                            "area-damage",
+                            "multitarget-damage"
+                        ]
+                    },
+                    "self:effect:bleeding-follow-through"
+                ],
+                "title": "Bleeding follow Through (Martial, Multiple Targets)"
+            },
+			{
+                "key": "Note",
+                "selector": "spell-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[untyped]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": ["area-damage", "multitarget-damage"]
+                    }, {
+                        "not": "self:effect:bleeding-follow-through"
+                    }, {
+                        "nor": [
+                            "acid",
+                            "cold",
+                            "electricity",
+                            "fire",
+                            "force",
+                            "mental",
+                            "poison",
+                            "sonic",
+                            "spirit",
+                            "vitality",
+                            "void"
+                        ]
+                    }
+                ],
+                "title": "Magical follow Through (Untyped)"
+            },
+			{
+                "key": "Note",
+                "selector": "spell-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[untyped],(@actor.flags.pf2e-warlord.dicecount*3)[bleed]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": ["area-damage", "multitarget-damage"]
+                    },
+                    "self:effect:bleeding-follow-through", {
+                        "nor": [
+                            "acid",
+                            "cold",
+                            "electricity",
+                            "fire",
+                            "force",
+                            "mental",
+                            "poison",
+                            "sonic",
+                            "spirit",
+                            "vitality",
+                            "void"
+                        ]
+                    }
+                ],
+                "title": "Magical Bleeding follow Through (Untyped)"
+            },
+			{
+                "key": "Note",
+                "selector": "spell-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[acid]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": ["area-damage", "multitarget-damage"]
+                    },
+                    "acid", {
+                        "not": "self:effect:bleeding-follow-through"
+                    }
+                ],
+                "title": "Magical follow Through (Acid)"
+            },
+			{
+                "key": "Note",
+                "selector": "spell-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*3)[persistent])[acid]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": ["area-damage", "multitarget-damage"]
+                    },
+                    "self:effect:bleeding-follow-through",
+                    "acid"
+                ],
+                "title": "Magical Bleeding follow Through (Acid)"
+            },
+			{
+                "key": "Note",
+                "selector": "spell-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[cold]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": ["area-damage", "multitarget-damage"]
+                    },
+                    "cold", {
+                        "not": "self:effect:bleeding-follow-through"
+                    }
+                ],
+                "title": "Magical follow Through (Cold)"
+            },
+			{
+                "key": "Note",
+                "selector": "spell-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*3)[persistent])[cold]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": ["area-damage", "multitarget-damage"]
+                    },
+                    "self:effect:bleeding-follow-through",
+                    "cold"
+                ],
+                "title": "Magical Bleeding follow Through (Cold)"
+            },
+			{
+                "key": "Note",
+                "selector": "spell-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[electricity]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": ["area-damage", "multitarget-damage"]
+                    },
+                    "electricity", {
+                        "not": "self:effect:bleeding-follow-through"
+                    }
+                ],
+                "title": "Magical follow Through (Electricity)"
+            },
+			{
+                "key": "Note",
+                "selector": "spell-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*3)[persistent])[electricity]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": ["area-damage", "multitarget-damage"]
+                    },
+                    "self:effect:bleeding-follow-through",
+                    "electricity"
+                ],
+                "title": "Magical Bleeding follow Through (Electricity)"
+            },
+			{
+                "key": "Note",
+                "selector": "spell-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[fire]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": ["area-damage", "multitarget-damage"]
+                    },
+                    "fire", {
+                        "not": "self:effect:bleeding-follow-through"
+                    }
+                ],
+                "title": "Magical follow Through (Fire)"
+            },
+			{
+                "key": "Note",
+                "selector": "spell-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*3)[persistent])[fire]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": ["area-damage", "multitarget-damage"]
+                    },
+                    "self:effect:bleeding-follow-through",
+                    "fire"
+                ],
+                "title": "Magical Bleeding follow Through (Fire)"
+            },
+			{
+                "key": "Note",
+                "selector": "spell-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[force]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": ["area-damage", "multitarget-damage"]
+                    },
+                    "force", {
+                        "not": "self:effect:bleeding-follow-through"
+                    }
+                ],
+                "title": "Magical follow Through (Force)"
+            },
+			{
+                "key": "Note",
+                "selector": "spell-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*3)[persistent])[force]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": ["area-damage", "multitarget-damage"]
+                    },
+                    "self:effect:bleeding-follow-through",
+                    "force"
+                ],
+                "title": "Magical Bleeding follow Through (Force)"
+            },
+			{
+                "key": "Note",
+                "selector": "spell-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[mental]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": ["area-damage", "multitarget-damage"]
+                    },
+                    "mental", {
+                        "not": "self:effect:bleeding-follow-through"
+                    }
+                ],
+                "title": "Magical follow Through (Mental)"
+            },
+			{
+                "key": "Note",
+                "selector": "spell-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*3)[persistent])[mental]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": ["area-damage", "multitarget-damage"]
+                    },
+                    "self:effect:bleeding-follow-through",
+                    "mental"
+                ],
+                "title": "Magical Bleeding follow Through (Mental)"
+            },
+			{
+                "key": "Note",
+                "selector": "spell-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[poison]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": ["area-damage", "multitarget-damage"]
+                    },
+                    "poison", {
+                        "not": "self:effect:bleeding-follow-through"
+                    }
+                ],
+                "title": "Magical follow Through (Poison)"
+            },
+			{
+                "key": "Note",
+                "selector": "spell-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*3)[persistent])[poison]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": ["area-damage", "multitarget-damage"]
+                    },
+                    "self:effect:bleeding-follow-through",
+                    "poison"
+                ],
+                "title": "Magical Bleeding follow Through (Poison)"
+            },
+			{
+                "key": "Note",
+                "selector": "spell-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[sonic]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": ["area-damage", "multitarget-damage"]
+                    },
+                    "sonic", {
+                        "not": "self:effect:bleeding-follow-through"
+                    }
+                ],
+                "title": "Magical follow Through (Sonic)"
+            },
+			{
+                "key": "Note",
+                "selector": "spell-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*3)[persistent])[sonic]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": ["area-damage", "multitarget-damage"]
+                    },
+                    "self:effect:bleeding-follow-through",
+                    "sonic"
+                ],
+                "title": "Magical Bleeding follow Through (Sonic)"
+            },
+			{
+                "key": "Note",
+                "selector": "spell-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[spirit]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": ["area-damage", "multitarget-damage"]
+                    },
+                    "spirit", {
+                        "not": "self:effect:bleeding-follow-through"
+                    }
+                ],
+                "title": "Magical follow Through (Spirit)"
+            },
+			{
+                "key": "Note",
+                "selector": "spell-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*3)[persistent])[spirit]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": ["area-damage", "multitarget-damage"]
+                    },
+                    "self:effect:bleeding-follow-through",
+                    "spirit"
+                ],
+                "title": "Magical Bleeding follow Through (Spirit)"
+            },
+			{
+                "key": "Note",
+                "selector": "spell-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[vitality]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": ["area-damage", "multitarget-damage"]
+                    },
+                    "vitality", {
+                        "not": "self:effect:bleeding-follow-through"
+                    }
+                ],
+                "title": "Magical follow Through (Vitality)"
+            },
+			{
+                "key": "Note",
+                "selector": "spell-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*3)[persistent])[vitality]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": ["area-damage", "multitarget-damage"]
+                    },
+                    "self:effect:bleeding-follow-through",
+                    "vitality"
+                ],
+                "title": "Magical Bleeding follow Through (Vitality)"
+            },
+			{
+                "key": "Note",
+                "selector": "spell-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[void]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": ["area-damage", "multitarget-damage"]
+                    },
+                    "void", {
+                        "not": "self:effect:bleeding-follow-through"
+                    }
+                ],
+                "title": "Magical follow Through (Void)"
+            },
+			{
+                "key": "Note",
+                "selector": "spell-damage",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*3)[persistent])[void]]",
+                "outcome": [],
+                "predicate": [{
+                        "or": ["area-damage", "multitarget-damage"]
+                    },
+                    "self:effect:bleeding-follow-through",
+                    "void"
+                ],
+                "title": "Magical Bleeding follow Through (Void)"
+            },
+			{
+                "key": "Note",
+                "selector": "damage",
+                "text": "@UUID[Compendium.pf2e-warlord.warlord.Item.OvAcaAkgSe394MDC]",
+                "outcome": [],
+                "predicate": [
+                    "self:effect:continuing-the-example"
+                ],
+                "priority": 101,
+                "title": "Continuing the Example"
+            },
+			{
+                "key": "Note",
+                "selector": "damage",
+                "text": "Remove Effect after using bonus damage",
+				"priority": 102,
+				"title": "Led By Example GM Reminder"
+            }
+        ],
+        "slug": "effect-led-by-example",
+        "_migration": {
+            "version": 0.898,
+            "lastMigration": null,
+            "previous": {
+                "schema": 0.869,
+                "foundry": "11.315",
+                "system": "5.9.5"
+            }
+        },
+        "traits": {
+            "otherTags": [],
+            "value": []
+        },
+        "publication": {
+            "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+            "authors": "u/Fanatic66 + Nythz",
+            "license": "OGL",
+            "remaster": true
+        },
+        "level": {
+            "value": 1
+        },
+        "duration": {
+            "value": 1,
+            "unit": "rounds",
+            "expiry": "turn-end",
+            "sustained": false
+        },
+        "start": {
+            "value": 0,
+            "initiative": null
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "badge": null,
+        "context": null,
+        "unidentified": false
     },
-    "rules": [
-      {
-        "key": "DamageDice",
-        "selector": "strike-damage",
-        "diceNumber": "@item.origin.flags.pf2e-warlord.dicecount",
-        "dieSize": "d6",
-        "category": "precision",
-        "label": "Led by Example"
-      },
-      {
-        "key": "DamageDice",
-        "selector": "spell-damage",
-        "diceNumber": "@item.origin.flags.pf2e-warlord.dicecount",
-        "dieSize": "d6",
-        "category": "precision",
-        "label": "Led by Example",
-        "predicate": [
-          {
-            "not": "area-damage"
-          }
-        ],
-        "hideIfDisabled": true
-      },
-      {
-        "key": "FlatModifier",
-        "selector": "strike-damage",
-        "value": "@item.origin.flags.pf2e-warlord.dicecount*3",
-        "label": "Bleeding Follow Through (Martial)",
-        "damageCategory": "persistent",
-        "predicate": [
-          "self:effect:bleeding-follow-through"
-        ],
-        "hideIfDisabled": true,
-        "damageType": "bleed"
-      },
-      {
-        "key": "ActiveEffectLike",
-        "mode": "override",
-        "path": "flags.pf2e-warlord.dicecount",
-        "value": "@item.origin.flags.pf2e-warlord.dicecount"
-      },
-      {
-        "key": "FlatModifier",
-        "selector": [
-          "spell-damage",
-          "spell-attack-damage"
-        ],
-        "value": "@actor.flags.pf2e-warlord.dicecount*3",
-        "label": "Bleeding Follow Through (Caster, Single Target only)",
-        "damageCategory": "persistent",
-        "predicate": [
-          "self:effect:bleeding-follow-through",
-          {
-            "not": "area-damage"
-          }
-        ],
-        "hideIfDisabled": true
-      },
-      {
-        "key": "Note",
-        "selector": "spell-damage",
-        "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[untyped]]",
-        "outcome": [],
-        "predicate": [
-          "area-damage",
-          {
-            "not": "self:effect:bleeding-follow-through"
-          },
-          {
-            "nor": [
-              "acid",
-              "cold",
-              "electricity",
-              "fire",
-              "force",
-              "mental",
-              "poison",
-              "sonic",
-              "spirit",
-              "vitality",
-              "void"
-            ]
-          }
-        ],
-        "title": "Magical follow Through (Untyped)"
-      },
-      {
-        "key": "Note",
-        "selector": "spell-damage",
-        "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[untyped],(@actor.flags.pf2e-warlord.dicecount*3)[bleed]]",
-        "outcome": [],
-        "predicate": [
-          "area-damage",
-          "self:effect:bleeding-follow-through",
-          {
-            "nor": [
-              "acid",
-              "cold",
-              "electricity",
-              "fire",
-              "force",
-              "mental",
-              "poison",
-              "sonic",
-              "spirit",
-              "vitality",
-              "void"
-            ]
-          }
-        ],
-        "title": "Magical Bleeding follow Through (Untyped)"
-      },
-      {
-        "key": "Note",
-        "selector": "spell-damage",
-        "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[acid]]",
-        "outcome": [],
-        "predicate": [
-          "area-damage",
-          "acid",
-          {
-            "not": "self:effect:bleeding-follow-through"
-          }
-        ],
-        "title": "Magical follow Through (Acid)"
-      },
-      {
-        "key": "Note",
-        "selector": "spell-damage",
-        "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*3)[persistent])[acid]]",
-        "outcome": [],
-        "predicate": [
-          "area-damage",
-          "self:effect:bleeding-follow-through",
-          "acid"
-        ],
-        "title": "Magical Bleeding follow Through (Acid)"
-      },
-      {
-        "key": "Note",
-        "selector": "spell-damage",
-        "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[cold]]",
-        "outcome": [],
-        "predicate": [
-          "area-damage",
-          "cold",
-          {
-            "not": "self:effect:bleeding-follow-through"
-          }
-        ],
-        "title": "Magical follow Through (Cold)"
-      },
-      {
-        "key": "Note",
-        "selector": "spell-damage",
-        "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*3)[persistent])[cold]]",
-        "outcome": [],
-        "predicate": [
-          "area-damage",
-          "self:effect:bleeding-follow-through",
-          "cold"
-        ],
-        "title": "Magical Bleeding follow Through (Cold)"
-      },
-      {
-        "key": "Note",
-        "selector": "spell-damage",
-        "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[electricity]]",
-        "outcome": [],
-        "predicate": [
-          "area-damage",
-          "electricity",
-          {
-            "not": "self:effect:bleeding-follow-through"
-          }
-        ],
-        "title": "Magical follow Through (Electricity)"
-      },
-      {
-        "key": "Note",
-        "selector": "spell-damage",
-        "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*3)[persistent])[electricity]]",
-        "outcome": [],
-        "predicate": [
-          "area-damage",
-          "self:effect:bleeding-follow-through",
-          "electricity"
-        ],
-        "title": "Magical Bleeding follow Through (Electricity)"
-      },
-      {
-        "key": "Note",
-        "selector": "spell-damage",
-        "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[fire]]",
-        "outcome": [],
-        "predicate": [
-          "area-damage",
-          "fire",
-          {
-            "not": "self:effect:bleeding-follow-through"
-          }
-        ],
-        "title": "Magical follow Through (Fire)"
-      },
-      {
-        "key": "Note",
-        "selector": "spell-damage",
-        "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*3)[persistent])[fire]]",
-        "outcome": [],
-        "predicate": [
-          "area-damage",
-          "self:effect:bleeding-follow-through",
-          "fire"
-        ],
-        "title": "Magical Bleeding follow Through (Fire)"
-      },
-      {
-        "key": "Note",
-        "selector": "spell-damage",
-        "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[force]]",
-        "outcome": [],
-        "predicate": [
-          "area-damage",
-          "force",
-          {
-            "not": "self:effect:bleeding-follow-through"
-          }
-        ],
-        "title": "Magical follow Through (Force)"
-      },
-      {
-        "key": "Note",
-        "selector": "spell-damage",
-        "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*3)[persistent])[force]]",
-        "outcome": [],
-        "predicate": [
-          "area-damage",
-          "self:effect:bleeding-follow-through",
-          "force"
-        ],
-        "title": "Magical Bleeding follow Through (Force)"
-      },
-      {
-        "key": "Note",
-        "selector": "spell-damage",
-        "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[mental]]",
-        "outcome": [],
-        "predicate": [
-          "area-damage",
-          "mental",
-          {
-            "not": "self:effect:bleeding-follow-through"
-          }
-        ],
-        "title": "Magical follow Through (Mental)"
-      },
-      {
-        "key": "Note",
-        "selector": "spell-damage",
-        "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*3)[persistent])[mental]]",
-        "outcome": [],
-        "predicate": [
-          "area-damage",
-          "self:effect:bleeding-follow-through",
-          "mental"
-        ],
-        "title": "Magical Bleeding follow Through (Mental)"
-      },
-      {
-        "key": "Note",
-        "selector": "spell-damage",
-        "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[poison]]",
-        "outcome": [],
-        "predicate": [
-          "area-damage",
-          "poison",
-          {
-            "not": "self:effect:bleeding-follow-through"
-          }
-        ],
-        "title": "Magical follow Through (Poison)"
-      },
-      {
-        "key": "Note",
-        "selector": "spell-damage",
-        "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*3)[persistent])[poison]]",
-        "outcome": [],
-        "predicate": [
-          "area-damage",
-          "self:effect:bleeding-follow-through",
-          "poison"
-        ],
-        "title": "Magical Bleeding follow Through (Poison)"
-      },
-      {
-        "key": "Note",
-        "selector": "spell-damage",
-        "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[sonic]]",
-        "outcome": [],
-        "predicate": [
-          "area-damage",
-          "sonic",
-          {
-            "not": "self:effect:bleeding-follow-through"
-          }
-        ],
-        "title": "Magical follow Through (Sonic)"
-      },
-      {
-        "key": "Note",
-        "selector": "spell-damage",
-        "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*3)[persistent])[sonic]]",
-        "outcome": [],
-        "predicate": [
-          "area-damage",
-          "self:effect:bleeding-follow-through",
-          "sonic"
-        ],
-        "title": "Magical Bleeding follow Through (Sonic)"
-      },
-      {
-        "key": "Note",
-        "selector": "spell-damage",
-        "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[spirit]]",
-        "outcome": [],
-        "predicate": [
-          "area-damage",
-          "spirit",
-          {
-            "not": "self:effect:bleeding-follow-through"
-          }
-        ],
-        "title": "Magical follow Through (Spirit)"
-      },
-      {
-        "key": "Note",
-        "selector": "spell-damage",
-        "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*3)[persistent])[spirit]]",
-        "outcome": [],
-        "predicate": [
-          "area-damage",
-          "self:effect:bleeding-follow-through",
-          "spirit"
-        ],
-        "title": "Magical Bleeding follow Through (Spirit)"
-      },
-      {
-        "key": "Note",
-        "selector": "spell-damage",
-        "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[vitality]]",
-        "outcome": [],
-        "predicate": [
-          "area-damage",
-          "vitality",
-          {
-            "not": "self:effect:bleeding-follow-through"
-          }
-        ],
-        "title": "Magical follow Through (Vitality)"
-      },
-      {
-        "key": "Note",
-        "selector": "spell-damage",
-        "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*3)[persistent])[vitality]]",
-        "outcome": [],
-        "predicate": [
-          "area-damage",
-          "self:effect:bleeding-follow-through",
-          "vitality"
-        ],
-        "title": "Magical Bleeding follow Through (Vitality)"
-      },
-      {
-        "key": "Note",
-        "selector": "spell-damage",
-        "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[void]]",
-        "outcome": [],
-        "predicate": [
-          "area-damage",
-          "void",
-          {
-            "not": "self:effect:bleeding-follow-through"
-          }
-        ],
-        "title": "Magical follow Through (Void)"
-      },
-      {
-        "key": "Note",
-        "selector": "spell-damage",
-        "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*3)[persistent])[void]]",
-        "outcome": [],
-        "predicate": [
-          "area-damage",
-          "self:effect:bleeding-follow-through",
-          "void"
-        ],
-        "title": "Magical Bleeding follow Through (Void)"
-      },
-      {
-        "key": "Note",
-        "selector": "damage",
-        "text": "@UUID[Compendium.pf2e-warlord.warlord.Item.OvAcaAkgSe394MDC]",
-        "outcome": [],
-        "predicate": [
-          "self:effect:continuing-the-example"
-        ],
-        "priority": 101
-      },
-      {
-        "key": "Note",
-        "selector": "damage",
-        "text": "GM reminder : Remove Effect after bonus damage"
-      }
-    ],
-    "slug": "effect-led-by-example",
-    "_migration": {
-      "version": 0.898,
-      "lastMigration": null,
-      "previous": {
-        "schema": 0.869,
-        "foundry": "11.315",
-        "system": "5.9.5"
-      }
+    "img": "modules/game-icons-net/whitetransparent/human-target.svg",
+    "flags": {
+        "core": {}
     },
-    "traits": {
-      "otherTags": [],
-      "value": []
+    "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.13.6",
+        "coreVersion": "11.315",
+        "createdTime": 1692545821146,
+        "modifiedTime": 1707749751572,
+        "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
     },
-    "publication": {
-      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
-      "authors": "u/Fanatic66 + Nythz",
-      "license": "OGL",
-      "remaster": true
+    "_id": "57Cig48mDwF815P2",
+    "sort": 100000,
+    "ownership": {
+        "default": 0,
+        "aZ3W8LfCz0rTSXdW": 3
     },
-    "level": {
-      "value": 1
-    },
-    "duration": {
-      "value": 1,
-      "unit": "rounds",
-      "expiry": "turn-end",
-      "sustained": false
-    },
-    "start": {
-      "value": 0,
-      "initiative": null
-    },
-    "tokenIcon": {
-      "show": true
-    },
-    "badge": null,
-    "context": null,
-    "unidentified": false
-  },
-  "img": "modules/game-icons-net/whitetransparent/human-target.svg",
-  "flags": {
-    "core": {}
-  },
-  "_stats": {
-    "systemId": "pf2e",
-    "systemVersion": "5.13.6",
-    "coreVersion": "11.315",
-    "createdTime": 1692545821146,
-    "modifiedTime": 1707749751572,
-    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
-  },
-  "_id": "57Cig48mDwF815P2",
-  "sort": 100000,
-  "ownership": {
-    "default": 0,
-    "aZ3W8LfCz0rTSXdW": 3
-  },
-  "_key": "!items!57Cig48mDwF815P2"
+    "_key": "!items!57Cig48mDwF815P2"
 }

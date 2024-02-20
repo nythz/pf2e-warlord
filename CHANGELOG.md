@@ -3,7 +3,8 @@
  - Added an Item Alteration note to Inspiring Leadership about Marshal Dedication's Aura
    - The Auras have the same effect but the Inspiring version gets upgraded as the Warlord levels up
    - The note explains how to disable the Aura if the warlord has the Inspiring Leadership version
-- 
+- Fixed Helpful word DC Generator macro's empty confirmation to correctly print a dc of 15
+-
 
 # 1.5.0
 ---

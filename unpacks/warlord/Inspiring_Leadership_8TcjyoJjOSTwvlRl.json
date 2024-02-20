@@ -17,7 +17,21 @@
       {
         "key": "GrantItem",
         "uuid": "Compendium.pf2e-warlord.warlord.Item.cZl5lcgrsLvBchpZ"
-      }
+      },
+      {
+  "itemType": "feat",
+  "key": "ItemAlteration",
+  "mode": "add",
+  "predicate": [
+    "item:slug:marshal-dedication"
+  ],
+  "property": "description",
+  "value": [
+    {
+      "text": "The Inspiring Warlord's Aura has the same effect as Marshal's Aura but gets improved as the warlord levels up. Disable Marshal's Aura by adding the predicate : [\"feat:inspiring-leadership\"] to the aura rule element."
+    }
+  ]
+}
     ],
     "slug": "inspiring-leadership",
     "_migration": {

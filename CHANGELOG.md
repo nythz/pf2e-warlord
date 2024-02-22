@@ -4,7 +4,7 @@
    - The Auras have the same effect but the Inspiring version gets upgraded as the Warlord levels up
    - The note explains how to disable the Aura if the warlord has the Inspiring Leadership version
 - Fixed Helpful word DC Generator macro's empty confirmation to correctly print a dc of 15
--
+- Reworked Leadership Paragon Feats into Notes rule elements on ally's successful damage
 
 # 1.5.0
 ---

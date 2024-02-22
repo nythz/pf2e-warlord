@@ -11,11 +11,14 @@
     "rules": [
       {
         "key": "FlatModifier",
-        "selector": [
-          "ac",
-          "saving-throws"
-        ],
         "value": 1,
+        "selector": "ac",
+        "type": "status"
+      },
+      {
+        "key": "FlatModifier",
+        "value": 1,
+        "selector": "saving-throw",
         "type": "status"
       }
     ],

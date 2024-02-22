@@ -1,0 +1,71 @@
+{
+  "folder": "xEVCR1yyZwntlMF6",
+  "name": "Effect: Following a Tactical Paragon",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have been damaged due to a Paragon of Tactical's Leadership.<br />You are off-guard to the warlord and its allies for 1 round.</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "damage",
+        "text": "The target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] for 1 round",
+        "title": "Tactical Paragon"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "duration": {
+      "value": 0,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "txmteDQ3zERE1GL4",
+  "img": "modules/pf2e-warlord/assets/tac-laurel-crown.svg",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1701105727733,
+    "modifiedTime": 1708644200479,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!txmteDQ3zERE1GL4"
+}

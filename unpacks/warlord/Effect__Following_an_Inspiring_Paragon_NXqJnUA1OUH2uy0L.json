@@ -12,7 +12,7 @@
       {
         "key": "ActiveEffectLike",
         "mode": "override",
-        "path": "flags.pf2e-warlord.inspiringparagonlevel",
+        "path": "flags.pf2e-warlord.paragonlevel",
         "value": "@item.origin.level",
         "priority": 20
       },

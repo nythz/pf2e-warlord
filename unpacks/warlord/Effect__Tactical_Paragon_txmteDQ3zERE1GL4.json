@@ -10,13 +10,13 @@
     },
     "rules": [
       {
-  "key": "FlatModifier",
-  "selector": "ac",
-  "slug": "off-guard",
-  "type": "circumstance",
-  "value": -2,
-  "label": "Off-Guard"
-}
+        "key": "FlatModifier",
+        "selector": "ac",
+        "slug": "off-guard",
+        "type": "circumstance",
+        "value": -2,
+        "label": "Off-Guard"
+      }
     ],
     "slug": null,
     "_migration": {

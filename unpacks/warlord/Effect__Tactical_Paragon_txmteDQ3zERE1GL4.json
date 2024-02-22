@@ -8,7 +8,16 @@
       "gm": "",
       "value": "<p>You have been damaged due to a Paragon of Tactical's Leadership.<br />You are off-guard to the warlord and its allies for 1 round.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+  "key": "FlatModifier",
+  "selector": "ac",
+  "slug": "off-guard",
+  "type": "circumstance",
+  "value": -2,
+  "label": "Off-Guard"
+}
+    ],
     "slug": null,
     "_migration": {
       "version": 0.898,

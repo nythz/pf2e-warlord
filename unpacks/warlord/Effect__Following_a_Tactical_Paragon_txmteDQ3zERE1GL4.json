@@ -12,7 +12,7 @@
       {
         "key": "Note",
         "selector": "damage",
-        "text": "The target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] for 1 round",
+        "text": "The target is Off-Guard for 1 round.<br /> @UUID[Compendium.pf2e-warlord.warlord.Item.txmteDQ3zERE1GL4]",
         "title": "Tactical Paragon"
       }
     ],

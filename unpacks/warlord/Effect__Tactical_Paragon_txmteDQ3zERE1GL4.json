@@ -10,12 +10,9 @@
     },
     "rules": [
       {
-        "key": "FlatModifier",
-        "selector": "ac",
-        "slug": "off-guard",
-        "type": "circumstance",
-        "value": -2,
-        "label": "Off-Guard"
+        "inMemoryOnly": true,
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg"
       }
     ],
     "slug": null,

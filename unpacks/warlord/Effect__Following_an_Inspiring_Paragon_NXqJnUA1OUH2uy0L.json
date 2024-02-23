@@ -19,7 +19,7 @@
       {
         "key": "Note",
         "selector": "damage",
-        "text": "@UUID[Compendium.pf2e-warlord.warlord.Item.bYKyeCIOWtimch54]"
+        "text": "You gain @UUID[Compendium.pf2e-warlord.warlord.Item.bYKyeCIOWtimch54]"
       }
     ],
     "slug": null,

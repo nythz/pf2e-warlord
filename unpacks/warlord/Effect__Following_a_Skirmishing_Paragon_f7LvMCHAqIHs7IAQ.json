@@ -8,7 +8,13 @@
       "gm": "",
       "value": ""
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "damage",
+        "text": "The target can't use reactions for 1 round.<br />@UUID[Compendium.pf2e-warlord.warlord.Item.jPVkCKXA1QCGioLZ]"
+      }
+    ],
     "slug": null,
     "_migration": {
       "version": 0.898,

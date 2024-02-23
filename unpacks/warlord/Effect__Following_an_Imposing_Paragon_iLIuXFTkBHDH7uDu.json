@@ -12,7 +12,7 @@
       {
         "key": "Note",
         "selector": "damage",
-        "text": "@UUID[Compendium.pf2e-warlord.warlord.Item.L8v8wmk8HGc1jcHR]"
+        "text": "This damage ignores an amount of resistance to this damage type equal to half of the warlord's level.<br /> The resistance to that damage type is lowered for 1 round.<br />@UUID[Compendium.pf2e-warlord.warlord.Item.L8v8wmk8HGc1jcHR]"
       }
     ],
     "slug": null,

@@ -57,7 +57,7 @@ You can also find issues I lack knowledge on how to fix them in the issue sectio
 - Adjust balance of the Class and Feats
   - Test Bleeding follow through changes
   - Test Fearless Presence + Warlord's Comfort
-  - Test level 20 feats
+  - Test Balance of level 18 and 20 feats
   - Test the balance of each feat in different Warlord builds and roles in a party
 - Replace default icons with free game-icons.net or pf2e system icons
 - Replace game-icons.net and pf2e system icons with custom icons

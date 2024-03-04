@@ -11,7 +11,7 @@
     "rules": [
       {
         "key": "TempHP",
-        "value": "floor(@actor.flags.pf2e-warlord.inspiringparagonlevel / 2)"
+        "value": "floor(@actor.flags.pf2e-warlord.paragonlevel / 2)"
       }
     ],
     "slug": null,

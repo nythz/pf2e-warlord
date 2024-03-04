@@ -1,64 +1,93 @@
 {
-  "folder": "zj5aihlvtV9609wM",
-  "name": "Effect: Commander's Guidance",
-  "type": "effect",
-  "effects": [],
-  "system": {
-    "description": {
-      "gm": "",
-      "value": ""
+    "folder": "zj5aihlvtV9609wM",
+    "name": "Effect: Commander's Guidance",
+    "type": "effect",
+    "effects": [],
+    "system": {
+        "description": {
+            "gm": "",
+            "value": ""
+        },
+        "rules": [{
+                "key": "FlatModifier",
+                "removeAfterRoll": true,
+                "selector": "all",
+                "type": "circumstance",
+                "value": "{item|flags.pf2e.rulesSelections.aidBonus}",
+                "label": "Aid"
+            }, {
+                "choices": [{
+                        "label": "0",
+                        "value": 0
+                    }, {
+                        "label": "+2",
+                        "value": 2
+                    }, {
+                        "label": "+3",
+                        "value": 3
+                    }, {
+                        "label": "+4",
+                        "value": 4
+                    }, {
+                        "label": "+5",
+                        "value": 5
+                    }
+                ],
+                "flag": "aidBonus",
+                "key": "ChoiceSet",
+                "prompt": "PF2E.SpecificRule.Aid.Prompt"
+            }
+        ],
+        "slug": null,
+        "_migration": {
+            "version": 0.898,
+            "lastMigration": null
+        },
+        "traits": {
+            "otherTags": [],
+            "value": []
+        },
+        "publication": {
+            "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+            "authors": "u/Fanatic66 + Nythz",
+            "license": "OGL",
+            "remaster": true
+        },
+        "level": {
+            "value": 6
+        },
+        "duration": {
+            "value": -1,
+            "unit": "rounds",
+            "expiry": "turn-end",
+            "sustained": false
+        },
+        "start": {
+            "value": 0,
+            "initiative": null
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "badge": null,
+        "context": null,
+        "unidentified": false
     },
-    "rules": [],
-    "slug": null,
-    "_migration": {
-      "version": 0.898,
-      "lastMigration": null
+    "_id": "vrvBV8si3amqtkgR",
+    "img": "systems/pf2e/icons/default-icons/effect.svg",
+    "sort": 0,
+    "ownership": {
+        "default": 0,
+        "aZ3W8LfCz0rTSXdW": 3
     },
-    "traits": {
-      "otherTags": [],
-      "value": []
+    "flags": {},
+    "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.13.6",
+        "coreVersion": "11.315",
+        "createdTime": 1701012007508,
+        "modifiedTime": 1707756360008,
+        "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
     },
-    "publication": {
-      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
-      "authors": "u/Fanatic66 + Nythz",
-      "license": "OGL",
-      "remaster": true
-    },
-    "level": {
-      "value": 6
-    },
-    "duration": {
-      "value": -1,
-      "unit": "rounds",
-      "expiry": "turn-end",
-      "sustained": false
-    },
-    "start": {
-      "value": 0,
-      "initiative": null
-    },
-    "tokenIcon": {
-      "show": true
-    },
-    "badge": null,
-    "context": null,
-    "unidentified": false
-  },
-  "_id": "vrvBV8si3amqtkgR",
-  "img": "systems/pf2e/icons/default-icons/effect.svg",
-  "sort": 0,
-  "ownership": {
-    "default": 0,
-    "aZ3W8LfCz0rTSXdW": 3
-  },
-  "flags": {},
-  "_stats": {
-    "systemId": "pf2e",
-    "systemVersion": "5.13.6",
-    "coreVersion": "11.315",
-    "createdTime": 1701012007508,
-    "modifiedTime": 1707756360008,
-    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
-  },
-  "_key": "!items!vrvBV8si3amqtkgR"
+    "_key": "!items!vrvBV8si3amqtkgR"
 }

@@ -54,8 +54,8 @@
 	  {
         "key": "Aura",
         "predicate": [
-          {
-			"self:effect:extend-aura",
+          "self:effect:extend-aura",
+		  {
             "not": "feature:supreme-imposing-warlords-aura"
           }
         ],

@@ -46,7 +46,7 @@
           {
             "nor": [
               "feature:greater-esoteric-warlords-aura",
-              "feature:supreme-esoteric-warlords-aura"
+              "feature:supreme-esoteric-warlords-aura",
             ]
           }
         ],
@@ -91,8 +91,8 @@
           }
         ],
         "predicate": [
-	"self:effect:extend-aura",
-          {
+          "self:effect:extend-aura",
+		  {
             "nor": [
               "feature:greater-esoteric-warlords-aura",
               "feature:supreme-esoteric-warlords-aura"

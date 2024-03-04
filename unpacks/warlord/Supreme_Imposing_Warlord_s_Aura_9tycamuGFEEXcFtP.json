@@ -48,7 +48,7 @@
       },
 	  {
         "key": "Aura",
-        "radius": 30,
+        "radius": 40,
         "appearance": {
           "border": {
             "color": "user-color"

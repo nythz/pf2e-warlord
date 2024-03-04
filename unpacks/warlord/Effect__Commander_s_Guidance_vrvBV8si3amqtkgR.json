@@ -6,7 +6,7 @@
     "system": {
         "description": {
             "gm": "",
-            "value": ""
+            "value": "You gain a circumstance bonus to the aided check based on the result of your ally's Aid check."
         },
         "rules": [{
                 "key": "FlatModifier",
@@ -57,7 +57,7 @@
             "value": 6
         },
         "duration": {
-            "value": -1,
+            "value": 0,
             "unit": "rounds",
             "expiry": "turn-end",
             "sustained": false

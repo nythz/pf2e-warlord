@@ -10,6 +10,7 @@
    - If the Warlord has the Feat Commander's Guidance (level 6), "Effect: Commander's Guidance" is sent instead, replicating the regular Aid effect but with its additional +1
 - Fixed Helpful word DC Generator macro's empty confirmation to correctly print a dc of 15
 - Fixed Greater Skirmishing Aura radius
+- Fixed Imposing Leadership's Intimidation Training
 - Added an Item Alteration to Inspiring Leadership to add a note on the Marshal dedication's Aura
    - The Auras have the same effect but the Inspiring Leadership version gets upgraded as the Warlord levels up
    - The note explains how to disable the marshal Aura if the warlord has the Inspiring Leadership version

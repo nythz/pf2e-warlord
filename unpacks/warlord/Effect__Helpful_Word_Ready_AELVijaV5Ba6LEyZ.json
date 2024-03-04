@@ -18,7 +18,31 @@
         "adjustment": {
           "failure": "to-success"
         }
-      }
+      },
+      {
+  "key": "Note",
+  "text": "@UUID[Compendium.pf2e-warlord.warlord.Item.vrvBV8si3amqtkgR]",
+  "selector": [
+    "class",
+    "skill-check"
+  ],
+  "predicate": [
+    "feat:commanders-guidance"
+  ]
+},
+     {
+  "key": "Note",
+  "selector": [
+    "class",
+    "skill-check"
+  ],
+  "text": "@UUID[Compendium.pf2e.other-effects.Item.AHMUpMbaVkZ5A1KX]",
+  "predicate": [
+    {
+      "not": "feat:commanders-guidance"
+    }
+  ]
+} 
     ],
     "slug": "effect-helpful-word-ready",
     "_migration": {

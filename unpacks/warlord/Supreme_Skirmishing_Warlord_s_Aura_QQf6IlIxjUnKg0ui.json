@@ -51,7 +51,7 @@
       },
 	  {
         "key": "Aura",
-        "radius": 30,
+        "radius": 40,
         "traits": [
           "visual"
         ],

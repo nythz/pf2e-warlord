@@ -15,6 +15,50 @@
         "traits": [
           "visual"
         ],
+		"level": "17",
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.6N0EkxcpjwWfSmM2",
+            "affects": "allies"
+          },
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.vergaAMkrgNI2Kpk",
+            "predicate": [
+              "feat:skillful-aura"
+            ]
+          },
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.2jTCu7MruyqI2QiV",
+            "predicate": [
+              "feat:fearless-presence",
+              {
+                "not": "feat:courageous-presence"
+              }
+            ]
+          },
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.G6xjdQvrDmCX0tsq",
+            "predicate": [
+              "feat:courageous-presence"
+            ]
+          }
+        ],
+        "appearance": {
+          "border": {
+            "color": "user-color"
+          }
+        }
+      },
+	  {
+        "key": "Aura",
+        "radius": 30,
+        "traits": [
+          "visual"
+        ],
+		"predicate": [
+			"self:effect:extend-aura"
+		],
+		"level": "17",
         "effects": [
           {
             "uuid": "Compendium.pf2e-warlord.warlord.Item.6N0EkxcpjwWfSmM2",

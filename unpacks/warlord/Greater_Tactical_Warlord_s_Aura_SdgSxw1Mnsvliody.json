@@ -15,7 +15,7 @@
         "traits": [
           "visual"
         ],
-		"level": "11",
+        "level": "11",
         "predicate": [
           {
             "not": "feature:supreme-tactical-warlords-aura"
@@ -54,15 +54,15 @@
           }
         }
       },
-	  {
+      {
         "key": "Aura",
         "radius": 30,
         "traits": [
           "visual"
         ],
-		"level": "11",
+        "level": "11",
         "predicate": [
-			"self:effect:extend-aura",
+          "self:effect:extend-aura",
           {
             "not": "feature:supreme-tactical-warlords-aura"
           }

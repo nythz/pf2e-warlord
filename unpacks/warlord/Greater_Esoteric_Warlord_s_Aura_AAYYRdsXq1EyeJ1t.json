@@ -20,7 +20,7 @@
             "not": "feature:supreme-esoteric-warlords-aura"
           }
         ],
-		"level": "11",
+        "level": "11",
         "effects": [
           {
             "uuid": "Compendium.pf2e-warlord.warlord.Item.zJjAi2K0MfChS6w5",
@@ -54,7 +54,7 @@
           }
         }
       },
-	  {
+      {
         "key": "Aura",
         "radius": 30,
         "traits": [
@@ -62,11 +62,11 @@
         ],
         "predicate": [
           "self:effect:extend-aura",
-		  {
+          {
             "not": "feature:supreme-esoteric-warlords-aura"
           }
         ],
-		"level": "11",
+        "level": "11",
         "effects": [
           {
             "uuid": "Compendium.pf2e-warlord.warlord.Item.zJjAi2K0MfChS6w5",

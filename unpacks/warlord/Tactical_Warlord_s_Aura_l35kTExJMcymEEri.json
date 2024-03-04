@@ -15,7 +15,7 @@
         "traits": [
           "visual"
         ],
-		"level": "1",
+        "level": "1",
         "predicate": [
           {
             "nor": [
@@ -57,15 +57,15 @@
           }
         }
       },
-	  {
+      {
         "key": "Aura",
-        "radius": 20,
+        "radius": 10,
         "traits": [
           "visual"
         ],
-		"level": "1",
+        "level": "1",
         "predicate": [
-			"self:effect:extend-aura",
+          "self:effect:extend-aura",
           {
             "nor": [
               "feature:greater-tactical-warlords-aura",

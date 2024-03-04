@@ -18,7 +18,7 @@
           "mental",
           "visual"
         ],
-		"level": "17",
+        "level": "17",
         "appearance": {
           "border": {
             "color": "user-color"
@@ -52,19 +52,19 @@
           }
         ]
       },
-	  {
+      {
         "key": "Aura",
-        "radius": 40,
+        "radius": 30,
         "slug": "warlords-aura",
         "traits": [
           "emotion",
           "mental",
           "visual"
         ],
-		"predicate": [
-			"self:effect:extend-aura"
-		],
-		"level": "17",
+        "predicate": [
+          "self:effect:extend-aura"
+        ],
+        "level": "17",
         "appearance": {
           "border": {
             "color": "user-color"

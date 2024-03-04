@@ -55,9 +55,9 @@
             "not": "feature:supreme-inspiring-warlords-aura"
           }
         ],
-		"level": "11"
+        "level": "11"
       },
-	  {
+      {
         "key": "Aura",
         "radius": 30,
         "slug": "warlords-aura",
@@ -99,12 +99,12 @@
           }
         },
         "predicate": [
-			"self:effect:extend-aura",
-			{
-				"not": "feature:supreme-inspiring-warlords-aura"
-			}
+          "self:effect:extend-aura",
+          {
+            "not": "feature:supreme-inspiring-warlords-aura"
+          }
         ],
-		"level": "11"
+        "level": "11"
       }
     ],
     "slug": "greater-inspiring-warlords-aura",

@@ -19,7 +19,7 @@
             ]
           }
         ],
-		"level": "1",
+        "level": "1",
         "radius": 10,
         "effects": [
           {
@@ -54,10 +54,10 @@
           }
         }
       },
-	  {
+      {
         "key": "Aura",
         "predicate": [
-			"self:effect:extend-aura",
+          "self:effect:extend-aura",
           {
             "nor": [
               "feature:greater-imposing-warlords-aura",
@@ -65,7 +65,7 @@
             ]
           }
         ],
-		"level": "1",
+        "level": "1",
         "radius": 20,
         "effects": [
           {

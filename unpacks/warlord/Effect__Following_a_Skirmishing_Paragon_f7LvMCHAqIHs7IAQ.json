@@ -12,7 +12,8 @@
       {
         "key": "Note",
         "selector": "damage",
-        "text": "The target can't use reactions for 1 round.<br />@UUID[Compendium.pf2e-warlord.warlord.Item.jPVkCKXA1QCGioLZ]"
+        "text": "The target can't use reactions for 1 round.<br />@UUID[Compendium.pf2e-warlord.warlord.Item.jPVkCKXA1QCGioLZ]",
+        "title": "Skirmishing Paragon:"
       }
     ],
     "slug": null,
@@ -63,8 +64,8 @@
     "systemVersion": "5.13.6",
     "coreVersion": "11.315",
     "createdTime": 1701105716565,
-    "modifiedTime": 1708644192064,
-    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+    "modifiedTime": 1709575175167,
+    "lastModifiedBy": "X6WdFrDaZsvL5ay9"
   },
   "_key": "!items!f7LvMCHAqIHs7IAQ"
 }

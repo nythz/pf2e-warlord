@@ -16,7 +16,7 @@
             "not": "feature:supreme-imposing-warlords-aura"
           }
         ],
-		"level": "11",
+        "level": "11",
         "radius": 20,
         "appearance": {
           "border": {
@@ -51,15 +51,15 @@
           }
         ]
       },
-	  {
+      {
         "key": "Aura",
         "predicate": [
           "self:effect:extend-aura",
-		  {
+          {
             "not": "feature:supreme-imposing-warlords-aura"
           }
         ],
-		"level": "11",
+        "level": "11",
         "radius": 30,
         "appearance": {
           "border": {

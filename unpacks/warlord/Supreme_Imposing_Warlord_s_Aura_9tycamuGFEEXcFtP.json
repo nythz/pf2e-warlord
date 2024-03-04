@@ -17,7 +17,7 @@
             "color": "user-color"
           }
         },
-		"level": "17",
+        "level": "17",
         "effects": [
           {
             "uuid": "Compendium.pf2e-warlord.warlord.Item.gClQbti557IgsI6s",
@@ -46,18 +46,18 @@
           }
         ]
       },
-	  {
+      {
         "key": "Aura",
-        "radius": 40,
+        "radius": 30,
         "appearance": {
           "border": {
             "color": "user-color"
           }
         },
-		"predicate": [
-			"self:effect:extend-aura"
-		],
-		"level": "17",
+        "predicate": [
+          "self:effect:extend-aura"
+        ],
+        "level": "17",
         "effects": [
           {
             "uuid": "Compendium.pf2e-warlord.warlord.Item.gClQbti557IgsI6s",

@@ -12,7 +12,8 @@
       {
         "key": "Note",
         "selector": "damage",
-        "text": "This damage ignores an amount of resistance to this damage type equal to half of the warlord's level.<br /> The resistance to that damage type is lowered for 1 round.<br />@UUID[Compendium.pf2e-warlord.warlord.Item.L8v8wmk8HGc1jcHR]"
+        "text": "This damage ignores an amount of resistance to this damage type equal to half of the warlord's level.<br /> The resistance to that damage type is lowered for 1 round.<br />@UUID[Compendium.pf2e-warlord.warlord.Item.0Aj59sU0HVBXXuFT]",
+        "title": "Imposing Paragon:"
       }
     ],
     "slug": null,
@@ -63,8 +64,8 @@
     "systemVersion": "5.13.6",
     "coreVersion": "11.315",
     "createdTime": 1701106244073,
-    "modifiedTime": 1708644164717,
-    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+    "modifiedTime": 1709575237401,
+    "lastModifiedBy": "X6WdFrDaZsvL5ay9"
   },
   "_key": "!items!iLIuXFTkBHDH7uDu"
 }

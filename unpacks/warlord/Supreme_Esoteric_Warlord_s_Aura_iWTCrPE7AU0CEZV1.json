@@ -15,7 +15,7 @@
         "traits": [
           "visual"
         ],
-		"level": "17",
+        "level": "17",
         "effects": [
           {
             "uuid": "Compendium.pf2e-warlord.warlord.Item.sKveHRytii251lmg",
@@ -49,13 +49,13 @@
           }
         }
       },
-	  {
+      {
         "key": "Aura",
         "radius": 40,
         "traits": [
           "visual"
         ],
-		"level": "17",
+        "level": "17",
         "effects": [
           {
             "uuid": "Compendium.pf2e-warlord.warlord.Item.sKveHRytii251lmg",
@@ -83,9 +83,9 @@
             ]
           }
         ],
-		"predicate": [
-			"self:effect:extend-aura"
-		],
+        "predicate": [
+          "self:effect:extend-aura"
+        ],
         "appearance": {
           "border": {
             "color": "user-color"

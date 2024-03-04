@@ -57,7 +57,7 @@
           }
         }
       },
-	  {
+      {
         "key": "Aura",
         "radius": 20,
         "traits": [
@@ -92,7 +92,7 @@
         ],
         "predicate": [
           "self:effect:extend-aura",
-		  {
+          {
             "nor": [
               "feature:greater-esoteric-warlords-aura",
               "feature:supreme-esoteric-warlords-aura"

@@ -53,14 +53,14 @@
             ]
           }
         ],
-		"level": "1",
+        "level": "1",
         "appearance": {
           "border": {
             "color": "user-color"
           }
         }
       },
-	  {
+      {
         "key": "Aura",
         "radius": 20,
         "slug": "warlords-aura",
@@ -97,7 +97,7 @@
           }
         ],
         "predicate": [
-			"self:effect:extend-aura",
+          "self:effect:extend-aura",
           {
             "nor": [
               "feature:greater-inspiring-warlords-aura",
@@ -105,7 +105,7 @@
             ]
           }
         ],
-		"level": "1",
+        "level": "1",
         "appearance": {
           "border": {
             "color": "user-color"

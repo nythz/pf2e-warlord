@@ -17,7 +17,7 @@
             "not": "feature:supreme-skirmishing-warlords-aura"
           }
         ],
-		"level": "11",
+        "level": "11",
         "traits": [
           "visual"
         ],
@@ -54,16 +54,16 @@
           }
         }
       },
-	  {
+      {
         "key": "Aura",
         "radius": 30,
         "predicate": [
-			"self:effect:extend-aura",
+          "self:effect:extend-aura",
           {
             "not": "feature:supreme-skirmishing-warlords-aura"
           }
         ],
-		"level": "11",
+        "level": "11",
         "traits": [
           "visual"
         ],

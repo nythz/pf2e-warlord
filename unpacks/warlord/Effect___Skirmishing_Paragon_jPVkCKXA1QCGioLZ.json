@@ -1,24 +1,17 @@
 {
-  "folder": "xEVCR1yyZwntlMF6",
-  "name": "Effect: Following a Tactical Paragon",
+  "folder": "XKbs3IlbqBHYRN3C",
+  "name": "Effect : Skirmishing Paragon",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": ""
+      "value": "<p>You can't take reactions for 1 round.</p>"
     },
-    "rules": [
-      {
-        "key": "Note",
-        "selector": "damage",
-        "text": "The target is Off-Guard for 1 round.<br /> @UUID[Compendium.pf2e-warlord.warlord.Item.txmteDQ3zERE1GL4]",
-        "title": "Tactical Paragon"
-      }
-    ],
+    "rules": [],
     "slug": null,
     "_migration": {
-      "version": 0.898,
+      "version": 0.917,
       "lastMigration": null
     },
     "traits": {
@@ -26,18 +19,18 @@
       "value": []
     },
     "publication": {
-      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
-      "authors": "u/Fanatic66 + Nythz",
+      "title": "",
+      "authors": "",
       "license": "OGL",
-      "remaster": true
+      "remaster": false
     },
     "level": {
       "value": 13
     },
     "duration": {
-      "value": 0,
+      "value": 1,
       "unit": "rounds",
-      "expiry": "turn-end",
+      "expiry": "turn-start",
       "sustained": false
     },
     "start": {
@@ -51,9 +44,9 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "txmteDQ3zERE1GL4",
-  "img": "modules/pf2e-warlord/assets/tac-laurel-crown.svg",
-  "sort": 800000,
+  "_id": "jPVkCKXA1QCGioLZ",
+  "img": "modules/pf2e-warlord/assets/ski-laurel-crown.svg",
+  "sort": 0,
   "ownership": {
     "default": 0,
     "aZ3W8LfCz0rTSXdW": 3
@@ -63,9 +56,9 @@
     "systemId": "pf2e",
     "systemVersion": "5.13.6",
     "coreVersion": "11.315",
-    "createdTime": 1701105727733,
-    "modifiedTime": 1709575180211,
+    "createdTime": 1708643850772,
+    "modifiedTime": 1709575157923,
     "lastModifiedBy": "X6WdFrDaZsvL5ay9"
   },
-  "_key": "!items!txmteDQ3zERE1GL4"
+  "_key": "!items!jPVkCKXA1QCGioLZ"
 }

@@ -53,6 +53,59 @@
             ]
           }
         ],
+        "level": "1",
+        "appearance": {
+          "border": {
+            "color": "user-color"
+          }
+        }
+      },
+      {
+        "key": "Aura",
+        "radius": 20,
+        "slug": "warlords-aura",
+        "traits": [
+          "emotion",
+          "mental",
+          "visual"
+        ],
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.5jObRHquSf4eZWDw",
+            "affects": "allies"
+          },
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.iTbY51wymw5QVqHh",
+            "predicate": [
+              "feat:skillful-aura"
+            ]
+          },
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.2jTCu7MruyqI2QiV",
+            "predicate": [
+              "feat:fearless-presence",
+              {
+                "not": "feat:courageous-presence"
+              }
+            ]
+          },
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.G6xjdQvrDmCX0tsq",
+            "predicate": [
+              "feat:courageous-presence"
+            ]
+          }
+        ],
+        "predicate": [
+          "self:effect:extend-aura",
+          {
+            "nor": [
+              "feature:greater-inspiring-warlords-aura",
+              "feature:supreme-inspiring-warlords-aura"
+            ]
+          }
+        ],
+        "level": "1",
         "appearance": {
           "border": {
             "color": "user-color"

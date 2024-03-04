@@ -15,7 +15,57 @@
         "traits": [
           "visual"
         ],
+        "level": "1",
         "predicate": [
+          {
+            "nor": [
+              "feature:greater-tactical-warlords-aura",
+              "feature:supreme-tactical-warlords-aura"
+            ]
+          }
+        ],
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.2XGKoGdxOuXUAYEt",
+            "affects": "allies"
+          },
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.U8WZBnvJznRskX6s",
+            "predicate": [
+              "feat:skillful-aura"
+            ]
+          },
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.2jTCu7MruyqI2QiV",
+            "predicate": [
+              "feat:fearless-presence",
+              {
+                "not": "feat:courageous-presence"
+              }
+            ]
+          },
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.G6xjdQvrDmCX0tsq",
+            "predicate": [
+              "feat:courageous-presence"
+            ]
+          }
+        ],
+        "appearance": {
+          "border": {
+            "color": "user-color"
+          }
+        }
+      },
+      {
+        "key": "Aura",
+        "radius": 20,
+        "traits": [
+          "visual"
+        ],
+        "level": "1",
+        "predicate": [
+          "self:effect:extend-aura",
           {
             "nor": [
               "feature:greater-tactical-warlords-aura",

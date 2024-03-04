@@ -51,7 +51,7 @@
         "key": "Note",
         "title": "Success :",
         "selector": "attack-roll",
-        "text": "@UUID[Compendium.pf2e-warlord.warlord.Item.iLIuXFTkBHDH7uDu]\n@UUID[Compendium.pf2e-warlord.warlord.Item.L8v8wmk8HGc1jcHR]",
+        "text": "@UUID[Compendium.pf2e-warlord.warlord.Item.iLIuXFTkBHDH7uDu]",
         "outcome": [
           "success",
           "criticalSuccess"
@@ -114,15 +114,20 @@
       },
       {
         "key": "Note",
+        "title": "Success :",
         "selector": "damage",
         "text": "@UUID[Compendium.pf2e-warlord.warlord.Item.OvAcaAkgSe394MDC]",
-        "outcome": [],
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
         "predicate": [
           "feat:continue-the-example"
         ]
       },
       {
         "key": "Note",
+        "title": "Success :",        
         "selector": "attack-roll",
         "text": "@UUID[Compendium.pf2e-warlord.warlord.Item.uTh9FMXwTPJ08h21]",
         "outcome": [

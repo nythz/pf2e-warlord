@@ -1,23 +1,19 @@
 {
-  "folder": "64Nj1MjQQNS8Uase",
-  "name": "Effect: Warlord's Doom",
+  "folder": "xEVCR1yyZwntlMF6",
+  "name": "Effect: Following a Tactical Paragon",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your next saving throw is treated as one degree of success lower.</p>"
+      "value": ""
     },
     "rules": [
       {
-        "key": "AdjustDegreeOfSuccess",
-        "type": "save",
-        "selector": "saving-throw",
-        "adjustment": {
-          "criticalSuccess": "one-degree-worse",
-          "success": "one-degree-worse",
-          "failure": "one-degree-worse"
-        }
+        "key": "Note",
+        "selector": "damage",
+        "text": "The target is Off-Guard for 1 round.<br /> @UUID[Compendium.pf2e-warlord.warlord.Item.vJIsm83bkyhdpqv8]",
+        "title": "Tactical Paragon"
       }
     ],
     "slug": null,
@@ -36,12 +32,12 @@
       "remaster": true
     },
     "level": {
-      "value": 18
+      "value": 13
     },
     "duration": {
-      "value": -1,
-      "unit": "encounter",
-      "expiry": null,
+      "value": 0,
+      "unit": "rounds",
+      "expiry": "turn-end",
       "sustained": false
     },
     "start": {
@@ -55,9 +51,9 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "doeLlGjJsjRPiKDJ",
-  "img": "systems/pf2e/icons/spells/drop-dead.webp",
-  "sort": 0,
+  "_id": "txmteDQ3zERE1GL4",
+  "img": "modules/pf2e-warlord/assets/tac-laurel-crown.svg",
+  "sort": 800000,
   "ownership": {
     "default": 0,
     "aZ3W8LfCz0rTSXdW": 3
@@ -65,11 +61,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.9.5",
+    "systemVersion": "5.13.6",
     "coreVersion": "11.315",
-    "createdTime": 1701045800337,
-    "modifiedTime": 1701375712223,
-    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+    "createdTime": 1701105727733,
+    "modifiedTime": 1709576178246,
+    "lastModifiedBy": "X6WdFrDaZsvL5ay9"
   },
-  "_key": "!items!doeLlGjJsjRPiKDJ"
+  "_key": "!items!txmteDQ3zERE1GL4"
 }

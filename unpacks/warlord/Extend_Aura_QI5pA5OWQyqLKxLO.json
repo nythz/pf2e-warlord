@@ -5,8 +5,8 @@
   "effects": [],
   "system": {
     "description": {
-      "gm": "<p>Unsure how to implement<br />GM needs to adjust aura size manually up and then back to regular</p>",
-      "value": "<p>You push yourself to expand your influence. Select one aura you have from a warlord feat or feature, such as Fearless Presence or your Leadership Style aura. The radius of the aura increases by 10-feet until the start of your next turn.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.S65uhGtHDy2BBb8d]</p>"
+      "gm": "",
+      "value": "<p>You push yourself to expand your influence. The radius of your warlord leadership auras increases by 10-feet until the start of your next turn.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.S65uhGtHDy2BBb8d]</p>"
     },
     "rules": [],
     "slug": null,

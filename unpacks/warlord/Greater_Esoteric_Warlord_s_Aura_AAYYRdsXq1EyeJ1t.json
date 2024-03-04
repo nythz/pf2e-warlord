@@ -20,6 +20,53 @@
             "not": "feature:supreme-esoteric-warlords-aura"
           }
         ],
+        "level": "11",
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.zJjAi2K0MfChS6w5",
+            "affects": "allies"
+          },
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.fI8Pj2Bk6N0Fm13N",
+            "predicate": [
+              "feat:skillful-aura"
+            ]
+          },
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.2jTCu7MruyqI2QiV",
+            "predicate": [
+              "feat:fearless-presence",
+              {
+                "not": "feat:courageous-presence"
+              }
+            ]
+          },
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.G6xjdQvrDmCX0tsq",
+            "predicate": [
+              "feat:courageous-presence"
+            ]
+          }
+        ],
+        "appearance": {
+          "border": {
+            "color": "user-color"
+          }
+        }
+      },
+      {
+        "key": "Aura",
+        "radius": 30,
+        "traits": [
+          "visual"
+        ],
+        "predicate": [
+          "self:effect:extend-aura",
+          {
+            "not": "feature:supreme-esoteric-warlords-aura"
+          }
+        ],
+        "level": "11",
         "effects": [
           {
             "uuid": "Compendium.pf2e-warlord.warlord.Item.zJjAi2K0MfChS6w5",

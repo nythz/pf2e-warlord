@@ -1,14 +1,21 @@
 {
-  "folder": "MDvR8jSuekZxsuDE",
-  "name": "Effect: Imposing Paragon (Enemy)",
+  "folder": "X38oWLMcscghoffw",
+  "name": "Effect: Following an Esoteric Paragon",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You have been damaged due to a Paragon of Imposing Leadership.<br />The resistance affected by the triggering attack is reduced by half the warlord's level for 1 round.</p>"
+      "value": ""
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "damage",
+        "text": "You gain @UUID[Compendium.pf2e-warlord.warlord.Item.kTmrHsnq2EeOZazJ]",
+        "title": "Esoteric Paragon:"
+      }
+    ],
     "slug": null,
     "_migration": {
       "version": 0.898,
@@ -28,9 +35,9 @@
       "value": 13
     },
     "duration": {
-      "value": 1,
+      "value": 0,
       "unit": "rounds",
-      "expiry": "turn-start",
+      "expiry": "turn-end",
       "sustained": false
     },
     "start": {
@@ -44,9 +51,9 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "L8v8wmk8HGc1jcHR",
-  "img": "modules/pf2e-warlord/assets/imp-laurel-crown.svg",
-  "sort": 700000,
+  "_id": "A6Ev3nEpshoMLwPI",
+  "img": "modules/pf2e-warlord/assets/eso-laurel-crown.svg",
+  "sort": 900000,
   "ownership": {
     "default": 0,
     "aZ3W8LfCz0rTSXdW": 3
@@ -54,11 +61,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.10.2",
+    "systemVersion": "5.13.6",
     "coreVersion": "11.315",
-    "createdTime": 1701105692575,
-    "modifiedTime": 1701538282794,
-    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+    "createdTime": 1701105677987,
+    "modifiedTime": 1709576242525,
+    "lastModifiedBy": "X6WdFrDaZsvL5ay9"
   },
-  "_key": "!items!L8v8wmk8HGc1jcHR"
+  "_key": "!items!A6Ev3nEpshoMLwPI"
 }

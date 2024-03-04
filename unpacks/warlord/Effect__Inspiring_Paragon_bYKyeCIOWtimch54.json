@@ -1,17 +1,22 @@
 {
-  "folder": "xEVCR1yyZwntlMF6",
-  "name": "Effect: Tactical Paragon",
+  "folder": "GUv2Lp6jD7BhUrBG",
+  "name": "Effect: Inspiring Paragon",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You have been damaged due to a Paragon of Tactical's Leadership.<br />You are off-guard to the warlord and its allies for 1 round.</p>"
+      "value": "<p>You have dealt additional damage due a Paragon of Inspiring Leadership.<br />You gained temporary hit points equal to half the warlord's level for 1 round.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "TempHP",
+        "value": "floor(@actor.flags.pf2e-warlord.paragonlevel / 2)"
+      }
+    ],
     "slug": null,
     "_migration": {
-      "version": 0.898,
+      "version": 0.917,
       "lastMigration": null
     },
     "traits": {
@@ -19,10 +24,10 @@
       "value": []
     },
     "publication": {
-      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
-      "authors": "u/Fanatic66 + Nythz",
+      "title": "",
+      "authors": "",
       "license": "OGL",
-      "remaster": true
+      "remaster": false
     },
     "level": {
       "value": 13
@@ -44,9 +49,9 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "txmteDQ3zERE1GL4",
-  "img": "modules/pf2e-warlord/assets/tac-laurel-crown.svg",
-  "sort": 800000,
+  "_id": "bYKyeCIOWtimch54",
+  "img": "modules/pf2e-warlord/assets/ins-laurel-crown.svg",
+  "sort": 0,
   "ownership": {
     "default": 0,
     "aZ3W8LfCz0rTSXdW": 3
@@ -54,11 +59,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.10.2",
+    "systemVersion": "5.13.6",
     "coreVersion": "11.315",
-    "createdTime": 1701105727733,
-    "modifiedTime": 1701538308414,
-    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+    "createdTime": 1708643764262,
+    "modifiedTime": 1709576099754,
+    "lastModifiedBy": "X6WdFrDaZsvL5ay9"
   },
-  "_key": "!items!txmteDQ3zERE1GL4"
+  "_key": "!items!bYKyeCIOWtimch54"
 }

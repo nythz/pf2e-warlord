@@ -1,27 +1,27 @@
 {
-  "name": "Warlord Helpful Word Check Generator",
-  "type": "script",
-  "scope": "global",
-  "author": "nL0eWwmEndCdLgri",
-  "img": "icons/svg/dice-target.svg",
-  "command": "await new Dialog({\n                title:\"Warlord Helpful Word Check Generator\",\n                content: `<p style=\"font-size:80%;text-align:center;\">If the DC is invalid or left blank, then a Check of DC 15 will be posted.</p>\n                <form><div class=\"form-group\">\n                <label><strong>DC:</strong></label>\n                <input type='number' id='thisinputhere' name='DCValue' autofocus></input>\n                </div></form>`,\n                buttons: {\n                    one: {\n                        icon: '<i class=\"fas fa-dice-d20\"></i>',\n                        label: \"Confirm and Post\",\n                        callback: () => confirmed = true\n                    },\n                    two: {\n                        icon: '<i class=\"fas fa-times\"></i>',\n                        label: \"Cancel\",\n                        callback: () => confirmed = false\n                    }\n                },\n                default: \"one\",\n                render: () => document.getElementById(\"thisinputhere\").focus(),\n                close: html => {\n                    if (confirmed) {\n                        var DCValue = html.find('input[name=\\'DCValue\\']');\n                        if (DCValue.val()== '') {\n                            checkText = `@Check[type:class|dc:15|options:warlord-aid,action:aid]`;\n                        } else if (isNaN(DCValue.val())) {\n                            console.log(\"Error: DC Not a Number.\");\n                            return ui.notifications.error(\"Please input a number in the DC field.\");\n                        } else if (DCValue.val()<= 0) {\n                            console.log(\"Error: DC Not Valid.\");\n                            return ui.notifications.error(\"Please input a number greater than zero in the DC field.\");\n                        } else {\n                            DCValue = parseInt(html.find('[name=DCValue]')[0].value);\n                            DC = `dc:${DCValue}|`;\n                        }\n                        \n                        \n                        checkText = `@Check[type:class|${DC}|options:warlord-aid,action:aid]`;\n\n                        ChatMessage.create({\n                            user: game.user._id,\n                            speaker: ChatMessage.getSpeaker(),\n                            content: checkText\n                        });\n                        \n                    }\n                }\n            },{width: 300}).render(true);",
-  "folder": null,
-  "ownership": {
-    "default": 0,
-    "nL0eWwmEndCdLgri": 3
-  },
-  "flags": {
-    "core": {}
-  },
-  "_stats": {
-    "systemId": "pf2e",
-    "systemVersion": "5.13.2",
-    "coreVersion": "11.315",
-    "createdTime": 1707093858352,
-    "modifiedTime": 1707101098451,
-    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
-  },
-  "_id": "GWVIG8zJWwi4lOTR",
-  "sort": 0,
-  "_key": "!macros!GWVIG8zJWwi4lOTR"
+    "name": "Warlord Helpful Word Check Generator",
+    "type": "script",
+    "scope": "global",
+    "author": "nL0eWwmEndCdLgri",
+    "img": "icons/svg/dice-target.svg",
+    "command": "await new Dialog({\n                title:\"Warlord Helpful Word Check Generator\",\n                content: `<p style=\"font-size:80%;text-align:center;\">If the DC is invalid or left blank, then a Check of DC 15 will be posted.</p>\n                <form><div class=\"form-group\">\n                <label><strong>DC:</strong></label>\n                <input type='number' id='thisinputhere' name='DCValue' autofocus></input>\n                </div></form>`,\n                buttons: {\n                    one: {\n                        icon: '<i class=\"fas fa-dice-d20\"></i>',\n                        label: \"Confirm and Post\",\n                        callback: () => confirmed = true\n                    },\n                    two: {\n                        icon: '<i class=\"fas fa-times\"></i>',\n                        label: \"Cancel\",\n                        callback: () => confirmed = false\n                    }\n                },\n                default: \"one\",\n                render: () => document.getElementById(\"thisinputhere\").focus(),\n                close: html => {\n                    if (confirmed) {\n                        var DCValue = html.find('input[name=\\'DCValue\\']');\n                        if (DCValue.val()== '') {\n                            DC = `dc:15|`;\n                        } else if (isNaN(DCValue.val())) {\n                            console.log(\"Error: DC Not a Number.\");\n                            return ui.notifications.error(\"Please input a number in the DC field.\");\n                        } else if (DCValue.val()<= 0) {\n                            console.log(\"Error: DC Not Valid.\");\n                            return ui.notifications.error(\"Please input a number greater than zero in the DC field.\");\n                        } else {\n                            DCValue = parseInt(html.find('[name=DCValue]')[0].value);\n                            DC = `dc:${DCValue}|`;\n                        }\n                        \n                        \n                        checkText = `@Check[type:class|${DC}|options:warlord-aid,action:aid]`;\n\n                        ChatMessage.create({\n                            user: game.user._id,\n                            speaker: ChatMessage.getSpeaker(),\n                            content: checkText\n                        });\n                        \n                    }\n                }\n            },{width: 300}).render(true);",
+    "folder": null,
+    "ownership": {
+        "default": 0,
+        "nL0eWwmEndCdLgri": 3
+    },
+    "flags": {
+        "core": {}
+    },
+    "_stats": {
+        "systemId": "pf2e",
+        "systemVersion": "5.13.2",
+        "coreVersion": "11.315",
+        "createdTime": 1707093858352,
+        "modifiedTime": 1707101098451,
+        "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+    },
+    "_id": "GWVIG8zJWwi4lOTR",
+    "sort": 0,
+    "_key": "!macros!GWVIG8zJWwi4lOTR"
 }

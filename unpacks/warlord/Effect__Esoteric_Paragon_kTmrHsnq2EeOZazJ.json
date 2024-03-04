@@ -1,24 +1,27 @@
 {
-  "folder": "ZfrZP6mC8np1MxKl",
-  "name": "Effect: Charge with me",
+  "folder": "X38oWLMcscghoffw",
+  "name": "Effect: Esoteric Paragon",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You gain a +10-foot status bonus to your speed for 1 round.</p>"
+      "value": "<p>You have dealt additional damage due to a Paragon of Esoteric Leadership.<br />You gain a +1 status bonus to AC and saving throws for 1 round.</p>"
     },
     "rules": [
       {
         "key": "FlatModifier",
-        "selector": "land-speed",
-        "value": 10,
+        "selector": [
+          "ac",
+          "saving-throws"
+        ],
+        "value": 1,
         "type": "status"
       }
     ],
-    "slug": "charge-with-me-effect",
+    "slug": "effect-esoteric-paragon",
     "_migration": {
-      "version": 0.898,
+      "version": 0.917,
       "lastMigration": null
     },
     "traits": {
@@ -26,18 +29,18 @@
       "value": []
     },
     "publication": {
-      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
-      "authors": "u/Fanatic66 + Nythz",
+      "title": "",
+      "authors": "",
       "license": "OGL",
-      "remaster": true
+      "remaster": false
     },
     "level": {
-      "value": 4
+      "value": 13
     },
     "duration": {
       "value": 1,
       "unit": "rounds",
-      "expiry": "turn-end",
+      "expiry": "turn-start",
       "sustained": false
     },
     "start": {
@@ -51,8 +54,8 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "ieHe25Jvc1HnZoE3",
-  "img": "systems/pf2e/icons/spells/unimpeded-stride.webp",
+  "_id": "kTmrHsnq2EeOZazJ",
+  "img": "modules/pf2e-warlord/assets/eso-laurel-crown.svg",
   "sort": 0,
   "ownership": {
     "default": 0,
@@ -61,11 +64,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.9.5",
+    "systemVersion": "5.13.6",
     "coreVersion": "11.315",
-    "createdTime": 1701009808225,
-    "modifiedTime": 1701295992253,
-    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+    "createdTime": 1708643640392,
+    "modifiedTime": 1709576089750,
+    "lastModifiedBy": "X6WdFrDaZsvL5ay9"
   },
-  "_key": "!items!ieHe25Jvc1HnZoE3"
+  "_key": "!items!kTmrHsnq2EeOZazJ"
 }

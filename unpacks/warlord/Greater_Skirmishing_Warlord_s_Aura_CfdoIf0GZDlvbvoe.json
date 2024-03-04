@@ -11,12 +11,59 @@
     "rules": [
       {
         "key": "Aura",
-        "radius": 10,
+        "radius": 20,
         "predicate": [
           {
             "not": "feature:supreme-skirmishing-warlords-aura"
           }
         ],
+        "level": "11",
+        "traits": [
+          "visual"
+        ],
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.8SEomC4GTYxABtkV",
+            "affects": "allies"
+          },
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.1NwEKR4WMWZPAg5d",
+            "predicate": [
+              "feat:skillful-aura"
+            ]
+          },
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.2jTCu7MruyqI2QiV",
+            "predicate": [
+              "feat:fearless-presence",
+              {
+                "not": "feat:courageous-presence"
+              }
+            ]
+          },
+          {
+            "uuid": "Compendium.pf2e-warlord.warlord.Item.G6xjdQvrDmCX0tsq",
+            "predicate": [
+              "feat:courageous-presence"
+            ]
+          }
+        ],
+        "appearance": {
+          "border": {
+            "color": "user-color"
+          }
+        }
+      },
+      {
+        "key": "Aura",
+        "radius": 30,
+        "predicate": [
+          "self:effect:extend-aura",
+          {
+            "not": "feature:supreme-skirmishing-warlords-aura"
+          }
+        ],
+        "level": "11",
         "traits": [
           "visual"
         ],

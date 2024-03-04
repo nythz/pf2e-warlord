@@ -16,9 +16,7 @@
     },
     "traits": {
       "otherTags": [],
-      "value": [
-        "warlord"
-      ],
+      "value": [],
       "rarity": "common"
     },
     "publication": {
@@ -54,11 +52,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.10.2",
+    "systemVersion": "5.13.6",
     "coreVersion": "11.315",
     "createdTime": 1701106365989,
-    "modifiedTime": 1701538233047,
-    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+    "modifiedTime": 1709574853939,
+    "lastModifiedBy": "X6WdFrDaZsvL5ay9"
   },
   "_key": "!items!osuhnIUiQbJ6zxaZ"
 }

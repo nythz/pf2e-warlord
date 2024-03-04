@@ -1,14 +1,28 @@
 {
-  "folder": "MDvR8jSuekZxsuDE",
-  "name": "Effect: Imposing Paragon (Ally)",
+  "folder": "GUv2Lp6jD7BhUrBG",
+  "name": "Effect: Following an Inspiring Paragon",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You have been led by example by a Paragon of Imposing Leadership.<br />Your additional precision damage ignores an amount of resistance to the damage type equal to half the warlord's level.</p>"
+      "value": ""
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e-warlord.paragonlevel",
+        "value": "@item.origin.level",
+        "priority": 20
+      },
+      {
+        "key": "Note",
+        "selector": "damage",
+        "text": "You gain @UUID[Compendium.pf2e-warlord.warlord.Item.bYKyeCIOWtimch54]",
+        "title": "Inspiring Paragon:"
+      }
+    ],
     "slug": null,
     "_migration": {
       "version": 0.898,
@@ -44,9 +58,9 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "iLIuXFTkBHDH7uDu",
-  "img": "modules/pf2e-warlord/assets/imp-laurel-crown.svg",
-  "sort": 600000,
+  "_id": "NXqJnUA1OUH2uy0L",
+  "img": "modules/pf2e-warlord/assets/ins-laurel-crown.svg",
+  "sort": 500000,
   "ownership": {
     "default": 0,
     "aZ3W8LfCz0rTSXdW": 3
@@ -54,11 +68,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.10.2",
+    "systemVersion": "5.13.6",
     "coreVersion": "11.315",
-    "createdTime": 1701106244073,
-    "modifiedTime": 1701538283325,
-    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+    "createdTime": 1701105704311,
+    "modifiedTime": 1709575136162,
+    "lastModifiedBy": "X6WdFrDaZsvL5ay9"
   },
-  "_key": "!items!iLIuXFTkBHDH7uDu"
+  "_key": "!items!NXqJnUA1OUH2uy0L"
 }

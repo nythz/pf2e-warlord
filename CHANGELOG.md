@@ -1,3 +1,21 @@
+# 1.6.0
+---
+- Added automation for Extend Aura
+   - Automatically increases the radius of leadership auras if the effect is applied
+   - Extend Aura now applies to all warlord class auras instead of just one aura
+- Initial implementation of Leadership Paragon Features 
+   - uses notes rule elements on ally's damage rolls to link the effects
+- Improved use of Helpful word with or without Commander's Guidance
+   - Posts Effect:Aid on class and skill check rolls when "Effect: Helpful Word Ready" is active
+   - If the Warlord has the Feat Commander's Guidance (level 6), "Effect: Commander's Guidance" is sent instead, replicating the regular Aid effect but with its additional +1
+- Fixed Helpful word DC Generator macro's empty confirmation to correctly print a dc of 15
+- Fixed Greater Skirmishing Aura radius
+- Fixed Imposing Leadership's Intimidation Training
+- Added an Item Alteration to Inspiring Leadership to add a note on the Marshal dedication's Aura
+   - The Auras have the same effect but the Inspiring Leadership version gets upgraded as the Warlord levels up
+   - The note explains how to disable the marshal Aura if the warlord has the Inspiring Leadership version
+- Assigned icons to some effects using icons provided by the pf2e system spell icons
+
 # 1.5.0
 ---
 - Added removeAfterRoll to Effect:Ready to Lead by Example, including athletics rolls if warlord has the feat Athletic Leadership

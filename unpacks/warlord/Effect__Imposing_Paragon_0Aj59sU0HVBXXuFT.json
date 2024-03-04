@@ -1,17 +1,17 @@
 {
-  "folder": "tfLGNdzxBR5RhZLk",
-  "name": "Effect: Extend Aura",
+  "folder": "MDvR8jSuekZxsuDE",
+  "name": "Effect: Imposing Paragon",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "The size of your warlord leadership auras are increased by 10-feet until the start of your next turn."
+      "value": "<p>You have been damaged due to a Paragon of Imposing Leadership.</p>\n<p>The resistance affected by the triggering attack is reduced by half the warlord's level for 1 round.</p>"
     },
     "rules": [],
     "slug": null,
     "_migration": {
-      "version": 0.898,
+      "version": 0.917,
       "lastMigration": null
     },
     "traits": {
@@ -19,13 +19,13 @@
       "value": []
     },
     "publication": {
-      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
-      "authors": "u/Fanatic66 + Nythz",
+      "title": "",
+      "authors": "",
       "license": "OGL",
-      "remaster": true
+      "remaster": false
     },
     "level": {
-      "value": 14
+      "value": 1
     },
     "duration": {
       "value": 1,
@@ -44,21 +44,21 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "S65uhGtHDy2BBb8d",
-  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "_id": "0Aj59sU0HVBXXuFT",
+  "img": "modules/pf2e-warlord/assets/imp-laurel-crown.svg",
   "sort": 0,
   "ownership": {
     "default": 0,
-    "aZ3W8LfCz0rTSXdW": 3
+    "X6WdFrDaZsvL5ay9": 3
   },
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.9.5",
+    "systemVersion": "5.13.6",
     "coreVersion": "11.315",
-    "createdTime": 1701043940942,
-    "modifiedTime": 1701298529889,
-    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+    "createdTime": 1709574648628,
+    "modifiedTime": 1709575238469,
+    "lastModifiedBy": "X6WdFrDaZsvL5ay9"
   },
-  "_key": "!items!S65uhGtHDy2BBb8d"
+  "_key": "!items!0Aj59sU0HVBXXuFT"
 }

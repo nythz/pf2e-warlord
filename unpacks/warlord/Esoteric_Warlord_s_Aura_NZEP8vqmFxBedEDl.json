@@ -46,7 +46,7 @@
           {
             "nor": [
               "feature:greater-esoteric-warlords-aura",
-              "feature:supreme-esoteric-warlords-aura",
+              "feature:supreme-esoteric-warlords-aura"
             ]
           }
         ],

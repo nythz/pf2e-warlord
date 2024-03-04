@@ -57,7 +57,7 @@
             "value": 6
         },
         "duration": {
-            "value": 0,
+            "value": 1,
             "unit": "rounds",
             "expiry": "turn-end",
             "sustained": false

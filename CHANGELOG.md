@@ -13,6 +13,7 @@
 - Added an Item Alteration to Inspiring Leadership to add a note on the Marshal dedication's Aura
    - The Auras have the same effect but the Inspiring Leadership version gets upgraded as the Warlord levels up
    - The note explains how to disable the marshal Aura if the warlord has the Inspiring Leadership version
+- Assigned icons to some effects using icons provided by the pf2e system spell icons
 
 # 1.5.0
 ---

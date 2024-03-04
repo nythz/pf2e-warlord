@@ -1,0 +1,78 @@
+{
+  "folder": "GUv2Lp6jD7BhUrBG",
+  "name": "Effect: Following an Inspiring Paragon",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e-warlord.paragonlevel",
+        "value": "@item.origin.level",
+        "priority": 20
+      },
+      {
+        "key": "Note",
+        "selector": "damage",
+        "text": "You gain @UUID[Compendium.pf2e-warlord.warlord.Item.bYKyeCIOWtimch54]",
+        "title": "Inspiring Paragon:"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 13
+    },
+    "duration": {
+      "value": 0,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "NXqJnUA1OUH2uy0L",
+  "img": "modules/pf2e-warlord/assets/ins-laurel-crown.svg",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1701105704311,
+    "modifiedTime": 1709575136162,
+    "lastModifiedBy": "X6WdFrDaZsvL5ay9"
+  },
+  "_key": "!items!NXqJnUA1OUH2uy0L"
+}

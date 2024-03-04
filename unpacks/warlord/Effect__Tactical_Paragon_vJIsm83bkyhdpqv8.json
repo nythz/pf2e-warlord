@@ -1,0 +1,69 @@
+{
+  "folder": "xEVCR1yyZwntlMF6",
+  "name": "Effect: Tactical Paragon",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.917,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "vJIsm83bkyhdpqv8",
+  "img": "modules/pf2e-warlord/assets/tac-laurel-crown.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "X6WdFrDaZsvL5ay9": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.13.6",
+    "coreVersion": "11.315",
+    "createdTime": 1709576069236,
+    "modifiedTime": 1709576203426,
+    "lastModifiedBy": "X6WdFrDaZsvL5ay9"
+  },
+  "_key": "!items!vJIsm83bkyhdpqv8"
+}

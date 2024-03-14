@@ -1,0 +1,58 @@
+{
+  "folder": "PPpKJmcWSFHYXc4s",
+  "name": "Assign new Focus Fire Target",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You change the target of the Focus Fire.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.vZSBvNz5M9IqECZl]</p>"
+    },
+    "rules": [],
+    "slug": "change-focus-fire-target",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "auditory",
+        "command",
+        "visual",
+        "warlord"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false
+  },
+  "_id": "CsZ80x81t3rfdQje",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.14.3",
+    "coreVersion": "11.315",
+    "createdTime": 1710426375495,
+    "modifiedTime": 1710426826360,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!CsZ80x81t3rfdQje"
+}

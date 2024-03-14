@@ -45,11 +45,8 @@ You can also find issues I lack knowledge on how to fix them in the issue sectio
 
 ---
 # To Do :
-- Verify all Remaster changes
 - Find a way to automate Extend Order
   - GM needs to manually update the affected effet's duration
-- Find a way to automate Extend Aura
-  - GM needs to manually increase the aura for the round
 - Find a way to automate Tactical Supervision
   - GM needs to manually adjust the Follow the Expert circumstance bonus
 - Find a way to automate Commander's Guidance

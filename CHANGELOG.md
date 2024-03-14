@@ -8,6 +8,7 @@
     - Uses a Roll Option Visible in the Action Tab of the Character Sheet
     - As of current implementation, Bonus Damage must be deactivated manually for 2nd and later damage on the target of focus fire
   - Legendary Push's quickened has be reduced to 1 extra action without limits on its usage
+- Defy Death (Feat 18) has been renamed to Keep Fighting!
 
 # 1.6.0
 ---

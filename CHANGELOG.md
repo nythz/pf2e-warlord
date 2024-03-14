@@ -3,6 +3,7 @@
 - Balance Changes :
   - Exemplar of command raised from level 18 feat to level 20 feat to match similar vanilla classes feats
   - Final Stand's bonus to AC/Saving throws reduced to +2
+  - Final Stand's resistance to all damage reduced to 10
   - Focus Fire's change target action has been changed to a single action with the command trait
   - Focus Fire's Bonus Damage can only be activated once per character on the Focused Target
     - Uses a Roll Option Visible in the Action Tab of the Character Sheet

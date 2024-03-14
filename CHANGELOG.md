@@ -6,10 +6,11 @@
   - Final Stand's resistance to all damage reduced to 5
   - Focus Fire's change target action has been changed to a single action with the command trait
   - Focus Fire's Bonus Damage can only be activated once per character on the Focused Target
-    - Uses a Roll Option Visible in the Action Tab of the Character Sheet
-    - As of current implementation, Bonus Damage must be deactivated manually for 2nd and later damage on the target of focus fire
   - Legendary Push's quickened has be reduced to 1 extra action without limits on its usage
 - Defy Death (Feat 18) has been renamed to Keep Fighting!
+- Initial Implementation of Focus Fire's effects
+  - Uses a Roll Option Visible in the Action Tab of the Character Sheet
+  - As of current implementation, Bonus Damage must be deactivated manually for 2nd and later damage on the target of focus fire
 
 # 1.6.0
 ---

@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency: </strong>Once per day</p>\n<hr />\n<p>When the situation seems grim, your rallying cry turns the tide. You and allies within 60 feet of you gain temporary Hit Points equal to your Leadership Style's ability modifier plus your level. You and your allies also gain a +3 status bonus to AC and saving throws, as well as resistance 15 to all damage. All effects last for 1 minute.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.0MMTLxix2d5ivB1x]</p>"
+      "value": "<p><strong>Frequency: </strong>Once per day</p>\n<hr />\n<p>When the situation seems grim, your rallying cry turns the tide. You and allies within 60 feet of you gain temporary Hit Points equal to your Leadership Style's ability modifier plus your level. You and your allies also gain a +3 status bonus to AC and saving throws, as well as resistance 5 to all damage. All effects last for 1 minute.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.0MMTLxix2d5ivB1x]</p>"
     },
     "rules": [],
     "slug": null,
@@ -52,7 +52,7 @@
   },
   "_id": "EFDj3skMb8db91QX",
   "img": "systems/pf2e/icons/actions/TwoActions.webp",
-  "sort": 100000,
+  "sort": 700000,
   "ownership": {
     "default": 0,
     "aZ3W8LfCz0rTSXdW": 3
@@ -60,10 +60,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.10.3",
+    "systemVersion": "5.14.3",
     "coreVersion": "11.315",
     "createdTime": 1701045862080,
-    "modifiedTime": 1701784337512,
+    "modifiedTime": 1710430360821,
     "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
   },
   "_key": "!items!EFDj3skMb8db91QX"

@@ -1,14 +1,19 @@
 {
-  "folder": "PPpKJmcWSFHYXc4s",
-  "name": "Effect: Focus Fire Active",
+  "folder": "64Nj1MjQQNS8Uase",
+  "name": "Effect: Keep Fighting!",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You signal one enemy to be swiftly eliminated. Target an enemy within 60 feet of you. You and your allies deal additional precision damage against the target equal to your leadership dice. If the target of Focus Fire dies, you can switch targets to another enemy as a free action. Focus Fire ends after 1 minute.</p>"
+      "value": "<p>You urge your companion to fight off their injuries. You gains temporary Hit Points equal to the warlord's Leadership Style's ability modifier and their level. </p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "TempHP",
+        "value": "@item.origin.abilities.{item|origin.class.system.keyAbility.selected}.mod + @item.origin.level"
+      }
+    ],
     "slug": null,
     "_migration": {
       "version": 0.898,
@@ -25,12 +30,12 @@
       "remaster": true
     },
     "level": {
-      "value": 20
+      "value": 18
     },
     "duration": {
-      "value": 1,
-      "unit": "minutes",
-      "expiry": "turn-start",
+      "value": -1,
+      "unit": "encounter",
+      "expiry": null,
       "sustained": false
     },
     "start": {
@@ -44,7 +49,7 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "iuuCr8DvZnavV8lT",
+  "_id": "bBFJnY4eO946tZ5O",
   "img": "systems/pf2e/icons/default-icons/effect.svg",
   "sort": 0,
   "ownership": {
@@ -54,11 +59,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.9.5",
+    "systemVersion": "5.14.3",
     "coreVersion": "11.315",
-    "createdTime": 1701046189503,
-    "modifiedTime": 1701295740134,
+    "createdTime": 1701045469517,
+    "modifiedTime": 1710427845087,
     "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
   },
-  "_key": "!items!iuuCr8DvZnavV8lT"
+  "_key": "!items!bBFJnY4eO946tZ5O"
 }

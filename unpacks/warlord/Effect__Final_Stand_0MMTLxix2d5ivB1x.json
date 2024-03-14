@@ -1,37 +1,37 @@
 {
-  "folder": "64Nj1MjQQNS8Uase",
+  "folder": "PPpKJmcWSFHYXc4s",
   "name": "Effect: Final Stand",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You gain temporary Hit Points equal to the warlord's Leadership Style's ability modifier plus their level. You also gain a +3 status bonus to AC and saving throws, as well as resistance 15 to all damage. All effects last for 1 minute.</p>"
+      "value": "<p>You gain temporary Hit Points equal to the warlord's Leadership Style's ability modifier plus their level. You also gain a +2 status bonus to AC and saving throws, as well as resistance 5 to all damage. All effects last for 1 minute.</p>"
     },
     "rules": [
       {
         "key": "FlatModifier",
         "selector": "ac",
-        "value": 3,
+        "value": 2,
         "type": "status"
       },
       {
         "key": "FlatModifier",
-        "selector": "saving-throws",
-        "value": 3,
+        "selector": "saving-throw",
+        "value": 2,
         "type": "status"
       },
       {
         "key": "Resistance",
         "type": "all-damage",
-        "value": "15"
+        "value": "5"
       },
       {
         "key": "TempHP",
         "value": "@item.origin.abilities.{item|origin.class.system.keyAbility.selected}.mod + @item.origin.level"
       }
     ],
-    "slug": null,
+    "slug": "effect-final-stand",
     "_migration": {
       "version": 0.898,
       "lastMigration": null
@@ -68,7 +68,7 @@
   },
   "_id": "0MMTLxix2d5ivB1x",
   "img": "systems/pf2e/icons/default-icons/effect.svg",
-  "sort": 0,
+  "sort": 800000,
   "ownership": {
     "default": 0,
     "aZ3W8LfCz0rTSXdW": 3
@@ -76,10 +76,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.9.5",
+    "systemVersion": "5.14.3",
     "coreVersion": "11.315",
     "createdTime": 1701045908015,
-    "modifiedTime": 1701375702376,
+    "modifiedTime": 1710430396090,
     "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
   },
   "_key": "!items!0MMTLxix2d5ivB1x"

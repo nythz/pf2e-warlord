@@ -1,17 +1,17 @@
 {
-  "folder": "64Nj1MjQQNS8Uase",
-  "name": "Effect: Defy Death Immunity",
+  "folder": "PPpKJmcWSFHYXc4s",
+  "name": "Effect: Focus Fire Target",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your are temporarily immune to Defy Death for 24 hours.</p>"
+      "value": ""
     },
     "rules": [],
     "slug": null,
     "_migration": {
-      "version": 0.898,
+      "version": 0.925,
       "lastMigration": null
     },
     "traits": {
@@ -19,17 +19,17 @@
       "value": []
     },
     "publication": {
-      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
-      "authors": "u/Fanatic66 + Nythz",
+      "title": "",
+      "authors": "",
       "license": "OGL",
-      "remaster": true
+      "remaster": false
     },
     "level": {
-      "value": 18
+      "value": 1
     },
     "duration": {
-      "value": 24,
-      "unit": "hours",
+      "value": 1,
+      "unit": "minutes",
       "expiry": "turn-start",
       "sustained": false
     },
@@ -44,8 +44,8 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "Ki5nalxLOWMwmomK",
-  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "_id": "vZSBvNz5M9IqECZl",
+  "img": "modules/game-icons-net/whitetransparent/targeting.svg",
   "sort": 0,
   "ownership": {
     "default": 0,
@@ -54,11 +54,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.9.5",
+    "systemVersion": "5.14.3",
     "coreVersion": "11.315",
-    "createdTime": 1701045607919,
-    "modifiedTime": 1701295759445,
+    "createdTime": 1710425438772,
+    "modifiedTime": 1710426466061,
     "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
   },
-  "_key": "!items!Ki5nalxLOWMwmomK"
+  "_key": "!items!vZSBvNz5M9IqECZl"
 }

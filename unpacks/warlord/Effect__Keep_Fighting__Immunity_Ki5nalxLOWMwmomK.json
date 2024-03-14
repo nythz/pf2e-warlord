@@ -1,19 +1,14 @@
 {
   "folder": "64Nj1MjQQNS8Uase",
-  "name": "Effect: Defy Death",
+  "name": "Effect: Keep Fighting! Immunity",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You urge your companion to fight off their injuries. You gains temporary Hit Points equal to the warlord's Leadership Style's ability modifier and their level. </p>"
+      "value": "<p>Your are temporarily immune to Defy Death for 24 hours.</p>"
     },
-    "rules": [
-      {
-        "key": "TempHP",
-        "value": "@item.origin.abilities.{item|origin.class.system.keyAbility.selected}.mod + @item.origin.level"
-      }
-    ],
+    "rules": [],
     "slug": null,
     "_migration": {
       "version": 0.898,
@@ -33,9 +28,9 @@
       "value": 18
     },
     "duration": {
-      "value": -1,
-      "unit": "encounter",
-      "expiry": null,
+      "value": 24,
+      "unit": "hours",
+      "expiry": "turn-start",
       "sustained": false
     },
     "start": {
@@ -49,7 +44,7 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "bBFJnY4eO946tZ5O",
+  "_id": "Ki5nalxLOWMwmomK",
   "img": "systems/pf2e/icons/default-icons/effect.svg",
   "sort": 0,
   "ownership": {
@@ -59,11 +54,11 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.9.5",
+    "systemVersion": "5.14.3",
     "coreVersion": "11.315",
-    "createdTime": 1701045469517,
-    "modifiedTime": 1701295762760,
+    "createdTime": 1701045607919,
+    "modifiedTime": 1710427843822,
     "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
   },
-  "_key": "!items!bBFJnY4eO946tZ5O"
+  "_key": "!items!Ki5nalxLOWMwmomK"
 }

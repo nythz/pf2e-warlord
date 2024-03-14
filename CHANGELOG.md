@@ -1,3 +1,18 @@
+# 1.7.0
+---
+- Defy Death (Feat 18) has been renamed to Keep Fighting!
+- Initial Implementation of Focus Fire's effects
+  - Uses a Roll Option Visible in the Action Tab of the Character Sheet
+  - As of current implementation, Bonus Damage must be deactivated manually for 2nd and later damage on the target of focus fire
+- Balance Changes :
+  - Exemplar of command raised from level 18 feat to level 20 feat to match similar vanilla classes feats
+  - Final Stand (Feat 20) bonus to AC/Saving throws reduced to +2
+  - Final Stand's resistance to all damage reduced to 5
+  - Focus Fire (Feat 20) change target action has been changed to a single action with the command trait
+  - Focus Fire's Bonus Damage can only be activated once per character on the Focused Target
+  - Legendary Push (Feat 20) quickened has been reduced to 1 extra action without limits on its usage
+  - Warlord's doom (Feat 18) has an additional note stopping its effect from activating from its own strike
+
 # 1.6.0
 ---
 - Added automation for Extend Aura

@@ -46,7 +46,7 @@
   },
   "_id": "tJJS3d1KGdPyJuvf",
   "img": "systems/pf2e/icons/default-icons/effect.svg",
-  "sort": 0,
+  "sort": 600000,
   "ownership": {
     "default": 0,
     "aZ3W8LfCz0rTSXdW": 3
@@ -54,10 +54,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.9.5",
+    "systemVersion": "5.14.3",
     "coreVersion": "11.315",
     "createdTime": 1701046393078,
-    "modifiedTime": 1701295734026,
+    "modifiedTime": 1710422823960,
     "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
   },
   "_key": "!items!tJJS3d1KGdPyJuvf"

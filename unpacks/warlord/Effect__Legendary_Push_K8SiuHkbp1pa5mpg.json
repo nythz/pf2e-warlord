@@ -6,9 +6,14 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>For 1 minute, you and allies are quickened, but get two extra actions instead of one. You can use the additional actions for any action.</p>"
+      "value": "<p>For 1 minute, you and allies are quickened. You can use the additional action for any action.</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl"
+      }
+    ],
     "slug": null,
     "_migration": {
       "version": 0.898,
@@ -46,7 +51,7 @@
   },
   "_id": "K8SiuHkbp1pa5mpg",
   "img": "systems/pf2e/icons/default-icons/effect.svg",
-  "sort": 0,
+  "sort": 300000,
   "ownership": {
     "default": 0,
     "aZ3W8LfCz0rTSXdW": 3
@@ -54,10 +59,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.9.5",
+    "systemVersion": "5.14.3",
     "coreVersion": "11.315",
     "createdTime": 1701046327001,
-    "modifiedTime": 1701295737109,
+    "modifiedTime": 1710424812940,
     "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
   },
   "_key": "!items!K8SiuHkbp1pa5mpg"

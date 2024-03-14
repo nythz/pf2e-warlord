@@ -1,12 +1,12 @@
 {
   "folder": "64Nj1MjQQNS8Uase",
-  "name": "Defy Death",
+  "name": "Keep Fighting!",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Trigger:</strong> When you see an ally within 30 feet of you take damage that would reduce them to 0 hit points</p>\n<hr />\n<p>You urge your companion to fight off their injuries. The ally is reduced to 1 hit point and gains temporary Hit Points equal to your Leadership Style's ability modifier and your level. They can then Strike, Step, or Stride as a free action. Your ally is then temporarily immune to Defy Death for 24 hours.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.bBFJnY4eO946tZ5O]</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.Ki5nalxLOWMwmomK]{Effect: Defy Death Immunity}</p>\n<p> </p>"
+      "value": "<p><strong>Trigger:</strong> When you see an ally within 30 feet of you take damage that would reduce them to 0 hit points</p>\n<hr />\n<p>You urge your companion to fight off their injuries. The ally is reduced to 1 hit point and gains temporary Hit Points equal to your Leadership Style's ability modifier and your level. They can then Strike, Step, or Stride as a free action. Your ally is then temporarily immune to Keep Fighting! for 24 hours.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.bBFJnY4eO946tZ5O]</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.Ki5nalxLOWMwmomK]</p>\n<p> </p>"
     },
     "rules": [],
     "slug": null,
@@ -56,10 +56,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.9.5",
+    "systemVersion": "5.14.3",
     "coreVersion": "11.315",
     "createdTime": 1701045415594,
-    "modifiedTime": 1701295766045,
+    "modifiedTime": 1710427845739,
     "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
   },
   "_key": "!items!JjV8CjyQuNUcMFvf"

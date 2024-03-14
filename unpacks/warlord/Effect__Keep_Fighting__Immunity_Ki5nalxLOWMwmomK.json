@@ -1,12 +1,12 @@
 {
-  "folder": "PPpKJmcWSFHYXc4s",
-  "name": "Effect: Legendary Push Ended",
+  "folder": "64Nj1MjQQNS8Uase",
+  "name": "Effect: Keep Fighting! Immunity",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You are slowed 1 for 1 minute.</p>"
+      "value": "<p>Your are temporarily immune to Defy Death for 24 hours.</p>"
     },
     "rules": [],
     "slug": null,
@@ -25,11 +25,11 @@
       "remaster": true
     },
     "level": {
-      "value": 1
+      "value": 18
     },
     "duration": {
-      "value": 1,
-      "unit": "minutes",
+      "value": 24,
+      "unit": "hours",
       "expiry": "turn-start",
       "sustained": false
     },
@@ -44,9 +44,9 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "tJJS3d1KGdPyJuvf",
+  "_id": "Ki5nalxLOWMwmomK",
   "img": "systems/pf2e/icons/default-icons/effect.svg",
-  "sort": 600000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "aZ3W8LfCz0rTSXdW": 3
@@ -56,9 +56,9 @@
     "systemId": "pf2e",
     "systemVersion": "5.14.3",
     "coreVersion": "11.315",
-    "createdTime": 1701046393078,
-    "modifiedTime": 1710422823960,
+    "createdTime": 1701045607919,
+    "modifiedTime": 1710427843822,
     "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
   },
-  "_key": "!items!tJJS3d1KGdPyJuvf"
+  "_key": "!items!Ki5nalxLOWMwmomK"
 }

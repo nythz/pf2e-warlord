@@ -6,10 +6,15 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency: </strong>Once per day</p>\n<hr />\n<p>You signal one enemy to be swiftly eliminated. Target an enemy within 60 feet of you. You and your allies deal additional precision damage against the target equal to your leadership dice. If the target of Focus Fire dies, you can switch targets to another enemy as a free action. Focus Fire ends after 1 minute.</p>"
+      "value": "<p><strong>Frequency: </strong>Once per day</p>\n<hr />\n<p>You signal one enemy to be swiftly eliminated. Target an enemy within 60 feet of you. <br />Once per player per turn, when you and your allies deal damage to the target, you  deal additional precision damage to the target equal to your leadership dice. <br />If the target of Focus Fire dies, you can switch targets to another enemy as a single action with the command trait as well as the auditory or visual trait.<br />@UUID[Compendium.pf2e-warlord.warlord.Item.CsZ80x81t3rfdQje]<br />Focus Fire ends after 1 minute.<br />@UUID[Compendium.pf2e-warlord.warlord.Item.vZSBvNz5M9IqECZl]<br />@UUID[Compendium.pf2e-warlord.warlord.Item.iuuCr8DvZnavV8lT]</p>"
     },
-    "rules": [],
-    "slug": null,
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.CsZ80x81t3rfdQje"
+      }
+    ],
+    "slug": "focus-fire",
     "_migration": {
       "version": 0.898,
       "lastMigration": null
@@ -48,15 +53,11 @@
     "frequency": {
       "max": 1,
       "per": "day"
-    },
-    "selfEffect": {
-      "uuid": "Compendium.pf2e-warlord.warlord.Item.iuuCr8DvZnavV8lT",
-      "name": "Effect: Focus Fire Active"
     }
   },
   "_id": "W056gyEuOoEPPWro",
   "img": "systems/pf2e/icons/actions/TwoActions.webp",
-  "sort": 0,
+  "sort": 400000,
   "ownership": {
     "default": 0,
     "aZ3W8LfCz0rTSXdW": 3
@@ -64,10 +65,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.10.3",
+    "systemVersion": "5.14.3",
     "coreVersion": "11.315",
     "createdTime": 1701046106685,
-    "modifiedTime": 1701727196935,
+    "modifiedTime": 1710426956612,
     "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
   },
   "_key": "!items!W056gyEuOoEPPWro"

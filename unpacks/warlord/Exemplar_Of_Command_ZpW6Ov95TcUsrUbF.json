@@ -1,5 +1,5 @@
 {
-  "folder": "64Nj1MjQQNS8Uase",
+  "folder": "PPpKJmcWSFHYXc4s",
   "name": "Exemplar Of Command",
   "type": "feat",
   "effects": [],
@@ -28,7 +28,7 @@
       "remaster": true
     },
     "level": {
-      "value": 18
+      "value": 20
     },
     "category": "class",
     "onlyLevel1": false,
@@ -46,7 +46,7 @@
   },
   "_id": "ZpW6Ov95TcUsrUbF",
   "img": "systems/pf2e/icons/actions/Passive.webp",
-  "sort": 0,
+  "sort": 100000,
   "ownership": {
     "default": 0,
     "aZ3W8LfCz0rTSXdW": 3
@@ -54,10 +54,10 @@
   "flags": {},
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.9.5",
+    "systemVersion": "5.14.3",
     "coreVersion": "11.315",
     "createdTime": 1701045660811,
-    "modifiedTime": 1701295749467,
+    "modifiedTime": 1710433638997,
     "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
   },
   "_key": "!items!ZpW6Ov95TcUsrUbF"

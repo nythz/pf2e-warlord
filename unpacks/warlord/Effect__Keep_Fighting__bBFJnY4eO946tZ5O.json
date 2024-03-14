@@ -1,14 +1,19 @@
 {
-  "folder": "PPpKJmcWSFHYXc4s",
-  "name": "Effect: Legendary Push Ended",
+  "folder": "64Nj1MjQQNS8Uase",
+  "name": "Effect: Keep Fighting!",
   "type": "effect",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You are slowed 1 for 1 minute.</p>"
+      "value": "<p>You urge your companion to fight off their injuries. You gains temporary Hit Points equal to the warlord's Leadership Style's ability modifier and their level. </p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "TempHP",
+        "value": "@item.origin.abilities.{item|origin.class.system.keyAbility.selected}.mod + @item.origin.level"
+      }
+    ],
     "slug": null,
     "_migration": {
       "version": 0.898,
@@ -25,12 +30,12 @@
       "remaster": true
     },
     "level": {
-      "value": 1
+      "value": 18
     },
     "duration": {
-      "value": 1,
-      "unit": "minutes",
-      "expiry": "turn-start",
+      "value": -1,
+      "unit": "encounter",
+      "expiry": null,
       "sustained": false
     },
     "start": {
@@ -44,9 +49,9 @@
     "context": null,
     "unidentified": false
   },
-  "_id": "tJJS3d1KGdPyJuvf",
+  "_id": "bBFJnY4eO946tZ5O",
   "img": "systems/pf2e/icons/default-icons/effect.svg",
-  "sort": 600000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "aZ3W8LfCz0rTSXdW": 3
@@ -56,9 +61,9 @@
     "systemId": "pf2e",
     "systemVersion": "5.14.3",
     "coreVersion": "11.315",
-    "createdTime": 1701046393078,
-    "modifiedTime": 1710422823960,
+    "createdTime": 1701045469517,
+    "modifiedTime": 1710427845087,
     "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
   },
-  "_key": "!items!tJJS3d1KGdPyJuvf"
+  "_key": "!items!bBFJnY4eO946tZ5O"
 }

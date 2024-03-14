@@ -1,0 +1,97 @@
+{
+  "folder": "PPpKJmcWSFHYXc4s",
+  "name": "Effect: Focus Fire",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You signal one enemy to be swiftly eliminated. Target an enemy within 60 feet of you. You and your allies deal additional precision damage against the target equal to your leadership dice. If the target of Focus Fire dies, you can switch targets to another enemy as a free action. Focus Fire ends after 1 minute.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "Focus Fire Bonus Damage",
+        "option": "focusfire-damage",
+        "toggleable": true,
+        "priority": 50
+      },
+      {
+        "key": "DamageDice",
+        "selector": [
+          "strike-damage",
+          "spell-damage"
+        ],
+        "diceNumber": "@item.origin.flags.pf2e-warlord.dicecount",
+        "dieSize": "d6",
+        "category": "precision",
+        "label": "Focus Fire",
+        "predicate": [
+          "target:effect:focus-fire-target",
+          "focusfire-damage"
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "Note",
+        "selector": "damage",
+        "text": "Personal Focus Fire Damage can only be applied once per turn",
+        "title": "Focus Fire reminder:",
+        "predicate": [
+          "focusfire-damage"
+        ]
+      }
+    ],
+    "slug": "effect-focus-fire",
+    "_migration": {
+      "version": 0.898,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 20
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "iuuCr8DvZnavV8lT",
+  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.14.3",
+    "coreVersion": "11.315",
+    "createdTime": 1701046189503,
+    "modifiedTime": 1710426264259,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  },
+  "_key": "!items!iuuCr8DvZnavV8lT"
+}

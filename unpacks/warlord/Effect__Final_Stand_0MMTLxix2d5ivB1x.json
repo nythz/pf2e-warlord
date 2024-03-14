@@ -17,7 +17,7 @@
       },
       {
         "key": "FlatModifier",
-        "selector": "saving-throws",
+        "selector": "saving-throw",
         "value": 2,
         "type": "status"
       },

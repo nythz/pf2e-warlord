@@ -1,3 +1,8 @@
+# 1.8.0
+---
+- Fixed Bulwarking Command missing the Command Trait
+- Fixed Leaderstyle style's colored SVGs not loading on Firefox due to lack of height/width
+
 # 1.7.0
 ---
 - Defy Death (Feat 18) has been renamed to Keep Fighting!

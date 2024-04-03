@@ -2,6 +2,7 @@
 ---
 - Fixed Bulwarking Command missing the Command Trait
 - Fixed Leaderstyle style's colored SVGs not loading on Firefox due to lack of height/width
+- Added missing Lead by Example (Free Action) separate action
 
 # 1.7.0
 ---

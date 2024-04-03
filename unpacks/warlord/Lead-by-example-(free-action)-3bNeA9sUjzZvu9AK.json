@@ -60,13 +60,7 @@
   },
   "img": "modules/game-icons-net/whitetransparent/hammer-drop.svg",
   "flags": {
-    "core": {},
-    "exportSource": {
-      "world": "nythzs-creative-forge",
-      "system": "pf2e",
-      "coreVersion": "11.315",
-      "systemVersion": "5.15.0"
-    }
+    "core": {}
   },
   "_stats": {
     "systemId": "pf2e",
@@ -76,4 +70,11 @@
     "modifiedTime": 1712171747701,
     "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
   }
+  "_id": "3bNeA9sUjzZvu9AK",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "aZ3W8LfCz0rTSXdW": 3
+  },
+  "_key": "!items!3bNeA9sUjzZvu9AK"
 }

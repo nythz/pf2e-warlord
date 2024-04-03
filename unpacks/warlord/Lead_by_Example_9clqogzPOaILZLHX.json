@@ -8,7 +8,12 @@
       "gm": "",
       "value": "<p><strong>Frequency: </strong>Once per round</p>\n<hr />\n<p>You encourage an ally with a bold attack. Choose an ally within 30 feet. On your next Strike before the end of this round, you can add your Leadership Style's ability modifier to your attack roll instead of your Strength or Dexterity modifier.<br />If your Strike hits the target, your chosen ally's first Strike that hits deals additional precision damage equal to your leadership dice. This effect lasts for 1 round.<br />If your chosen ally was targeted with one of your commands this turn, then you can use this ability as a free action.<br /><br />@UUID[Compendium.pf2e-warlord.warlord.Item.57Cig48mDwF815P2]</p>"
     },
-    "rules": [],
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.3bNeA9sUjzZvu9AK"
+      }
+    ],
     "slug": "lead-by-example",
     "_migration": {
       "version": 0.898,

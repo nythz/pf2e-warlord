@@ -1,0 +1,79 @@
+{
+  "folder": "hsuJUFjg6IlUfY4a",
+  "name": "Lead by Example (Free Action)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger: </strong>Your chosen ally was targeted with one of your commands this turn<strong><br />Frequency: </strong>Once per round</p>\n<hr />\n<p>You encourage an ally with a bold attack. Choose an ally within 30 feet. On your next Strike before the end of this round, you can add your Leadership Style's ability modifier to your attack roll instead of your Strength or Dexterity modifier.<br />If your Strike hits the target, your chosen ally's first Strike that hits deals additional precision damage equal to your leadership dice. This effect lasts for 1 round.<br /><br />@UUID[Compendium.pf2e-warlord.warlord.Item.57Cig48mDwF815P2]</p>"
+    },
+    "rules": [],
+    "slug": "lead-by-example-free-action",
+    "_migration": {
+      "version": 0.925,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.898,
+        "foundry": "11.315",
+        "system": "5.15.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "visual",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Fanatic66's Warlord v4.5.1 + Nythz Adjustements",
+      "authors": "u/Fanatic66 + Nythz",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-warlord.warlord.Item.oLnwJbjf10LhvAcu",
+      "name": "Lead by Example Ready (Effect)"
+    },
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "img": "modules/game-icons-net/whitetransparent/hammer-drop.svg",
+  "flags": {
+    "core": {},
+    "exportSource": {
+      "world": "nythzs-creative-forge",
+      "system": "pf2e",
+      "coreVersion": "11.315",
+      "systemVersion": "5.15.0"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.15.0",
+    "coreVersion": "11.315",
+    "createdTime": 1691791920598,
+    "modifiedTime": 1712171747701,
+    "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
+  }
+}

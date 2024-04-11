@@ -10,8 +10,19 @@
     },
     "rules": [
       {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:tag:leadership-aura"
+          ]
+        },
+        "flag": "hybridleadershipStyle",
+        "key": "ChoiceSet",
+        "prompt": "Choose your Warlord Hybrid Leadership Aura :"
+      },
+      {
         "key": "GrantItem",
-        "uuid": "Compendium.pf2e-warlord.warlord.Item.Ojb2WIndp08KNMBa"
+        "uuid": "{item|flags.pf2e.rulesSelections.hybridleadershipStyle}"
       }
     ],
     "slug": null,

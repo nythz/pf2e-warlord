@@ -5,6 +5,7 @@
 - Added missing Lead by Example (Free Action) separate action
 - Reduced Bleeding follow through persitent damage to 2x the number of the warlord's leadership dices
 - Updated Helpful word Check Generator to allow other types of Skill checks
+- Fixed Hybrid Leadership giving more than the first tier aura of the chosen leadership when obtaining features for your leadership style
 
 # 1.7.0
 ---

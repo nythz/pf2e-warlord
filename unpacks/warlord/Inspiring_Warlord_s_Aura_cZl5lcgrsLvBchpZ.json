@@ -124,7 +124,7 @@
       }
     },
     "traits": {
-      "otherTags": [],
+      "otherTags": ["leadership-aura"],
       "value": [
         "emotion",
         "mental",

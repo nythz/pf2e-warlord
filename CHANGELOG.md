@@ -8,7 +8,7 @@
 - Fixed Hybrid Leadership giving more than the first tier aura of the chosen leadership when obtaining features for your leadership style
 - Added Hybrid Commands (Level 10) and Hybrid Reactions (Level 14) to obtain commands and reactions from other leadership styles obtained with Hybrid Leadership
 - Fixed incorrect levels on multiple features
-- Added "Warlord" and "Command" Traits entry to module.json
+- Fixed homebrew traits entry in module.json
 
 # 1.7.0
 ---

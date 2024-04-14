@@ -22,7 +22,8 @@
     "traits": {
       "otherTags": [],
       "value": [
-        "warlord"
+        "warlord",
+        "command"
       ],
       "rarity": "common"
     },

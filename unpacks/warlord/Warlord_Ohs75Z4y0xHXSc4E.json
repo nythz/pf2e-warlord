@@ -187,6 +187,12 @@
         "img": "icons/creatures/eyes/human-single-blue.webp",
         "name": "Perception Expertise",
         "level": 9
+      },
+      "NytzB": {
+        "uuid": "Compendium.pf2e-warlord.warlord.Item.HKc8QPODBLO8GeWc",
+        "img": "modules/game-icons-net/whitetransparent/hammer-drop.svg",
+        "name": "Lead by Example (Free Action)",
+        "level": 1
       }
     },
     "hp": 10,

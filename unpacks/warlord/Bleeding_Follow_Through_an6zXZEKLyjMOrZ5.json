@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>Your leadership encourages your ally to brutally strike. When an ally adds damage from your Lead By Example, your ally's target also takes persistent bleed damage equal to 3 times your number of leadership dice.</p>\n<p>If you use Magical Follow Through, then instead of persistent bleed damage, the target takes persistent damage matching one of the spell's damage types.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.d6r9vg4dUdRDfphz]<br /><br /></p>"
+      "value": "<p>Your leadership encourages your ally to brutally strike. When an ally adds damage from your Lead By Example, your ally's target also takes persistent bleed damage equal to 2 times your number of leadership dice.</p>\n<p>If you use Magical Follow Through, then instead of persistent bleed damage, the target takes persistent damage matching one of the spell's damage types.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.d6r9vg4dUdRDfphz]<br /><br /></p>"
     },
     "rules": [
       {

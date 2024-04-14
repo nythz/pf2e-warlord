@@ -1,27 +1,22 @@
 {
   "folder": "hsuJUFjg6IlUfY4a",
-  "name": "Lead by Example",
+  "name": "Lead by Example (Free Action)",
   "type": "feat",
   "effects": [],
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency: </strong>Once per round</p>\n<hr />\n<p>You encourage an ally with a bold attack. Choose an ally within 30 feet. On your next Strike before the end of this round, you can add your Leadership Style's ability modifier to your attack roll instead of your Strength or Dexterity modifier.<br />If your Strike hits the target, your chosen ally's first Strike that hits deals additional precision damage equal to your leadership dice. This effect lasts for 1 round.<br />If your chosen ally was targeted with one of your commands this turn, then you can use this ability as a free action.<br /><br />@UUID[Compendium.pf2e-warlord.warlord.Item.57Cig48mDwF815P2]</p>"
+      "value": "<p><strong>Trigger: </strong>Your chosen ally was targeted with one of your commands this turn<strong><br />Frequency: </strong>Once per round</p>\n<hr />\n<p>You encourage an ally with a bold attack. Choose an ally within 30 feet. On your next Strike before the end of this round, you can add your Leadership Style's ability modifier to your attack roll instead of your Strength or Dexterity modifier.<br />If your Strike hits the target, your chosen ally's first Strike that hits deals additional precision damage equal to your leadership dice. This effect lasts for 1 round.<br /><br />@UUID[Compendium.pf2e-warlord.warlord.Item.57Cig48mDwF815P2]</p>"
     },
-    "rules": [
-      {
-        "key": "GrantItem",
-        "uuid": "Compendium.pf2e-warlord.warlord.Item.3bNeA9sUjzZvu9AK"
-      }
-    ],
-    "slug": "lead-by-example",
+    "rules": [],
+    "slug": "lead-by-example-free-action",
     "_migration": {
-      "version": 0.898,
+      "version": 0.925,
       "lastMigration": null,
       "previous": {
-        "schema": 0.869,
+        "schema": 0.898,
         "foundry": "11.315",
-        "system": "5.9.5"
+        "system": "5.15.0"
       }
     },
     "traits": {
@@ -45,10 +40,10 @@
     "onlyLevel1": false,
     "maxTakable": 1,
     "actionType": {
-      "value": "action"
+      "value": "free"
     },
     "actions": {
-      "value": 1
+      "value": null
     },
     "prerequisites": {
       "value": []
@@ -69,17 +64,17 @@
   },
   "_stats": {
     "systemId": "pf2e",
-    "systemVersion": "5.9.5",
+    "systemVersion": "5.15.0",
     "coreVersion": "11.315",
     "createdTime": 1691791920598,
-    "modifiedTime": 1701460848255,
+    "modifiedTime": 1712171747701,
     "lastModifiedBy": "aZ3W8LfCz0rTSXdW"
   },
-  "_id": "9clqogzPOaILZLHX",
+  "_id": "3bNeA9sUjzZvu9AK",
   "sort": 300000,
   "ownership": {
     "default": 0,
     "aZ3W8LfCz0rTSXdW": 3
   },
-  "_key": "!items!9clqogzPOaILZLHX"
+  "_key": "!items!3bNeA9sUjzZvu9AK"
 }

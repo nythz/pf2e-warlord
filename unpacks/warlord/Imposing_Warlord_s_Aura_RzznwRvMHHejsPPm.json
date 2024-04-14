@@ -107,7 +107,7 @@
       "lastMigration": null
     },
     "traits": {
-      "otherTags": [],
+      "otherTags": ["leadership-aura"],
       "value": [
         "warlord"
       ],

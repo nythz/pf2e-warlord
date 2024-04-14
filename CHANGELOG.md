@@ -1,3 +1,15 @@
+# 1.8.0
+---
+- Fixed Bulwarking Command missing the Command Trait
+- Fixed Leaderstyle style's colored SVGs not loading on Firefox due to lack of height/width
+- Added missing Lead by Example (Free Action) separate action
+- Reduced Bleeding follow through persitent damage to 2x the number of the warlord's leadership dices
+- Updated Helpful word Check Generator to allow other types of Skill checks
+- Fixed Hybrid Leadership giving more than the first tier aura of the chosen leadership when obtaining features for your leadership style
+- Added Hybrid Commands (Level 10) and Hybrid Reactions (Level 14) to obtain commands and reactions from other leadership styles obtained with Hybrid Leadership
+- Fixed incorrect levels on multiple features
+- Fixed homebrew traits entry in module.json
+
 # 1.7.0
 ---
 - Defy Death (Feat 18) has been renamed to Keep Fighting!

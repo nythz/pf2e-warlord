@@ -51,7 +51,7 @@
 			{
                 "key": "FlatModifier",
                 "selector": "strike-damage",
-                "value": "@item.origin.flags.pf2e-warlord.dicecount*3",
+                "value": "@item.origin.flags.pf2e-warlord.dicecount*2",
                 "label": "Bleeding Follow Through (Martial, Single Target Only)",
                 "damageCategory": "persistent",
                 "predicate": [
@@ -68,7 +68,7 @@
                     "spell-damage",
                     "spell-attack-damage"
                 ],
-                "value": "@actor.flags.pf2e-warlord.dicecount*3",
+                "value": "@actor.flags.pf2e-warlord.dicecount*2",
                 "label": "Bleeding Follow Through (Caster, Single Target only)",
                 "damageCategory": "persistent",
                 "predicate": [
@@ -97,7 +97,7 @@
 			{
                 "key": "Note",
                 "selector": "strike-damage",
-                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[precision],(@actor.flags.pf2e-warlord.dicecount*3)[bleed]]",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[precision],(@actor.flags.pf2e-warlord.dicecount*2)[bleed]]",
                 "outcome": [],
                 "predicate": [{
                         "or": [
@@ -139,7 +139,7 @@
 			{
                 "key": "Note",
                 "selector": "spell-damage",
-                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[untyped],(@actor.flags.pf2e-warlord.dicecount*3)[bleed]]",
+                "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[untyped],(@actor.flags.pf2e-warlord.dicecount*2)[bleed]]",
                 "outcome": [],
                 "predicate": [{
                         "or": ["area-damage", "multitarget-damage"]

@@ -1,3 +1,7 @@
+# 1.8.1
+---
+- removed extra } in Hybrid Reactions json
+
 # 1.8.0
 ---
 - Fixed Bulwarking Command missing the Command Trait

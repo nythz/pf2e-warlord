@@ -37,7 +37,7 @@
             },
 			{
                 "key": "DamageDice",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "diceNumber": "@item.origin.flags.pf2e-warlord.dicecount",
                 "dieSize": "d6",
                 "category": "precision",
@@ -66,7 +66,8 @@
                 "key": "FlatModifier",
                 "selector": [
                     "spell-damage",
-                    "spell-attack-damage"
+                    "spell-attack-damage",
+					"impusle-damage"
                 ],
                 "value": "@actor.flags.pf2e-warlord.dicecount*2",
                 "label": "Bleeding Follow Through (Caster, Single Target only)",
@@ -111,7 +112,7 @@
             },
 			{
                 "key": "Note",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[untyped]]",
                 "outcome": [],
                 "predicate": [{
@@ -138,7 +139,7 @@
             },
 			{
                 "key": "Note",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[untyped],(@actor.flags.pf2e-warlord.dicecount*2)[bleed]]",
                 "outcome": [],
                 "predicate": [{
@@ -164,7 +165,7 @@
             },
 			{
                 "key": "Note",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[acid]]",
                 "outcome": [],
                 "predicate": [{
@@ -178,7 +179,7 @@
             },
 			{
                 "key": "Note",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*2)[persistent])[acid]]",
                 "outcome": [],
                 "predicate": [{
@@ -191,7 +192,7 @@
             },
 			{
                 "key": "Note",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[cold]]",
                 "outcome": [],
                 "predicate": [{
@@ -205,7 +206,7 @@
             },
 			{
                 "key": "Note",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*2)[persistent])[cold]]",
                 "outcome": [],
                 "predicate": [{
@@ -218,7 +219,7 @@
             },
 			{
                 "key": "Note",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[electricity]]",
                 "outcome": [],
                 "predicate": [{
@@ -232,7 +233,7 @@
             },
 			{
                 "key": "Note",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*2)[persistent])[electricity]]",
                 "outcome": [],
                 "predicate": [{
@@ -245,7 +246,7 @@
             },
 			{
                 "key": "Note",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[fire]]",
                 "outcome": [],
                 "predicate": [{
@@ -259,7 +260,7 @@
             },
 			{
                 "key": "Note",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*2)[persistent])[fire]]",
                 "outcome": [],
                 "predicate": [{
@@ -272,7 +273,7 @@
             },
 			{
                 "key": "Note",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[force]]",
                 "outcome": [],
                 "predicate": [{
@@ -286,7 +287,7 @@
             },
 			{
                 "key": "Note",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*2)[persistent])[force]]",
                 "outcome": [],
                 "predicate": [{
@@ -299,7 +300,7 @@
             },
 			{
                 "key": "Note",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[mental]]",
                 "outcome": [],
                 "predicate": [{
@@ -313,7 +314,7 @@
             },
 			{
                 "key": "Note",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*2)[persistent])[mental]]",
                 "outcome": [],
                 "predicate": [{
@@ -326,7 +327,7 @@
             },
 			{
                 "key": "Note",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[poison]]",
                 "outcome": [],
                 "predicate": [{
@@ -340,7 +341,7 @@
             },
 			{
                 "key": "Note",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*2)[persistent])[poison]]",
                 "outcome": [],
                 "predicate": [{
@@ -353,7 +354,7 @@
             },
 			{
                 "key": "Note",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[sonic]]",
                 "outcome": [],
                 "predicate": [{
@@ -367,7 +368,7 @@
             },
 			{
                 "key": "Note",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*2)[persistent])[sonic]]",
                 "outcome": [],
                 "predicate": [{
@@ -380,7 +381,7 @@
             },
 			{
                 "key": "Note",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[spirit]]",
                 "outcome": [],
                 "predicate": [{
@@ -394,7 +395,7 @@
             },
 			{
                 "key": "Note",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*2)[persistent])[spirit]]",
                 "outcome": [],
                 "predicate": [{
@@ -407,7 +408,7 @@
             },
 			{
                 "key": "Note",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[vitality]]",
                 "outcome": [],
                 "predicate": [{
@@ -421,7 +422,7 @@
             },
 			{
                 "key": "Note",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*2)[persistent])[vitality]]",
                 "outcome": [],
                 "predicate": [{
@@ -434,7 +435,7 @@
             },
 			{
                 "key": "Note",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6)[void]]",
                 "outcome": [],
                 "predicate": [{
@@ -448,7 +449,7 @@
             },
 			{
                 "key": "Note",
-                "selector": "spell-damage",
+                "selector": ["spell-damage","impusle-damage"],
                 "text": "Bonus damage to single target in the Area of effect:\n@Damage[((@actor.flags.pf2e-warlord.dicecount)d6+(@actor.flags.pf2e-warlord.dicecount*2)[persistent])[void]]",
                 "outcome": [],
                 "predicate": [{

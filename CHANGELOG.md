@@ -1,7 +1,8 @@
 # 1.9.0
 ---
 - Added impulse-damage to selectors for Led By Example
-- 
+- Added Note for Ready to lead by example using Athletic Maneuvers linking Led By Example
+- Fixed helpful word not increasing success with skill checks
 
 # 1.8.1
 ---

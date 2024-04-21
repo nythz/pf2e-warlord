@@ -1,3 +1,8 @@
+# 1.9.0
+---
+- Added impulse-damage to selectors for Led By Example
+- 
+
 # 1.8.1
 ---
 - removed extra } in Hybrid Reactions json blocking release

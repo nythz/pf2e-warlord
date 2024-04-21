@@ -13,7 +13,10 @@
                 "predicate": [
                     "warlord-aid"
                 ],
-                "selector": ["class","skill-check"],
+                "selector": [
+                    "class",
+                    "skill-check"
+                ],
                 "adjustment": {
                     "failure": "to-success"
                 }

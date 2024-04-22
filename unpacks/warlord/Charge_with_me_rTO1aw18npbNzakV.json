@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You rush into the fray and inspire your allies to follow suit. Stride twice. All allies within 30 feet of your starting position gain a +10-foot status bonus to their speed for 1 round. If you end your movement within melee reach of at least one enemy, you can make a melee Strike against that enemy.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.ieHe25Jvc1HnZoE3]</p>"
+      "value": "<p>You rush into the fray and inspire your allies to follow suit. Stride twice. All allies within @Template[type:emanation|distance:30] of your starting position gain a +10-foot status bonus to their speed for 1 round. If you end your movement within melee reach of at least one enemy, you can make a melee Strike against that enemy.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.ieHe25Jvc1HnZoE3]</p>"
     },
     "rules": [],
     "slug": null,

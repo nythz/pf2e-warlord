@@ -3,6 +3,8 @@
 - Added impulse-damage to selectors for Led By Example for kineticists
 - Added Note for Ready to lead by example using Athletic Maneuvers linking Led By Example on success
 - Fixed helpful word not increasing success when used with skills rather than class dc-10
+- Added Range Templates in feat descriptions
+- Fixed wording of a few feat descriptions
 
 # 1.8.1
 ---

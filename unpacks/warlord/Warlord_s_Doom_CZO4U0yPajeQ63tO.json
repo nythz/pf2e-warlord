@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You break your adversary’s resolve with a ferocious strike. Make a Strike. If you hit the target, the target treats its next saving throw as one degree of success lower excluding effects trigger by its own strike.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.doeLlGjJsjRPiKDJ]</p>"
+      "value": "<p>You break your adversary&rsquo;s resolve with a ferocious strike. Make a Strike. If you hit the target, the target treats its next saving throw as one degree of success lower excluding saving throws caused by its own strike.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.doeLlGjJsjRPiKDJ]</p>"
     },
     "rules": [],
     "slug": null,

@@ -5,7 +5,6 @@
   "effects": [],
   "system": {
     "description": {
-      "gm": "<p>Unsure how to implement</p>",
       "value": "<p>You excel at helping your allies. The circumstance bonus to your ally from your Aid reaction increase by 1.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.vrvBV8si3amqtkgR]</p>"
     },
     "rules": [],

@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency:</strong> Once per 10 minutes</p>\n<hr />\n<p>You let out a frightening roar that terrifies foes. If the next action on your turn is to use Dreadful Threat, you can target all enemies within 30 feet of you with Dreadful Threat.</p>"
+      "value": "<p><strong>Frequency:</strong> Once per 10 minutes</p>\n<hr />\n<p>You let out a frightening roar that terrifies foes. If the next action on your turn is to use Dreadful Threat, you can target all enemies within @Template[type:emanation|distance:30] of you with Dreadful Threat.</p>"
     },
     "rules": [],
     "slug": null,

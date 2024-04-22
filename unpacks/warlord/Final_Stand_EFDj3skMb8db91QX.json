@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Frequency: </strong>Once per day</p>\n<hr />\n<p>When the situation seems grim, your rallying cry turns the tide. You and allies within 60 feet of you gain temporary Hit Points equal to your Leadership Style's ability modifier plus your level. You and your allies also gain a +3 status bonus to AC and saving throws, as well as resistance 5 to all damage. All effects last for 1 minute.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.0MMTLxix2d5ivB1x]</p>"
+      "value": "<p><strong>Frequency: </strong>Once per day</p>\n<hr />\n<p>When the situation seems grim, your rallying cry turns the tide. You and allies within @Template[type:emanation|distance:60] of you gain temporary Hit Points equal to your Leadership Style's ability modifier plus your level. You and your allies also gain a +3 status bonus to AC and saving throws, as well as resistance 5 to all damage. All effects last for 1 minute.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.0MMTLxix2d5ivB1x]</p>"
     },
     "rules": [],
     "slug": null,

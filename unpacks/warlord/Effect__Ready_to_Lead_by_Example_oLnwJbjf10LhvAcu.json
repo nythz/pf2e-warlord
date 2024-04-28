@@ -156,6 +156,18 @@
           "modifier:type:ability",
           "feat:athletic-leadership"
         ]
+      },
+      {
+        "key": "Note",
+        "selector": "athletics",
+        "text": "@UUID[Compendium.pf2e-warlord.warlord.Item.57Cig48mDwF815P2]",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "predicate": [
+            "feat:athletic-leadership"
+        ]
       }
     ],
     "slug": "effect-ready-to-lead-by-example",

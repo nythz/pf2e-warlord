@@ -5,7 +5,7 @@ Lead your allies towards victory by buffing them to perform even better, either 
 
 **Lead by example :** Use your key ability to make a strike and on success, give a bonus to damage to your ally that scales with your level and feats.
 
-**Helpful word :** Easily Aid your Allies in their actions by using your Class DC rather than Skills.
+**Helpful word :** Easily Aid your Allies in their actions by using your Class DC as well as Skills.
 
 **Leadership Styles Auras :** Give your allies buffs to various skills depending on your choice of Leadership Style via auras.
 

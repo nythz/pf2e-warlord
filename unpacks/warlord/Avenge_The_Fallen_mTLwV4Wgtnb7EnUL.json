@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p><strong>Trigger:</strong> When you or an ally are reduced to 0 hit points</p>\n<hr />\n<p>As a companion falls to their ground, you call for retribution. Each ally within 30 feet of the triggering target gains temporary Hit Points equal to your level and gains a +2 status bonus to attack rolls and skill checks. All effects last until the start of the triggering target's next turn.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.PlV3oRAnhYJBCsxO]</p>"
+      "value": "<p><strong>Trigger:</strong> When you or an ally are reduced to 0 hit points</p>\n<hr />\n<p>As a companion falls to their ground, you call for retribution. Each ally within @Template[type:emanation|distance:30] of the triggering target gains temporary Hit Points equal to your level and gains a +2 status bonus to attack rolls and skill checks. All effects last until the start of the triggering target's next turn.</p>\n<p>@UUID[Compendium.pf2e-warlord.warlord.Item.PlV3oRAnhYJBCsxO]</p>"
     },
     "rules": [],
     "slug": null,

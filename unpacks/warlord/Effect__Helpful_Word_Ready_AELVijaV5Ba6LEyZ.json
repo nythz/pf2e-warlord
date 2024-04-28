@@ -14,13 +14,23 @@
                     "warlord-aid"
                 ],
                 "selector": [
-                    "class",
+                    "class"
+                ],
+                "adjustment": {
+                    "failure": "to-success"
+                }
+            },{
+                "key": "AdjustDegreeOfSuccess",
+                "predicate": [
+                    "warlord-aid"
+                ],
+                "selector": [
                     "skill-check"
                 ],
                 "adjustment": {
                     "failure": "to-success"
                 }
-            }, {
+            },{
                 "key": "Note",
                 "text": "@UUID[Compendium.pf2e-warlord.warlord.Item.vrvBV8si3amqtkgR]",
                 "selector": [

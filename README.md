@@ -33,10 +33,6 @@ You can also find issues I lack knowledge on how to fix them in the issue sectio
 ---
 # About Commander :
 With the upcoming Commander Class added officially by Paizo, pf2e-warlord will continue to be maintained and worked on until the full release of the commander class.
-Both versions fill the same role in the party despite the differences but one is official and thus will be the one played.
-
-As the playtest is only for the first few levels of the commander class, there is still a spot empty for pf2e-warlord, but upon full release, it won't be necessary anymore.
-
 If you are interested in taking over the project after Battlecry, please make a fork of the project or contact me via discord user "nythz".
 
 ---

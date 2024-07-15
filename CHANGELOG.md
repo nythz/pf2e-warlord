@@ -1,3 +1,9 @@
+# 1.10.0
+---
+- Fixed Lead by example not lasting the full round if unused
+- Added "Gang up" automation to Wolf Pack Tactics
+-
+
 # 1.9.0
 ---
 - Added ``impulse-damage`` to selectors for Led By Example for kineticists allies

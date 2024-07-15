@@ -1,7 +1,6 @@
 # 1.10.0
 ---
 - Fixed Lead by example not lasting the full round if unused
-- Added "Gang up" automation to Wolf Pack Tactics
 - v12 bump
 
 # 1.9.0

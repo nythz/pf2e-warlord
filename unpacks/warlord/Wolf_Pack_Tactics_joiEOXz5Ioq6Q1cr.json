@@ -8,14 +8,7 @@
       "gm": "",
       "value": "<p>Any enemy is off guard against your ally's melee attacks due to flanking as long as the enemy is within both your reach and your ally's. You must still flank an enemy for it to be off guard to you.</p>"
     },
-    "rules": [
-      {
-        "key": "ActiveEffectLike",
-        "mode": "add",
-        "path": "system.attributes.flanking.canGangUp",
-        "value": true
-      }
-    ],
+    "rules": [],
     "slug": null,
     "_migration": {
       "version": 0.898,

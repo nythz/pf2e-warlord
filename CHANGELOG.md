@@ -2,9 +2,9 @@
 ---
 - v12 bump
 - Fixed Lead by example not lasting the full round if unused
-- Corrected wording of Warlord's doom
+- Corrected wording of Warlord's Doom
 - Added remastered rogue's ``Gang Up`` Automation to ``Wolf Pack Tactics``
-- Updated Warlord's Class Features descriptions to correctly include level 15 ``Warlord Weapon Mastery``
+- Updated Warlord's Class Features descriptions to correctly include level 15's ``Warlord Weapon Mastery``
 
 # 1.9.0
 ---

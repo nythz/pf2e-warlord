@@ -2,10 +2,10 @@
     "id": "pf2e-warlord",
     "title": "PF2e Warlord",
     "description": "An Homebrewed Warlord for Pathfinder 2e \nBased on u/fanatic66's design on Reddit\nUpdated and Implemented in Foundry by Nythz",
-    "version": "1.9.0",
+    "version": "1.10.0",
     "compatibility": {
-        "minimum": "11",
-        "verified": "11"
+        "minimum": "12",
+        "verified": "12"
     },
     "relationships": {
         "systems": [{

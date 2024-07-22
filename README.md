@@ -31,6 +31,12 @@ Please report any bugs or changes I should make in the Issue Section : https://g
 You can also find issues I lack knowledge on how to fix them in the issue section, please help if you do know how to solve those.
 
 ---
+# About Commander :
+With the upcoming Commander Class added officially by Paizo, pf2e-warlord will continue to be maintained and worked on until the full release of the commander class.
+
+If you are interested in taking over the project after Battlecry, please make a fork of the project or contact me via discord user "nythz".
+
+---
 # Current Features :
 - Entry of the original PDF text
 - Updated to the Remastered Rules

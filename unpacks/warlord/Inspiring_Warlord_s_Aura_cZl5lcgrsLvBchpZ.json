@@ -6,12 +6,12 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You are surrounded by a warlord's aura in a 10-foot emanation. You and allies within the aura gain a +1 status bonus to Recovery checks and saves against fear effects.<br />@UUID[Compendium.pf2e-warlord.warlord.Item.5jObRHquSf4eZWDw]{Inspiring Warlord's Aura (Effect)}</p>"
+      "value": "<p>You are surrounded by a warlord's aura in a 15-foot emanation. You and allies within the aura gain a +1 status bonus to Recovery checks and saves against fear effects.<br />@UUID[Compendium.pf2e-warlord.warlord.Item.5jObRHquSf4eZWDw]{Inspiring Warlord's Aura (Effect)}</p>"
     },
     "rules": [
       {
         "key": "Aura",
-        "radius": 10,
+        "radius": 15,
         "slug": "warlords-aura",
         "traits": [
           "emotion",
@@ -62,7 +62,7 @@
       },
       {
         "key": "Aura",
-        "radius": 20,
+        "radius": 25,
         "slug": "warlords-aura",
         "traits": [
           "emotion",

@@ -6,7 +6,7 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You also surrounded by a warlord's aura in a 10-foot emanation. Your aura has the visual trait and grants you and allies within the aura a +1 status bonus to Intimidation checks.</p>"
+      "value": "<p>You also surrounded by a warlord's aura in a 15-foot emanation. Your aura has the visual trait and grants you and allies within the aura a +1 status bonus to Intimidation checks.</p>"
     },
     "rules": [
       {
@@ -20,7 +20,7 @@
           }
         ],
         "level": "1",
-        "radius": 10,
+        "radius": 15,
         "effects": [
           {
             "uuid": "Compendium.pf2e-warlord.warlord.Item.QVZiqvZUHSbxd9Fc",
@@ -66,7 +66,7 @@
           }
         ],
         "level": "1",
-        "radius": 20,
+        "radius": 25,
         "effects": [
           {
             "uuid": "Compendium.pf2e-warlord.warlord.Item.QVZiqvZUHSbxd9Fc",

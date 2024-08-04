@@ -1,3 +1,7 @@
+# 1.11.0
+---
+- Increased initial warlord's Aura radius from 10 to 15 to match Marshal's Aura at low levels
+
 # 1.10.0
 ---
 - v12 bump

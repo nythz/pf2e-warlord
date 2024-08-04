@@ -6,12 +6,12 @@
   "system": {
     "description": {
       "gm": "",
-      "value": "<p>You are also surrounded by a warlord's aura in a 10-foot emanation. Your aura has the visual trait and grants you and any ally that starts their turn within the aura a +5-foot status bonus to speed.</p>"
+      "value": "<p>You are also surrounded by a warlord's aura in a 15-foot emanation. Your aura has the visual trait and grants you and any ally that starts their turn within the aura a +5-foot status bonus to speed.</p>"
     },
     "rules": [
       {
         "key": "Aura",
-        "radius": 10,
+        "radius": 15,
         "predicate": [
           {
             "nor": [
@@ -59,7 +59,7 @@
       },
       {
         "key": "Aura",
-        "radius": 20,
+        "radius": 25,
         "predicate": [
           "self:effect:extend-aura",
           {

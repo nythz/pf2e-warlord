@@ -52,7 +52,7 @@
     "duration": {
       "value": 1,
       "unit": "rounds",
-      "expiry": "turn-end",
+      "expiry": "turn-start",
       "sustained": false
     },
     "start": {

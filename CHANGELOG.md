@@ -1,6 +1,7 @@
 # 1.11.0
 ---
 - Increased initial warlord's Aura radius from 10 to 15 to match Marshal's Aura at low levels
+- Fixed Bulwarking command duration (turn-end -> turn-start)
 
 # 1.10.0
 ---
